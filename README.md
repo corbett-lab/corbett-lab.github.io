@@ -31,11 +31,6 @@ email: rucorbet@ucsc.edu
 | `Nicolas Ayala`         | Undergrad              |[Nico's Publications](https://scholar.google.com/citations?user=Q2nj73IAAAAJ&hl=en)|
 | `Mara Baylis`           | Undergrad              |                   |Basil's Aunt|
 
-
-## Usage
-
-Limited. 
-
 ## The license
 
-The theme is available as open source under the terms of the CDL License
+The theme is available as open source under the terms of the CDL License. The Corbett-Detig Lab (CDL) license is under active development. 
