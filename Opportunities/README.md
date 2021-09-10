@@ -6,3 +6,8 @@ In general, research in my group focuses on addressing longstanding questions in
 
 ## Graduate Students
 I will be accepting graduate students through the Bioinformatics program at UCSC. More information about this graduate program can be found [here](https://grad.soe.ucsc.edu/bmeb). Interested prospective students are encouraged to contact me to discuss their interest in joining my lab and to discuss potential projects prior to applying to the program.
+
+## Postdocs
+I am always looking for talented postdocs to join the group. If you’re interested, please feel free to reach out to me at any time. I would love to hear your research ideas and career plans. 
+
+## Undergraduate Students
