@@ -1,5 +1,5 @@
 # Russ Corbett-Detig
-![science](https://img.shields.io/badge/russ-.pl-orange)
+![science](https://img.shields.io/badge/FileType-.pl-orange)
 
 Principal Investigator  
 rucorbet@ucsc.edu   
