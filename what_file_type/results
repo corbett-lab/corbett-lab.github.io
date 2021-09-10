@@ -65,8 +65,8 @@
     0.5
 %gff is not a good file, try harder next time
 #.fasta
-    0
-    1
+    0.1
+    0.9
     0
     1
     0.6
@@ -170,11 +170,11 @@
 %tar.gz is a crazy file
 #.rar
     0.9
+    0.1
     0
-    0
-    1
-    0
-    1
+    0.9
+    0.1
+    0.8
 %rar is file that no one pays for
 #.pl
     0.5
