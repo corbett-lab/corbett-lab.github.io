@@ -1,0 +1,4 @@
+cp temp akjsldfjsghkbja
+cp trees.js temp
+cp akjsldfjsghkbja trees.js
+rm akjsldfjsghkbja

@@ -1,0 +1,186 @@
+var canvas = document.getElementById("myCanvas");
+canvas.addEventListener("mousedown", doMouseDown, false);
+var ctx = canvas.getContext("2d");
+
+canvas.width = canvas.getBoundingClientRect().width
+canvas.height = canvas.getBoundingClientRect().height
+var width = canvas.width;
+var height = canvas.height;
+
+
+console.log(width);
+console.log(canvas.getBoundingClientRect().width)
+
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+function init() {
+    window.requestAnimationFrame(draw);
+}
+
+let seedsx = [];
+let seedsy = [];
+
+seedsx.push(30);
+seedsy.push(40);
+
+var running = true;
+
+var last_frame = Date.now()
+var this_frame = Date.now()
+
+class branch{
+    constructor(x, y, width, height, direction, color, branches, angles){
+        this.x = x;
+        this.y = y;
+        this.width = width;
+        this.height = height;
+        this.direction = direction;
+        this.prog = 0;
+        this.color = color;
+        this.angles = angles;
+        this.sprouted = false;
+        this.b_count = branches;
+    }
+
+    draw(){
+        ctx.lineWidth = this.width/2;
+        ctx.fillStyle = "#200000";
+        ctx.strokeStyle = this.color;
+        
+        ctx.beginPath();
+        ctx.moveTo(this.x + Math.cos(this.direction + Math.PI/2) * this.width/4, this.y + Math.sin(this.direction + Math.PI/2) * this.width/4);
+        ctx.lineTo(this.x + Math.cos(this.direction)*this.height*this.prog, this.y + Math.sin(this.direction)*this.height*this.prog);
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.moveTo(this.x + Math.cos(this.direction - Math.PI/2) * this.width/4, this.y + Math.sin(this.direction - Math.PI/2) * this.width/4);
+        ctx.lineTo(this.x + Math.cos(this.direction)*this.height*this.prog, this.y + Math.sin(this.direction)*this.height*this.prog);
+        ctx.stroke();
+
+        if(this.sprouted){
+            for(let i = 0; i < this.branches.length;i++)
+                this.branches[i].draw();
+        }
+    }
+
+    tick(sec){
+        if(this.prog < 1){
+
+            this.prog += sec;
+
+        }else if(!this.sprouted){
+            
+            if(this.width > 0.5){
+                //sprouting
+                this.sprouted = true;
+                this.branches = [];
+                for(let i = 0; i < this.b_count; i++){
+                    var b = new branch(
+                        this.x + Math.cos(this.direction)*this.height,
+                        this.y + Math.sin(this.direction)*this.height,
+                        this.width/2,
+                        this.height/2,
+                        this.direction+this.angles[i],
+                        this.color,
+                        this.b_count,
+                        this.angles
+                    )
+                    this.branches.push(b);
+                }
+            }
+        }else{
+            for(let i =0; i < this.branches.length; i++){
+                this.branches[i].tick(sec);
+            }
+        }
+    }
+}
+
+
+
+class Tree{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+//for some reason i need this
+var man = new branch(3000,30,0.5,0,1,-1,"#400000");
+
+var trees = [];
+
+
+function draw() {
+    canvas.width = canvas.getBoundingClientRect().width
+    canvas.height = canvas.getBoundingClientRect().height
+    width = canvas.width;
+    height = canvas.height;
+
+    last_frame = this_frame
+    this_frame = Date.now()
+    var sec = (this_frame - last_frame) / 1000.0
+
+    ctx.fillStyle = "#FFFFFF";
+    ctx.fillRect(0, 0, width, height);
+
+    for(let i = 0; i < seedsx.length; i++){
+        ctx.fillStyle = "#772222";
+        ctx.fillRect(seedsx[i], seedsy[i], 2,1);
+    }
+    for(let i = 0; i < seedsx.length; i++){
+        seedsy[i] += sec * 60
+        if(seedsy[i] > height){
+            var girth = Math.random()*20;
+
+            var branches = 3;
+            
+            var angles = []
+            for(let j =0; j < branches; j++){
+                angles[j] = (Math.random()-0.5)*Math.PI;
+            }
+
+            var tree = new branch(seedsx[i], height, girth + Math.random()*2, girth*5+ Math.random()*5, -Math.PI/2 +(Math.random()-0.5)*Math.PI*0.1, "#400000", branches, angles)
+            trees.push(tree)
+            seedsy.splice(i, 1)
+            seedsx.splice(i, 1)
+        }
+    }
+    
+
+    for(let i = 0; i < trees.length; i++){
+        trees[i].tick(sec);
+        trees[i].draw();
+    }
+    man.tick(sec);
+    man.draw();
+    window.requestAnimationFrame(draw);
+}
+
+
+function doMouseDown(e){
+    var mouseX = 0;
+    var mouseY = 0;
+
+    if(e.offsetX) {
+        mouseX = e.offsetX;
+        mouseY = e.offsetY;
+    }
+    else if(e.layerX) {
+        mouseX = e.layerX;
+        mouseY = e.layerY;
+    }
+    seedsx.push(mouseX);
+    seedsy.push(mouseY);
+}
+
+init();

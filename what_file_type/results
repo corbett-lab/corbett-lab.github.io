@@ -1,0 +1,226 @@
+* 
+* QUIZ RESULTS
+* 
+* Format:
+*   Comments are begun with a *
+*   
+*   Results are on lines that begin with #
+*   Following each result there are six indented lines
+*   each containing a floating point number in the range [0,1]
+*   The six numbers corrospond to
+*       Compression
+*       Readability
+*       Code
+*       Data
+*       Goodness
+*       Age
+*   respectfully.
+*   The range [0,1] maps to the minimum to maximum range of possible
+*   values for that attribute, so, for example, in taking the test,
+*   The compression attribute may range from -12 to 10. So a 1 in the first
+*   indented line corrosponds to 10.
+*   
+*   Thus, each result is a point in 6D attribute space, and the actual result
+*   that someone recieves is the nearest result point to their attribute scores.
+*   Where nearest is judged by a Euclidean metric (I may do taxicab metric, idk)
+
+#.bam
+    0.9
+    0
+    0
+    1
+    0.8
+    0.4
+%bam is cool file
+#.sam
+    0.1
+    1
+    0
+    1
+    0.55
+    0.4
+%sam is a cool file
+#.py
+    0.2
+    1
+    1
+    0
+    0.9
+    0.2
+%py is a cool python file
+#.cpp
+    0.15
+    0.6
+    1
+    0.2
+    0.95
+    0.95
+%cpp is great, arguably one of the best
+#.gff
+    0.1
+    0
+    0
+    1
+    0.05
+    0.5
+%gff is not a good file, try harder next time
+#.fasta
+    0
+    1
+    0
+    1
+    0.6
+    0.5
+%fasta is a cool file
+#.fastq
+    0.1
+    0.8
+    0
+    1
+    0.7
+    0.5
+%fastq is a cool file
+#.txt
+    0.25
+    1
+    0.25
+    1
+    0.9
+    1
+%txt is a pretty known file, very readable
+#.pdf
+    0
+    1
+    0
+    1
+    0.7
+    0.8
+%pdf is like an advanced text file
+#Makefile
+    0.3
+    0.9
+    0.9
+    0
+    0.8
+    1
+%Makefile is a cool file, pretty critical for most projects
+#.ipynb
+    0.3
+    0.8
+    1
+    0.3
+    0.8
+    0.2
+%ipynb is a cool file, but it could be better
+#.bed
+    0.4
+    0.65
+    0
+    1
+    1
+    0.6
+%bed is a cool file, good job
+#.vcf
+    0
+    0.6
+    0
+    1
+    0.25
+    0.5
+%vcf is a cool file
+#.paf
+    0.9
+    0.5
+    0
+    1
+    0.25
+    0.5
+%paf is a phylogenic ancestral file, invented by the Church of Jesus Christ of Latter day Saints. This was created to prevent tangles and knots in the family tree. Evidently, this has been successful, as the consanguinity coefficient among Utah mormons is 0.000106, while the average within-groups random kinship coefficient is 0.000312. Great Job!
+#.mpileup
+    0
+    0.75
+    0
+    1
+    0.6
+    0.6
+%mpileup is a cool file
+#.newick
+    0.5
+    0.6
+    0
+    1
+    0.4
+    0.95
+%newick is a cool file
+#.mat
+    1
+    0.5
+    0
+    1
+    1
+    0
+%mat is an awesome file, good job
+#.tar.gz
+    1
+    0
+    0
+    1
+    0.5
+    0.5
+%tar.gz is a crazy file
+#.rar
+    0.9
+    0
+    0
+    1
+    0
+    1
+%rar is file that no one pays for
+#.pl
+    0.5
+    0.3
+    1
+    0
+    0.3
+    1
+%i dont know what a pl file is, must be old
+#.r
+    0.5
+    0.6
+    1
+    0
+    0.4
+    1
+%R is a nice language
+#.jar
+    0.4
+    0.4
+    1
+    0
+    0.2
+    1
+%Why are you using java?
+#.sh
+    0.5
+    0.8
+    1
+    0
+    0.9
+    0.7
+%sh is a cool file
+#.xml
+    0.5
+    0
+    0
+    1
+    0.4
+    0.7
+%xml is a cool file
+#.docx
+    0
+    1
+    0
+    1
+    0.1
+    0.5
+%docx is a cool file
