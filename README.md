@@ -34,6 +34,8 @@ email: rucorbet@ucsc.edu
 
 ## Usage
 
+Limited. 
+
 ## The license
 
 The theme is available as open source under the terms of the CDL License
