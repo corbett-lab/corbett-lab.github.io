@@ -20,16 +20,16 @@ email: rucorbet@ucsc.edu
 | name                    | default value          | google scholar    |  dog   |
 | ----------------------- | ---------------------- | ----------------- |---------------|
 | [`Russell Corbett-Detig`](/People/Current/russ/) | Principal Investigator |[Russ' Publications](https://scholar.google.com/citations?user=9sF4nOkAAAAJ&hl=en)| [Maeby](https://user-images.githubusercontent.com/10063921/132934537-0feab719-b8ec-4ec9-b300-68086de61ffa.png) |
-| `Jesper Svedberg`       | Postdoctoral Researcher|[Jesper's Publications](https://pubmed.ncbi.nlm.nih.gov/?term=svedberg+J%5Bau%5D&sort=pubdate)|
-| `Erik Enbody`           | Postdoctoral Researcher|[Erik's Publications](https://scholar.google.com/citations?user=3bBANnkAAAAJ&hl=en) | [Hallie](/assets/images/hallie.jpg) |
-| `Bryan Thornlow`        | Grad student           | [Bryan's Publications](https://scholar.google.com/citations?user=-mjgRsgAAAAJ&hl=en)|
-| `Jakob McBroome`        | Grad student           |[Jakob's Publications](https://scholar.google.com/citations?user=qV-Y6ssAAAAJ&hl=en)|
-| `Maximilian Genetti`    | Grad student           |                   |
-| `Rachel Mendelson`      | Grad student           |                |
-| `Alex Kramer`           | Grad student           | [Alex's Publications](https://scholar.google.com/citations?hl=en&user=d8U1u-wAAAAJ)|
-| `Cade Mirchandani`      | Cade                   |                   | Layla's Dad |
-| `Nicolas Ayala`         | Undergrad              |[Nico's Publications](https://scholar.google.com/citations?user=Q2nj73IAAAAJ&hl=en)|
-| `Mara Baylis`           | Undergrad              |                   |Basil's Aunt|
+| [`Jesper Svedberg`](/People/Current/jesper/)       | Postdoctoral Researcher|[Jesper's Publications](https://pubmed.ncbi.nlm.nih.gov/?term=svedberg+J%5Bau%5D&sort=pubdate)|
+| [`Erik Enbody`](/People/Current/erik/)           | Postdoctoral Researcher|[Erik's Publications](https://scholar.google.com/citations?user=3bBANnkAAAAJ&hl=en) | [Hallie](/assets/images/hallie.jpg) |
+| [`Bryan Thornlow`](/People/Current/bryan/)        | Grad student           | [Bryan's Publications](https://scholar.google.com/citations?user=-mjgRsgAAAAJ&hl=en)|
+| [`Jakob McBroome`](/People/Current/jakob/)        | Grad student           |[Jakob's Publications](https://scholar.google.com/citations?user=qV-Y6ssAAAAJ&hl=en)|
+| [`Maximilian Genetti`](/People/Current/max/)    | Grad student           |                   |
+| [`Rachel Mendelson`](/People/Current/rachel/)      | Grad student           |                |
+| [`Alex Kramer`](/People/Current/alex/)           | Grad student           | [Alex's Publications](https://scholar.google.com/citations?hl=en&user=d8U1u-wAAAAJ)|
+| [`Cade Mirchandani`](/People/Current/cade/)      | Cade                   |                   | Layla's Dad |
+| [`Nicolas Ayala`](/People/Current/nico/)         | Undergrad              |[Nico's Publications](https://scholar.google.com/citations?user=Q2nj73IAAAAJ&hl=en)|
+| [`Mara Baylis`](/People/Current/mara/)           | Undergrad              |                   |Basil's Aunt|
 
 ## The license
 
