@@ -11,4 +11,4 @@ I will be accepting graduate students through the Bioinformatics program at UCSC
 I am always looking for talented postdocs to join the group. If you’re interested, please feel free to reach out to me at any time. I would love to hear your research ideas and career plans. 
 
 ## Undergraduate Students
-UCSC undergrads who are interested in gaining some research experience in evolutionary genomics should contact me. Undergraduates need not have any specific skills or research experience. Just be excited to learn. If you do choose to contact me, please include a copy of your resume/CV, read through some of our recent publications and come prepared with questions!
+UCSC undergrads who are interested in gaining some research experience in evolutionary genomics should contact me. Undergraduates need not have any specific skills or research experience. Just be excited to learn. If you do choose to contact me, please include a copy of your resume/CV, read through some of our recent publications and come prepared with questions! Also, [tell me what filetype you are](https://corbett-lab.github.io/what_file_type/).
