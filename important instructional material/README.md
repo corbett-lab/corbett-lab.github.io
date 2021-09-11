@@ -4,7 +4,7 @@ sort: 8
 # important instructional material
 
 ## The Ribosome Dance! 
-[![Ribosome Dance](http://img.youtube.com/vi/WTRmvnlNVw4/0.jpg){target="_blank"}](http://www.youtube.com/watch?v=WTRmvnlNVw4 "Ribosome Dance")
+[![Ribosome Dance](http://img.youtube.com/vi/WTRmvnlNVw4/0.jpg)]{target="_blank"}(http://www.youtube.com/watch?v=WTRmvnlNVw4 "Ribosome Dance")
 
 ## Sorting Algorithms 
 [![Sorting Algorithms](http://img.youtube.com/vi/kPRA0W1kECg/0.jpg)](http://www.youtube.com/watch?v=kPRA0W1kECg "Sorting Algorithms")
