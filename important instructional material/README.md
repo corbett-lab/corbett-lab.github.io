@@ -3,27 +3,11 @@ sort: 8
 ---
 # important instructional material
 
-<a href="https://www.youtube.com/watch?v=WTRmvnlNVw4">THE RIBOSOME DANCE (STANFORD UNIVERSITY, 1971)</a>
-
-<a href="https://www.youtube.com/watch?v=kPRA0W1kECg&t=3s">15 SORTING ALGORITHMS IN 6 MINUTES</a>
-
-<a href="https://www.youtube.com/watch?v=ywWBy6J5gz8">QUICK-SORT WITH HUNGARIAN FOLK DANCE</a>
-
-
+## The Ribosome Dance! 
 [![Ribosome Dance](http://img.youtube.com/vi/WTRmvnlNVw4/0.jpg)](http://www.youtube.com/watch?v=WTRmvnlNVw4 "Ribosome Dance")
 
+## Sorting Algorithms 
+[![Sorting Algorithms](http://img.youtube.com/vi/kPRA0W1kECg/0.jpg)](http://www.youtube.com/watch?v=kPRA0W1kECg "Sorting Algorithms")
 
-
-
-
-
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-<iframe width="833" height="469" src="https://www.youtube.com/watch?v=WTRmvnlNVw4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-<iframe width="833" height="469" src="https://www.youtube.com/watch?v=kPRA0W1kECg&t=3s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-<iframe width="833" height="469" src="https://www.youtube.com/watch?v=ywWBy6J5gz8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+## Quick-Sort as Hungarian Folks Dance
+[![Hungarian Dance Quick-Sort](http://img.youtube.com/vi/ywWBy6J5gz8/0.jpg)](http://www.youtube.com/watch?v=ywWBy6J5gz8 "Hungary Dance Quick Sort")
