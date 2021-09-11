@@ -15,7 +15,7 @@ Evolutionary Genomics
 email: rucorbet@ucsc.edu
 ```
 
-## Features / Featured Bugs
+## Features
 
 | name                    | default value          | google scholar    |  dog   |
 | ----------------------- | ---------------------- | ----------------- |---------------|
