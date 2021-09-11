@@ -2,7 +2,7 @@
 sort: 1
 ---
 # Current
-- [Alex Kramer](/corbett-detig-lab-website/People/Current/alex/)
+- [Alex Kramer](/People/Current/alex/)
 - [Bryan Thornlow](/corbett-detig-lab-website/People/Current/bryan/)
 - [Cade Mirchandani](/corbett-detig-lab-website/People/Current/cade/)
 - [Erik Enbody](/corbett-detig-lab-website/People/Current/erik/)  
