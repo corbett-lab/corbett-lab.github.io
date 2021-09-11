@@ -3,7 +3,10 @@ sort: 6
 ---
 # the doggies (& others)
 
-## basil
+# Maeby
+![image](https://user-images.githubusercontent.com/10063921/132934474-d52b1b9f-8d9a-4cc5-913a-c9b3fe5f7ef3.png)  
+
+# basil
 <img width="445" alt="Screen Shot 2021-09-03 at 4 48 03 PM" src="https://user-images.githubusercontent.com/88911118/132076099-ee3b83ef-2f9f-4f97-94eb-3934d3b9ea36.png">
 
 # shrimpies
