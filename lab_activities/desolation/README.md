@@ -1,3 +1,7 @@
+---
+sort: 1
+---
+
 # Desolation Wilderness
 
 ![image](https://user-images.githubusercontent.com/10063921/132934352-97bb1c98-3245-41ea-872c-450862498f90.png)
