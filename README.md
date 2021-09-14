@@ -27,7 +27,7 @@ email: rucorbet@ucsc.edu
 | [`Maximilian Genetti`](/People/Current/max/)    | Grad student           |                   |
 | [`Rachel Mendelson`](/People/Current/rachel/)      | Grad student           |                |
 | [`Alex Kramer`](/People/Current/alex/)           | Grad student           | [Alex's Publications](https://scholar.google.com/citations?hl=en&user=d8U1u-wAAAAJ)|
-| [`Cade Mirchandani`](/People/Current/cade/)      | Cade                   |                   | Layla's Dad |
+| [`Cade Mirchandani`](/People/Current/cade/)      | Cade                   |                   | [Layla's Dad](https://user-images.githubusercontent.com/88911118/132076266-5dabc9a1-0893-4567-b528-29e324b3319b.png) |
 | [`Nicolas Ayala`](/People/Current/nico/)         | Undergrad              |[Nico's Publications](https://scholar.google.com/citations?user=Q2nj73IAAAAJ&hl=en)|
 | [`Mara Baylis`](/People/Current/mara/)           | Undergrad              |                   |[Basil's Aunt](https://user-images.githubusercontent.com/88911118/132076099-ee3b83ef-2f9f-4f97-94eb-3934d3b9ea36.png)|
 
