@@ -25,7 +25,7 @@ email: rucorbet@ucsc.edu
 | [`Bryan Thornlow`](/People/Current/bryan/)        | Grad student           | [Bryan's Publications](https://scholar.google.com/citations?user=-mjgRsgAAAAJ&hl=en)| [Clementine](https://corbett-lab.github.io/the%20doggies%20(&%20others)/1.png) |
 | [`Jakob McBroome`](/People/Current/jakob/)        | Grad student           |[Jakob's Publications](https://scholar.google.com/citations?user=qV-Y6ssAAAAJ&hl=en)| [SHRIMP!](https://user-images.githubusercontent.com/88911118/132076422-3ee6a887-da60-4f27-82c3-dd4302f6163a.jpg) |
 | [`Maximilian Genetti`](/People/Current/max/)    | Grad student           |                   |
-| [`Rachel Mendelson`](/People/Current/rachel/)      | Grad student           |                |
+| [`Rachel Mendelson`](/People/Current/rachel/)      | Grad student           |                | [Nova](https://user-images.githubusercontent.com/88911118/132076284-2b07b952-0f40-470a-ab0f-78611f94ab9f.jpg) |
 | [`Alex Kramer`](/People/Current/alex/)           | Grad student           | [Alex's Publications](https://scholar.google.com/citations?hl=en&user=d8U1u-wAAAAJ)|
 | [`Cade Mirchandani`](/People/Current/cade/)      | Cade                   |                   | [Layla's Dad](https://user-images.githubusercontent.com/88911118/132076266-5dabc9a1-0893-4567-b528-29e324b3319b.png) |
 | [`Nicolas Ayala`](/People/Current/nico/)         | Undergrad              |[Nico's Publications](https://scholar.google.com/citations?user=Q2nj73IAAAAJ&hl=en)|
