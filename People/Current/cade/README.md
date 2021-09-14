@@ -1,6 +1,6 @@
 # Cade Mirchandani
 
-![science](https://img.shields.io/badge/cade-cading-brightgreen)
+![science](https://img.shields.io/badge/FileType-cade-brightgreen)
 
 Assistant Specialist, cmirchan@ucsc.edu  
 Research Interests: Interesting Research  
