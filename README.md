@@ -23,7 +23,7 @@ email: rucorbet@ucsc.edu
 | [`Jesper Svedberg`](/People/Current/jesper/)       | Postdoctoral Researcher|[Jesper's Publications](https://pubmed.ncbi.nlm.nih.gov/?term=svedberg+J%5Bau%5D&sort=pubdate)|
 | [`Erik Enbody`](/People/Current/erik/)           | Postdoctoral Researcher|[Erik's Publications](https://scholar.google.com/citations?user=3bBANnkAAAAJ&hl=en) | [Hallie](/assets/images/hallie.jpg) |
 | [`Bryan Thornlow`](/People/Current/bryan/)        | Grad student           | [Bryan's Publications](https://scholar.google.com/citations?user=-mjgRsgAAAAJ&hl=en)| [Clementine](https://corbett-lab.github.io/the%20doggies%20(&%20others)/1.png) |
-| [`Jakob McBroome`](/People/Current/jakob/)        | Grad student           |[Jakob's Publications](https://scholar.google.com/citations?user=qV-Y6ssAAAAJ&hl=en)|
+| [`Jakob McBroome`](/People/Current/jakob/)        | Grad student           |[Jakob's Publications](https://scholar.google.com/citations?user=qV-Y6ssAAAAJ&hl=en)| [SHRIMP!](https://user-images.githubusercontent.com/88911118/132076422-3ee6a887-da60-4f27-82c3-dd4302f6163a.jpg) |
 | [`Maximilian Genetti`](/People/Current/max/)    | Grad student           |                   |
 | [`Rachel Mendelson`](/People/Current/rachel/)      | Grad student           |                |
 | [`Alex Kramer`](/People/Current/alex/)           | Grad student           | [Alex's Publications](https://scholar.google.com/citations?hl=en&user=d8U1u-wAAAAJ)|
