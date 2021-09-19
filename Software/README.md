@@ -9,7 +9,7 @@ SELAM is a forward time population genetic simulation framework that can simulat
 
 ## Ancestry_HMM  
 This program is designed to circumvent a few issues with existing local ancestry inference methods. Specifically, this program can (1) explicitly model allele counts derived from NGS data (2) work on samples of any ploidy (3) simultaneously estimate local ancestry and the time of admixture. The paper has just been published in PLoS Genetics, and the code can be acquired here. 
-This program can now estimate the timing of multiple admixture pulses. To find out more about modelling and fitting multiple pulses, read our paper in Genetics and visit our github.
+This program can now estimate the timing of multiple admixture pulses. To find out more about modelling and fitting multiple pulses, read our paper in Genetics and visit our github. The original Ancestry_HMM was developed by [Russ](https://corbett-lab.github.io/People/Current/russ/) with help from [Paloma Medina](https://corbett-lab.github.io/People/Alumni/paloma/) for developing the multi-pulse extensions. 
 
 ## Ancestry_HMM-S  
 This program is primarily the work of Corbett-Detig lab postdoc [Jesper Svedberg](https://corbett-lab.github.io/People/Current/jesper/). It builds on our local ancestry inference framework, Ancestry_HMM, and enables users to detect and quantify the strength of natural selection acting during admixture. You can read about the theoretical model we developed with our collaborators describing the expected ancestry tract length distribution during adaptive introgression here. Our preprint describing the inference method, Ancestry_HMM-S, is on bioRxiv. Software to perform these analyses and detailed installation instructions are available via github.
