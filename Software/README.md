@@ -25,6 +25,6 @@ The UShER suite is a family of programs for rapid phylogenetic analyses, particu
 
 **RIPPLES** is a program that uses a phylogenomic technique to rapidly and sensitively detect recombinant nodes and their ancestors in a mutation-annotated tree (MAT).
 
-[**ShUShER**](https://github.com/amkram/shusher)is a browser tool for the use of UShER on private data. ShUShER was developed in large part by [Alex Kramer](https://corbett-lab.github.io/People/Current/alex/). 
+[**ShUShER**](https://github.com/amkram/shusher)is a browser tool for the use of UShER on private data. ShUShER was developed by [Alex Kramer](https://corbett-lab.github.io/People/Current/alex/). 
 
 [Lab GitHub](https://github.com/corbett-lab)
