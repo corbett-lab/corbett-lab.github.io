@@ -3,11 +3,11 @@ sort: 3
 ---
 # Software  
 
-## SELAM  
+## [SELAM](https://github.com/russcd/SELAM)  
 Simulation of Epistasis and Local adaptation during Admixture with Mate choice  
 SELAM is a forward time population genetic simulation framework that can simulate admixture between any number of ancestral populations (or equivalently ancestral haplotypes). SELAM supports a variety of selective scenarios, complex demography and fully separate sexes. The paper describing this software is available here, and the manual and source code are available from GitHub.
 
-## Ancestry_HMM  
+## [Ancestry_HMM](https://github.com/russcd/Ancestry_HMM)  
 This program is designed to circumvent a few issues with existing local ancestry inference methods. Specifically, this program can (1) explicitly model allele counts derived from NGS data (2) work on samples of any ploidy (3) simultaneously estimate local ancestry and the time of admixture. The paper has just been published in PLoS Genetics, and the code can be acquired here. 
 This program can now estimate the timing of multiple admixture pulses. To find out more about modelling and fitting multiple pulses, read our paper in Genetics and visit our github. The original Ancestry_HMM was developed by [Russ](https://corbett-lab.github.io/People/Current/russ/) with help from [Paloma Medina](https://corbett-lab.github.io/People/Alumni/paloma/) for developing the multi-pulse extensions. 
 
