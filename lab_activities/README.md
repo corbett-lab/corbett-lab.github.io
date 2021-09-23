@@ -4,6 +4,9 @@ sort: 7
 
 # Lab Activities
 - [Davenport](#davenport)
+- [Desolation Wilderness](#desolation-wilderness)
+- [Elkhorn Slough](#elkhorn-slough)
+- [Providence, RI Evolution Conference](#providence-ri)
 
 # Davenport
 ![image](https://user-images.githubusercontent.com/10063921/132953039-c906cc78-64a4-4e77-9d03-0058fbf27285.png)  
