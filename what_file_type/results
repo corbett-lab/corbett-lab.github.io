@@ -31,7 +31,7 @@
     0.9
     0.8
     0.4
-%bam is cool file
+%bam is slightly old fashioned but strong and effective. An excellent type!
 #.sam
     0.1
     0.9
@@ -39,7 +39,7 @@
     0.95
     0.55
     0.4
-%sam is a cool file
+%sam is a lot like bam but less efficient. Still pretty good!
 #.py
     0.2
     0.9
@@ -47,7 +47,7 @@
     0.15
     0.9
     0.2
-%py is a cool python file
+%py script files are flexible and intuitive. You're great for quick data analysis!
 #.cpp
     0.15
     0.6
@@ -55,7 +55,7 @@
     0.2
     0.95
     0.95
-%cpp is great, arguably one of the best
+%cpp source code files are demanding and sometimes obscure, but incredibly powerful.
 #.gff
     0.1
     0.1
@@ -63,7 +63,7 @@
     0.9
     0.1
     0.5
-%gff is not a good file, try harder next time
+%gff is a massive, complex, messy table file. try harder next time
 #.fasta
     0.1
     0.9
@@ -71,7 +71,7 @@
     0.95
     0.6
     0.5
-%fasta is a cool file
+%fasta is simple but foundational to all things genetics!
 #.fastq
     0.1
     0.8
@@ -79,7 +79,7 @@
     1
     0.7
     0.5
-%fastq is a cool file
+%fastq is fasta's cooler sibling!
 #.txt
     0.25
     0.95
@@ -87,7 +87,7 @@
     0.9
     0.9
     0.9
-%txt is a pretty known file, very readable
+%txt is universal and useful!
 #.pdf
     0.1
     0.9
@@ -95,7 +95,7 @@
     0.9
     0.7
     0.8
-%pdf is like an advanced text file
+%pdf is like an advanced text file, with pictures! 
 #Makefile
     0.3
     0.9
@@ -103,7 +103,7 @@
     0
     0.8
     0.9
-%Makefile is a cool file, pretty critical for most projects
+%Makefile is a necessary evil, required to tap into the incredible power of C.
 #.ipynb
     0.3
     0.8
@@ -111,7 +111,7 @@
     0.3
     0.8
     0.1
-%ipynb is a cool file, but it could be better
+%ipynb is like casual python, with an odd affinity for complex statistical modeling and figures- a good outcome!
 #.bed
     0.35
     0.65
@@ -119,7 +119,7 @@
     1
     1
     0.7
-%bed is a cool file, good job
+%bed is a simple and useful text format- good job
 #.vcf
     0
     0.6
@@ -127,7 +127,7 @@
     1
     0.25
     0.5
-%vcf is a cool file
+%vcf is a messy but common and useful text format. It could be worse
 #.paf
     0.9
     0.75
@@ -135,7 +135,7 @@
     1
     0.8
     0.3
-%paf is a phylogenic ancestral file, invented by the Church of Jesus Christ of Latter day Saints. This was created to prevent tangles and knots in the family tree. Evidently, this has been successful, as the consanguinity coefficient among Utah mormons is 0.000106, while the average within-groups random kinship coefficient is 0.000312. Great Job!
+%paf is a new-age bam, an alignment file for the discerning bioinformatician. A good outcome!
 #.mpileup
     0
     0.75
@@ -143,7 +143,7 @@
     0.95
     0.6
     0.6
-%mpileup is a cool file
+%mpileup is a nicely visual if inefficient text format. A solid outcome
 #.newick
     0.2
     0.6
@@ -151,7 +151,7 @@
     1
     0.4
     0.95
-%newick is a cool file
+%newick is an old and frustrating tree format, like a gnarled and stunted oak. You can do better!
 #.mat
     0.9
     0.5
@@ -159,7 +159,7 @@
     0.9
     0.9
     0.1
-%mat is an awesome file, good job
+%mat is an awesome new tree format, like a powerful young redwood. A great outcome!
 #.tar.gz
     0.9
     0
@@ -167,7 +167,7 @@
     1
     0.5
     0.5
-%tar.gz is a crazy file
+%tar.gz is small and has a lot to unpack
 #.rar
     0.9
     0.1
@@ -175,7 +175,7 @@
     0.9
     0.1
     0.8
-%rar is file that no one pays for
+%rar is a file that no one pays for. Do better!
 #.pl
     0.5
     0.3
@@ -183,7 +183,7 @@
     0
     0.3
     1
-%i dont know what a pl file is, must be old
+%pl is like py but for old people
 #.r
     0.5
     0.6
@@ -191,7 +191,7 @@
     0
     0.4
     1
-%R is a nice language
+%R is py for people who have no coding skills
 #.jar
     0.4
     0.4
@@ -207,7 +207,7 @@
     0
     0.9
     0.7
-%sh is a cool file
+%sh is old but part of the fundament of our work. A pretty good outcome
 #.xml
     0.5
     0
@@ -215,7 +215,7 @@
     1
     0.4
     0.7
-%xml is a cool file
+%xml is an uncool file
 #.docx
     0.1
     0.9
@@ -223,4 +223,4 @@
     0.9
     0.1
     0.5
-%docx is a cool file
+%docx is what you use when you refuse to use Google Docs to work on your paper. You can do better
