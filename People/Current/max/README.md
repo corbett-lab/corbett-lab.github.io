@@ -1,5 +1,5 @@
 ## Maximilian Genetti  
-![science](https://img.shields.io/badge/FileType-.bed-purple)  
+![science](https://img.shields.io/badge/FileType-.vcf-yellow)  
 Ph.D. Student, mgenetti@ucsc.edu  
 Research Interests:  
 
