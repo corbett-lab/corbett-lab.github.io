@@ -30,3 +30,5 @@ sort: 6
 # Kikimora
 ![received_456323632261296](https://user-images.githubusercontent.com/88911118/134746944-41bc13a0-43a2-448a-86a7-be1f93730f0e.jpeg)
 
+# Lupita
+![image](https://github.com/corbett-lab/corbett-lab.github.io/blob/main/the%20doggies%20(%26%20others)/63402338538__A9BF9E53-5965-4B7A-83CE-08D0849BC300.jpeg)
