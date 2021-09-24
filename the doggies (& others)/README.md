@@ -27,3 +27,6 @@ sort: 6
 # nova (& snickers)
 ![Image from iOS](https://user-images.githubusercontent.com/88911118/132076284-2b07b952-0f40-470a-ab0f-78611f94ab9f.jpg)
 
+# Kikimora
+![received_456323632261296](https://user-images.githubusercontent.com/88911118/134746944-41bc13a0-43a2-448a-86a7-be1f93730f0e.jpeg)
+
