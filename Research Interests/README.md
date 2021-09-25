@@ -15,6 +15,6 @@ Research in the lab focuses on a broad range of questions in evolutionary genomi
 
 Researchers in our group lead the informatics for the [California Conservation Genomics Project](https://www.ccgproject.org/); the largest and most comprehensive conservation genomics project to date. Members of the CCGP have collected samples for 230 carefully selected species to generate whole-genome data of nearly 20,000 individuals. Our group is in charge of generating fully reproducable pipelines to process and analyze petabytes of sequencing data. These products will be used to inform conservation decisions and address outstanding challenges in the field of evolutionary landscape genomics. Research in this area is ongoing, check back soon for updates!
 
-[![image](../../../assets/images/CCGP+Logo_blue.png)](https://www.ccgproject.org/)
+[![image](../assets/images/CCGP+Logo_blue.png)](https://www.ccgproject.org/)
 
 ## Genome Structure Evolution
