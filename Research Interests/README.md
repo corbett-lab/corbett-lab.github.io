@@ -20,3 +20,5 @@ Researchers in our group lead the informatics for the [California Conservation G
 [![image](../assets/images/CCGP+Logo_blue.png)](https://www.ccgproject.org/)
 
 ## Genome Structure Evolution
+
+We have significant research experience and expertise in genome structure evolution, with a particular emphasis on genome inversions and intron evolution. We have multiple Drosophila stocks and protocols for artificial inversions; while we have no current projects in this area, we are open to proposals. Projects in intron evolution- particularly, identifying transposable elements which generate introns (introners) among public data sequences- are ongoing.  
