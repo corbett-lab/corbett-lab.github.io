@@ -3,7 +3,7 @@ sort: 2.5
 ---
 # Research Interests
   
-Research in the lab focuses on a broad range of questions in evolutionary genomics. Much of our work is at the interface of genomics, evolutionary biology, computer science and statistics. 
+Research in the lab focuses on a broad range of questions in evolutionary genomics. Much of our work is at the interface of genomics, evolutionary biology, statistics and computer science. We are always looking for new fun problems and a few of our recent research thrusts are below. 
  
 ## SARS-CoV-2 Phylogenomics
   
