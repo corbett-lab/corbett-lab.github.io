@@ -15,6 +15,9 @@ Research in the lab focuses on a broad range of questions in evolutionary genomi
   
 Our group has a longstanding interest in understanding the evolutionary consequences of admixture--a process where two or more genetically distinct populations exchange genes. We have developed an efficient forward-in-time simulation method, [SELAM](https://academic.oup.com/bioinformatics/article/32/19/3035/2196613){:target="_blank"} as well as a suite of methods for [inferring the landscape of mosaic ancestry in admixed populations](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1006529){:target="_blank"} and fitting population genetic modeles of [complex admixture](https://academic.oup.com/genetics/article/210/3/1089/5931071){:target="_blank"} and [natural selection during admixture](https://academic.oup.com/mbe/article/38/5/2152/6120794){:target="_blank"}. 
   
+<img width="497" alt="Screen Shot 2021-09-26 at 11 42 52 AM" src="https://user-images.githubusercontent.com/10063921/134820230-a0c7063a-b4e3-46a8-af45-fa4fbdefd70c.png">
+
+  
 ## Conservation Genomics and the California Conservation Genomics Projects
 
 Researchers in our group lead the informatics for the [California Conservation Genomics Project](https://www.ccgproject.org/){:target="_blank"}; the largest and most comprehensive conservation genomics project to date. Members of the CCGP have collected samples for 230 carefully selected species to generate whole-genome data of nearly 20,000 individuals. Our group is in charge of generating fully reproducable pipelines to process and analyze petabytes of sequencing data. These products will be used to inform conservation decisions and address outstanding challenges in the field of evolutionary landscape genomics. Research in this area is ongoing, check back soon for updates!
