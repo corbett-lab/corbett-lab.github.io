@@ -10,6 +10,7 @@ sort: 1
     - [Jakob McBroome](/People/Current/jakob/)
     - [Jesper Svedberg](/People/Current/jesper/)
     - [Mara Baylis](/People/Current/mara/)
+    - [Nick Chan](/People/Current/nick/)
     - [Maximilian Genetti](/People/Current/max/)
     - [Nicolas Ayala](/People/Current/nico/)
     - [Rachel Mendelson](/People/Current/rachel/)
