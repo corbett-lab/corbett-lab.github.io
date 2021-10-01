@@ -1,7 +1,6 @@
 # corbett-detig-lab-website
 
-![CI](https://github.com/rundocs/jekyll-rtd-theme/workflows/CI/badge.svg?branch=develop)
-![science](https://img.shields.io/badge/science-doing-brightgreen)
+![science](https://img.shields.io/badge/Corbett-Detig-Lab-brightgreen)
 
 This is the official website of the Corbett-Detig lab at UCSC.
 
