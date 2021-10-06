@@ -29,6 +29,11 @@ email: rucorbet@ucsc.edu
 | [`Cade Mirchandani`](/People/Current/cade/)      | Cade                   |                   | [Layla](https://user-images.githubusercontent.com/88911118/132076266-5dabc9a1-0893-4567-b528-29e324b3319b.png) |
 | [`Nicolas Ayala`](/People/Current/nico/)         | Undergrad              |[Nico's Publications](https://scholar.google.com/citations?user=Q2nj73IAAAAJ&hl=en)| [Nova](https://user-images.githubusercontent.com/88911118/132076284-2b07b952-0f40-470a-ab0f-78611f94ab9f.jpg) |
 | [`Mara Baylis`](/People/Current/mara/)           | Undergrad              |                   |[Basil's Aunt](https://user-images.githubusercontent.com/88911118/132076099-ee3b83ef-2f9f-4f97-94eb-3934d3b9ea36.png)|
+  
+## Social Media
+  
+[![twitter](![image](https://user-images.githubusercontent.com/10063921/136282095-24769040-a562-457d-934e-7347f4766c52.png "Russ' Twitter")](https://twitter.com/RussCorbett)
 
+  
 [![Instagram](https://user-images.githubusercontent.com/88911118/134778849-c25417c8-ee14-40d5-a3d0-a03e9d759c08.png "Lab Instagram")](https://www.instagram.com/corbettdetiglab/)
 
