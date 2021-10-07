@@ -32,9 +32,5 @@ email: rucorbet@ucsc.edu
   
 ## Social Media
   
-[![Twitter](https://user-images.githubusercontent.com/10063921/136299975-547fe4c5-94b0-49cc-b66d-cbe1f5c12913.png "Russ' Twitter")](https://twitter.com/RussCorbett)
-
-
-  
-[![Instagram](https://user-images.githubusercontent.com/88911118/134778849-c25417c8-ee14-40d5-a3d0-a03e9d759c08.png "Lab Instagram")](https://www.instagram.com/corbettdetiglab/)
+[![Twitter](https://user-images.githubusercontent.com/10063921/136299975-547fe4c5-94b0-49cc-b66d-cbe1f5c12913.png "Russ' Twitter")] (https://twitter.com/RussCorbett  [![Instagram](https://user-images.githubusercontent.com/88911118/134778849-c25417c8-ee14-40d5-a3d0-a03e9d759c08.png "Lab Instagram")](https://www.instagram.com/corbettdetiglab/)
 
