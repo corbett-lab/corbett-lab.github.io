@@ -4,6 +4,7 @@ sort: 1
 
 # People
 - [Current](/People/Current/)
+    - [Adriano de Bernardi Schneider](/People/Current/adriano/)
     - [Alex Kramer](/People/Current/alex/)
     - [Bryan Thornlow](/People/Current/bryan/)
     - [Cade Mirchandani](/People/Current/cade/)
