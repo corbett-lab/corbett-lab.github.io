@@ -29,6 +29,7 @@ email: rucorbet@ucsc.edu
 | [`Cade Mirchandani`](/People/Current/cade/)      | Cade                   |                   | [Layla](https://user-images.githubusercontent.com/88911118/132076266-5dabc9a1-0893-4567-b528-29e324b3319b.png) |
 | [`Nicolas Ayala`](/People/Current/nico/)         | Undergrad              |[Nico's Publications](https://scholar.google.com/citations?user=Q2nj73IAAAAJ&hl=en)| [Nova](https://user-images.githubusercontent.com/88911118/132076284-2b07b952-0f40-470a-ab0f-78611f94ab9f.jpg) |
 | [`Mara Baylis`](/People/Current/mara/)           | Undergrad              |                   |[Basil's Aunt](https://user-images.githubusercontent.com/88911118/132076099-ee3b83ef-2f9f-4f97-94eb-3934d3b9ea36.png)|
+| [`Adriano de Bernardi Schneider`](/People/Current/adriano/)           | Postdoctoral Researcher|[Adriano's Publications](https://scholar.google.com/citations?user=bZOyZ9cAAAAJ&hl=en) |
   
 ## Social Media
   
