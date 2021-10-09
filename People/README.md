@@ -44,3 +44,5 @@ sort: 1
     - [Vanessa Venner](/People/Alumni/vanessav/)  
     - [Victoria Serrano](/People/Alumni/victoria/)  
     - [Tom](/People/Alumni/tom/)
+- [Lava Lamp](/People/Lava_Lamp/)
+    - [Lavus Parvusbryannii](/People/Alumni/Lavus_parvusbryannii/)
