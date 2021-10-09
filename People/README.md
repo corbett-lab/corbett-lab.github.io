@@ -45,7 +45,7 @@ sort: 1
     - [Victoria Serrano](/People/Alumni/victoria/)  
     - [Tom](/People/Alumni/tom/)
 - [Lava Lamp](/People/Lava_Lamp/)
-    - [Lavus Parvusbryannii](/People/Alumni/Lavus_parvusbryannii/)
+    - [Lavus Parvusbryannii](/People/Lava_Lamp/Lavus_parvusbryanii/)
     - [2](/People/Lava_Lamp/2/)
 	- [3](/People/Lava_Lamp/3/)
 	- [4](/People/Lava_Lamp/4/)
