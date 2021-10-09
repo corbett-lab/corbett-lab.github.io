@@ -2,4 +2,4 @@
 sort: 1
 ---
 # Lava Lamp
-- [Lavus Parvusbryanii](/People/Alumni/Lavus_parvusbryanii/)
+- [Lavus Parvusbryanii](/People/Lava_Lamp/Lavus_parvusbryanii/)
