@@ -1,10 +1,6 @@
 # Lavus parvusbryanii
 
-
-Chancellor
-rucorbet@ucsc.edu 
-
 ## Brief Bio
-Russ will eventually input here.
+"Little Bryan" is the legacy of Bryan Thornlow. 
 
 <img src='parvusbryanii.jpg' alt='parvusbryanii' width='500'/>
