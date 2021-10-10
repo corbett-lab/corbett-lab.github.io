@@ -1,4 +1,4 @@
-# Lampus rastafarii
+# Lavus rastafarii
 
 ## Brief Bio
 Russ bought this glorious lamp with a BSOE Super Slug award. 
