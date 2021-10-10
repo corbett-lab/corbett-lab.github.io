@@ -1,7 +1,5 @@
 # Lavus rosa
 
-## Brief Bio
-
 Collected by: Russ  
 Funding Agency: BSOE Super Slug Award  
 
