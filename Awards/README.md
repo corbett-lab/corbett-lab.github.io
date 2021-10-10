@@ -2,7 +2,9 @@
 sort: 4.5
 ---
 # Lab Awards
-It is Corbett-Detig lab policy (as of ~2019) that any academic award that comes with a cash prize must be spent in part on a commemorative lava lamp. These are our lamps: 
+It is Corbett-Detig lab policy (as of ~2019) that any academic award that comes with a cash prize must be spent in part on a commemorative lava lamp. We are also deeply interested in the evolution and systematics of lava lamps. 
+
+These are our lamps: 
 
 - [Lavus parvusbryanii](/People/Lava_Lamp/Lavus_parvusbryanii/)
 - [2](/People/Lava_Lamp/2/)
