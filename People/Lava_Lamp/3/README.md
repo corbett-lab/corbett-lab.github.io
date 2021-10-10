@@ -1,10 +1,6 @@
-# Lava Lamp name here
-
-
-Title Here
-email of winner here 
+# Lampus rastafari
 
 ## Brief Bio
-Bio of award here.
+Russ bought this glorious lamp with a BSOE Super Slug award. 
 
 <img src='IMG_9678.jpg' alt='IMG_9678' width='500'/>
