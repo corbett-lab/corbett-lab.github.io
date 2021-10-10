@@ -1,6 +1,7 @@
 # Lavus rastafarii
 
 ## Brief Bio
-Russ bought this glorious lamp with a BSOE Super Slug award. 
+Collected by: Russ
+Funding: BSOE Super Slug award. 
 
 <img src='IMG_9678.jpg' alt='IMG_9678' width='500'/>
