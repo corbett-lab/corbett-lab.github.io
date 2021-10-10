@@ -1,10 +1,6 @@
-# Lava Lamp name here
-
-
-Title Here
-email of winner here 
+# Lavus aquaticus
 
 ## Brief Bio
-Bio of award here.
+Russ got this lamp to comemorate a super slug award in 2019.
 
 <img src='IMG_9667.jpg' alt='IMG_9667' width='500'/>
