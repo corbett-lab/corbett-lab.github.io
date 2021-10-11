@@ -1,4 +1,6 @@
-
+---
+sort: 8
+---
 
 
 # Lava lamp phylogeny creator
@@ -6,11 +8,9 @@
 
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<script src="quizlogic.js"></script>
-
+<canvas id="myCanvas" width="100%" height="100%"></canvas>
+<script src="tree.js"></script>
 </body>
-</html> 
-
+</html>

@@ -121,22 +121,15 @@ class Tree{
         }
 
         var fattestson = 0
-        console.log(this.children.length)
-        console.log(fattestson)
         for(let i = 0; i < this.children.length; i++){
-            console.log(fattestson)
             if(this.children[i].computewidth() > fattestson){
                 fattestson = this.children[i].computewidth()
-                console.log(fattestson)
             }
-            console.log("s" + fattestson)
         }
 
         fattestson += this.node.width;
-        console.log(fattestson)
 
         fattestson += 20;
-        console.log(fattestson)
 
         this.width = fattestson
         this.widthcomputed = true;
