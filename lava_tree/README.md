@@ -10,7 +10,7 @@ sort: 8
 <head>
 </head>
 <body>
-<canvas id="myCanvas" width="100%" height="100%"></canvas>
+<canvas id="myCanvas" width="100%" height="500px"></canvas>
 <script src="tree.js"></script>
 </body>
 </html>

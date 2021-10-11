@@ -224,7 +224,7 @@ var testnode = new Node()
 
 
 
-
+var tree = new Tree(100,100,new Node())
 
 var A = new Tree(100,100,new Node())
 var B = new Tree(100,100,new Node())
@@ -240,7 +240,8 @@ B.addChild(new Tree(100,100,new Node()))
 C.addChild(A);
 C.addChild(B);
 
-
+tree.addChild(C)
+tree.addChild(new Tree(100,100,new Node()))
 
 
 
@@ -269,7 +270,7 @@ function draw() {
 
 
     
-    C.draw();
+    tree.draw();
     window.requestAnimationFrame(draw);
 }
 
