@@ -58,8 +58,8 @@ class Node{
         this.intree = false
         this.x = 100
         this.y = 100
-        this.wid = 20
-        this.hei = 20
+        this.width = 20
+        this.height = 20
     }
 
     computewidth(){
@@ -70,6 +70,7 @@ class Node{
     }
 
     draw(){
+
         if(this.selected){
             //ctx.fillStyle = "#444444"
             drawCircle(ctx, this.x, this.y, 10, 'black', 'blue', 5)
@@ -82,7 +83,7 @@ class Node{
     }
 }
 
-//make trees contain node, and trees. 
+
 
 //x and y of tree are top left corner
 class Tree{
@@ -102,7 +103,7 @@ class Tree{
     }
 
     addChild(child){
-        this.child.parent = this
+        child.parent = this
         this.children.push(child);
         this.widthcomputed = false;
         this.heightcomputed = false;
@@ -120,16 +121,22 @@ class Tree{
         }
 
         var fattestson = 0
-
+        console.log(this.children.length)
+        console.log(fattestson)
         for(let i = 0; i < this.children.length; i++){
+            console.log(fattestson)
             if(this.children[i].computewidth() > fattestson){
                 fattestson = this.children[i].computewidth()
+                console.log(fattestson)
             }
+            console.log("s" + fattestson)
         }
 
         fattestson += this.node.width;
+        console.log(fattestson)
 
         fattestson += 20;
+        console.log(fattestson)
 
         this.width = fattestson
         this.widthcomputed = true;
@@ -171,7 +178,7 @@ class Tree{
         this.node.x = this.x + this.node.width/2;
         this.node.y = this.y + this.height/2
 
-        this.scan = y;
+        this.scan = this.y;
         for(let i = 0; i < this.children.length; i++){
             this.children[i].x = this.x + this.node.width + 20;
             this.children[i].y = this.scan;
@@ -185,7 +192,28 @@ class Tree{
     }
     
     draw(){
+        this.computepositions();
 
+        ctx.strokeStyle = "#888888";
+        ctx.lineWidth = 2;
+        if(this.children.length > 0){
+            ctx.beginPath();
+            ctx.moveTo(this.node.x, this.children[0].node.y)
+            ctx.lineTo(this.node.x, this.children[this.children.length - 1].node.y)
+            ctx.stroke();
+        }
+        for(let i = 0; i < this.children.length; i++){
+            ctx.strokeStyle = "#888888";
+            ctx.lineWidth = 2;
+            ctx.beginPath();
+            ctx.moveTo(this.node.x, this.children[i].node.y)
+            ctx.lineTo(this.children[i].node.x, this.children[i].node.y)
+            ctx.stroke();
+
+            this.children[i].draw();
+        }
+
+        this.node.draw();
     }
 }
 
@@ -197,6 +225,34 @@ class Root{
 }
 
 var testnode = new Node()
+
+
+
+
+
+
+
+
+var A = new Tree(100,100,new Node())
+var B = new Tree(100,100,new Node())
+var C = new Tree(100,100,new Node())
+
+A.addChild(new Tree(100,100,new Node()))
+A.addChild(new Tree(100,100,new Node()))
+A.addChild(new Tree(100,100,new Node()))
+
+B.addChild(new Tree(100,100,new Node()))
+B.addChild(new Tree(100,100,new Node()))
+
+C.addChild(A);
+C.addChild(B);
+
+
+
+
+
+
+
 
 
 var seconds = 0;
@@ -216,11 +272,11 @@ function draw() {
     ctx.fillRect(0, 0, width, height);
 
 
-    ctx.fillStyle = "#000000"
-    ctx.fillRect(10 + 10*seconds, 10, 10, 10)
+    
 
 
-    testnode.draw()
+    
+    C.draw();
     window.requestAnimationFrame(draw);
 }
 

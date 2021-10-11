@@ -11,10 +11,6 @@
 <body>
 <script src="quizlogic.js"></script>
 
-<form id="quiz" onsubmit="HandleQuiz(this); return false">
-</form>
-<form id="results"></form>
-
 </body>
 </html> 
 
