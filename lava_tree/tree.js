@@ -70,7 +70,6 @@ class Node{
     }
 
     draw(){
-
         drawCircle(ctx, this.x, this.y, 5, "#444444", "#AAAAAA", 2)
     }
 }
@@ -102,6 +101,7 @@ class Tree{
         if(this.parent){
             this.parent.widthcomputed = false
             this.parent.heightcomputed = false;
+            this.parent.positionscomputed = false
         }
 
         this.positionscomputed = false
@@ -174,6 +174,15 @@ class Tree{
         }
 
         this.positionscomputed = true
+        if(this.parent){
+            this.parent.computepositions();
+        }
+    }
+    resetpositions(){
+        for(let i = 0; i < this.children; i++){
+            this.children[i].resetpositions();
+        }
+        this.positionscomputed = false;
     }
     
     draw(){
@@ -199,6 +208,15 @@ class Tree{
         }
 
         this.node.draw();
+    }
+
+    handleclick(){
+        if(mouseX >= this.node.x - this.node.width/2 && mouseX <= this.node.x + this.node.width/2 && mouseY >= this.node.y  - this.node.height/2 && mouseY <= this.node.y + this.node.height/2){
+            this.addChild(new Tree(100,100,new Node()))
+        }
+        for(let i = 0; i < this.children.length; i++){
+            this.children[i].handleclick();
+        }
     }
 }
 
@@ -277,6 +295,12 @@ function doMouseDown(e){
     else if(e.layerX) {
         mouseX = e.layerX;
         mouseY = e.layerY;
+    }
+
+    if(mouseX >= tree.x && mouseX <= tree.x + tree.computewidth() && mouseY >= tree.y && mouseY <= tree.y + tree.computeheight()){
+        tree.handleclick()
+        tree.resetpositions()
+        tree.computepositions()
     }
 }
 
