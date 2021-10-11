@@ -45,9 +45,9 @@ function drawCircle(ctx, x, y, radius, fill, stroke, strokeWidth) {
 
 
 
-class node{
+class Node{
     constructor(){
-        this.parents = []
+        this.parent = null
         this.children = []
 
         this.label = ""
@@ -62,10 +62,17 @@ class node{
         this.hei = 20
     }
 
+    computewidth(){
+        return this.wid
+    }
+    computeheight(){
+        return this.hei
+    }
+
     draw(){
         if(this.selected){
             //ctx.fillStyle = "#444444"
-            drawCircle(ctx, this.x, this.y, 10, 'black', 'red', 5)
+            drawCircle(ctx, this.x, this.y, 10, 'black', 'blue', 5)
         }else{
             //ctx.fillStyle = "#000000"
             drawCircle(ctx, this.x, this.y, 10, 'black', 'red', 5)
@@ -75,12 +82,121 @@ class node{
     }
 }
 
+//make trees contain node, and trees. 
 
+//x and y of tree are top left corner
+class Tree{
+    constructor(x, y, node){
+        this.x = x
+        this.y = y
+        this.node = node
+        this.children = [] //list of trees
+        this.parent = null
 
+        this.widthcomputed = true
+        this.width = this.node.width
+        this.heightcomputed = true
+        this.height = this.node.height
 
+        this.positionscomputed = false
+    }
 
+    addChild(child){
+        this.child.parent = this
+        this.children.push(child);
+        this.widthcomputed = false;
+        this.heightcomputed = false;
+        if(this.parent){
+            this.parent.widthcomputed = false
+            this.parent.heightcomputed = false;
+        }
 
-var testnode = new node()
+        this.positionscomputed = false
+    }
+
+    computewidth(){
+        if(this.widthcomputed){
+            return this.width;
+        }
+
+        var fattestson = 0
+
+        for(let i = 0; i < this.children.length; i++){
+            if(this.children[i].computewidth() > fattestson){
+                fattestson = this.children[i].computewidth()
+            }
+        }
+
+        fattestson += this.node.width;
+
+        fattestson += 20;
+
+        this.width = fattestson
+        this.widthcomputed = true;
+        return this.widths
+    }
+
+    computeheight(){
+        if(this.heightcomputed){
+            return this.height;
+        }
+
+        var totalheight = 0
+
+        for(let i = 0; i < this.children.length; i++){
+            totalheight += this.children[i].computeheight();
+            totalheight += 20;
+        }
+        totalheight -= 20
+
+        if(totalheight < this.node.height){
+            this.height = this.node.height;
+            this.heightcomputed = true;
+            return this.height
+        }
+
+        this.height = totalheight
+        this.heightcomputed = true;
+        return this.height
+    }
+
+    computepositions(){
+        if(this.positionscomputed){
+            return
+        }
+
+        this.computewidth()
+        this.computeheight()
+        
+        this.node.x = this.x + this.node.width/2;
+        this.node.y = this.y + this.height/2
+
+        this.scan = y;
+        for(let i = 0; i < this.children.length; i++){
+            this.children[i].x = this.x + this.node.width + 20;
+            this.children[i].y = this.scan;
+            this.children[i].computepositions();
+            
+            this.scan += this.children[i].computeheight();
+            this.scan += 20;
+        }
+
+        this.positionscomputed = true
+    }
+    
+    draw(){
+
+    }
+}
+
+class Root{
+    constructor(vertpadding, horizpadding){
+        this.vertpadding = vertpadding
+        this.horizpadding = horizpadding
+    }
+}
+
+var testnode = new Node()
 
 
 var seconds = 0;
