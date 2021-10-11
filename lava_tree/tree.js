@@ -1,6 +1,8 @@
 var canvas = document.getElementById("myCanvas");
 canvas.addEventListener("mousedown", doMouseDown, false);
 var ctx = canvas.getContext("2d");
+canvas.style.width ='100%';
+canvas.style.height='100%';
 
 canvas.width = canvas.getBoundingClientRect().width
 canvas.height = canvas.getBoundingClientRect().height
@@ -18,6 +20,8 @@ function init() {
     this_frame = Date.now()
     window.requestAnimationFrame(draw);
 }
+
+
 
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
