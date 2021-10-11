@@ -71,15 +71,7 @@ class Node{
 
     draw(){
 
-        if(this.selected){
-            //ctx.fillStyle = "#444444"
-            drawCircle(ctx, this.x, this.y, 10, 'black', 'blue', 5)
-        }else{
-            //ctx.fillStyle = "#000000"
-            drawCircle(ctx, this.x, this.y, 10, 'black', 'red', 5)
-        }
-
-        drawCircle(ctx, this.x, this.y, 10, 'black', 'red', 5)
+        drawCircle(ctx, this.x, this.y, 5, "#444444", "#AAAAAA", 2)
     }
 }
 
