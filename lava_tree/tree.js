@@ -21,8 +21,6 @@ function init() {
     window.requestAnimationFrame(draw);
 }
 
-
-
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
@@ -31,13 +29,58 @@ function init() {
     window.requestAnimationFrame(draw);
 }
 
+function drawCircle(ctx, x, y, radius, fill, stroke, strokeWidth) {
+    ctx.beginPath()
+    ctx.arc(x, y, radius, 0, 2 * Math.PI, false)
+    if (fill) {
+        ctx.fillStyle = fill
+        ctx.fill()
+    }
+    if (stroke) {
+        ctx.lineWidth = strokeWidth
+        ctx.strokeStyle = stroke
+        ctx.stroke()
+    }
+}
+
+
+
+class node{
+    constructor(){
+        this.parents = []
+        this.children = []
+
+        this.label = ""
+        this.image = null
+
+        this.selected = false
+
+        this.intree = false
+        this.x = 100
+        this.y = 100
+        this.wid = 20
+        this.hei = 20
+    }
+
+    draw(){
+        if(this.selected){
+            //ctx.fillStyle = "#444444"
+            drawCircle(ctx, this.x, this.y, 10, 'black', 'red', 5)
+        }else{
+            //ctx.fillStyle = "#000000"
+            drawCircle(ctx, this.x, this.y, 10, 'black', 'red', 5)
+        }
+
+        drawCircle(ctx, this.x, this.y, 10, 'black', 'red', 5)
+    }
+}
 
 
 
 
 
 
-
+var testnode = new node()
 
 
 var seconds = 0;
@@ -61,6 +104,7 @@ function draw() {
     ctx.fillRect(10 + 10*seconds, 10, 10, 10)
 
 
+    testnode.draw()
     window.requestAnimationFrame(draw);
 }
 
