@@ -43,6 +43,10 @@ function drawCircle(ctx, x, y, radius, fill, stroke, strokeWidth) {
     }
 }
 
+//Trees are stored in All_trees
+//children and parents are stored as indexes in all trees
+var All_Trees = []
+
 
 
 class Node{
@@ -233,7 +237,7 @@ var testnode = new Node()
 
 
 
-
+/*
 var tree = new Tree(100,100,new Node())
 
 var A = new Tree(100,100,new Node())
@@ -252,6 +256,11 @@ C.addChild(B);
 
 tree.addChild(C)
 tree.addChild(new Tree(100,100,new Node()))
+*/
+
+for(let i = 0; i < 10; i++){
+    All_Trees.push(new Tree(100,100,new Node()))
+}
 
 
 
