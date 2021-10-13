@@ -285,7 +285,6 @@ function draw() {
     
     
     ctx.fillStyle = "#999999";
-    //ctx.fillRect(tree.x, tree.y, tree.computewidth(), tree.computeheight());
 
     
     tree.draw();
