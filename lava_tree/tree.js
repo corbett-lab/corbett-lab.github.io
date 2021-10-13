@@ -51,9 +51,6 @@ var All_Trees = []
 
 class Node{
     constructor(){
-        this.parent = null
-        this.children = []
-
         this.label = ""
         this.image = null
 
@@ -67,10 +64,10 @@ class Node{
     }
 
     computewidth(){
-        return this.wid
+        return this.width
     }
     computeheight(){
-        return this.hei
+        return this.height
     }
 
     draw(){
@@ -117,17 +114,17 @@ class Tree{
         }
 
         var fattestson = 0
-        console.log("fattestson")
-        for(let i = 0; i < this.children.length; i++){
-            if(this.children[i].computewidth() > fattestson){
-                fattestson = this.children[i].computewidth()
+        if(this.children.length > 0){
+            for(let i = 0; i < this.children.length; i++){
+                if(this.children[i].computewidth() > fattestson){
+                    fattestson = this.children[i].computewidth()
+                }
             }
-            console.log(fattestson + "  " + this.node.x + "  " + this.node.y)
+            fattestson += 20;
         }
 
         fattestson += this.node.width;
 
-        fattestson += 20;
 
         this.width = fattestson
         this.widthcomputed = true;
@@ -182,10 +179,12 @@ class Tree{
         this.positionscomputed = true
     }
     resetpositions(){
-        for(let i = 0; i < this.children; i++){
+        for(let i = 0; i < this.children.length; i++){
             this.children[i].resetpositions();
         }
         this.positionscomputed = false;
+        this.heightcomputed = false;
+        this.widthcomputed = false;
     }
     
     draw(){
@@ -230,7 +229,6 @@ class Root{
     }
 }
 
-var testnode = new Node()
 
 
 
@@ -259,7 +257,7 @@ tree.computepositions()
 
 
 for(let i = 0; i < 10; i++){
-    All_Trees.push(new Tree(100,100,new Node()))
+    //All_Trees.push(new Tree(100,100,new Node()))
 }
 
 
@@ -287,7 +285,7 @@ function draw() {
     
     
     ctx.fillStyle = "#999999";
-    ctx.fillRect(tree.x, tree.y, tree.computewidth(), tree.computeheight());
+    //ctx.fillRect(tree.x, tree.y, tree.computewidth(), tree.computeheight());
 
     
     tree.draw();
@@ -310,7 +308,7 @@ function doMouseDown(e){
 
     if(mouseX >= tree.x && mouseX <= tree.x + tree.computewidth() && mouseY >= tree.y && mouseY <= tree.y + tree.computeheight()){
         tree.handleclick()
-        //tree.resetpositions()
+        tree.resetpositions()
         tree.computepositions()
     }
 }
