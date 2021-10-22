@@ -1,4 +1,4 @@
-# Lucerna caerulea
+# Lavus lucerna caerulea
 
 Collected By: Jakob McBroome
 
