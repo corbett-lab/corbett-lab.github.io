@@ -1,10 +1,9 @@
-# Bluey
+# Lucerna caerulea
 
-Graduate Student
+Collected By: Jakob McBroome
 
-jmcbroome@ucsc.edu
+Award: UCSC graduate student cultivation award
 
-## Brief Bio
-UCSC graduate student cultivation award
+Common name: Bluey
 
 <img src='IMG_9684.jpg' alt='IMG_9684' width='500'/>
