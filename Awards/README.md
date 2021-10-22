@@ -14,4 +14,4 @@ These are the lamps:
 - [Lavus aquaticus](/Awards/Lava_Lamps/6/)
 - [Lavus rosa](/Awards/Lava_Lamps/7/)
 - [8](/Awards/Lava_Lamps/8/)
-- [9](/Awards/Lava_Lamps/9/)
+- [Lavus gelatapiscarii](/Awards/Lava_Lamps/9/)
