@@ -1,10 +1,9 @@
-# Lava Lamp name here
+# Lavus lavus
 
+Collected By: Paloma Medina
 
-Title Here
-email of winner here 
+Award: Unknown
 
-## Brief Bio
-Bio of award here.
+Common name: lava lamp
 
 <img src='IMG_9666.jpg' alt='IMG_9666' width='500'/>
