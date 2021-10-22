@@ -1,4 +1,4 @@
-# Aurora sparkialis
+# Lavus sparkialis
 
 
 Collected by: Cade  
