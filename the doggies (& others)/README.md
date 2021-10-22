@@ -13,8 +13,8 @@ sort: 6
 ![IMG_20210807_101523](https://user-images.githubusercontent.com/88911118/132076422-3ee6a887-da60-4f27-82c3-dd4302f6163a.jpg)
 
 # clementine
-<img width="600" src="1.png">
-<img width="445" alt="Screen Shot 2021-09-03 at 4 48 03 PM" src="https://user-images.githubusercontent.com/88911118/132078752-5d92310c-0c92-4e8a-b300-93645b3e2a6c.jpg">
+<img width="787" src="1.png">
+<img width="787" src="https://raw.githubusercontent.com/corbett-lab/corbett-lab.github.io/main/the%20doggies%20(%26%20others)/IMG_6133.jpeg">
 
 
 # hallie
