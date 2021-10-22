@@ -1,10 +1,9 @@
-# Lava Lamp name here
+# Lavus scintella 
 
+Collected By: Jakob McBroome
 
-Title Here
-email of winner here 
+Award: ARCS Fellowship
 
-## Brief Bio
-Bio of award here.
+Common name: Princess Sparkles
 
 <img src='IMG_9672.jpg' alt='IMG_9672' width='500'/>
