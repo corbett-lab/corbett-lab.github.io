@@ -5,7 +5,7 @@ sort: 4
 # Lab News
 
 ## Bryan Thornlow Defended his Thesis (10/25/2021)
-One of the two first graduate student to join our lab, Bryan, defended his thesis! Bryan showcased amazing work on tRNA evolution and predicting tRNA activity. Next, he's head to Boston to work as a data scientist at [Rome Therapeutics](https://rometx.com/). 
+One of the two first graduate student to join our lab, Bryan, defended his thesis! Bryan showcased amazing work on tRNA evolution and predicting tRNA activity. Next, he's head to Boston to work as a data scientist at [Rome Therapeutics](https://rometx.com/). Congratulations, Bryan! We're super excited to see what's next for you. 
 
 ## ShUShER is out in JOSS! (10/18/2021)
 Alex Kramer's first first author paper just came out in the Journal of Open Source Software. [Check it out!](https://joss.theoj.org/papers/10.21105/joss.03677) In it, Alex developed a port of the UShER phylogenetic placement approach for webAssembly in order to preserve privacy of SARS-CoV-2 genome sequence data. [Check out the web portal](https://shusher.gi.ucsc.edu/). Many thanks to the NextStrain treat, whose auspice tree viewer and sequence alignment we used. 
