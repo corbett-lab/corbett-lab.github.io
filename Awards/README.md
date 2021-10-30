@@ -7,7 +7,7 @@ It is Corbett-Detig lab policy (as of ~2019) that any academic award that comes 
 These are the lamps: 
 
 - [Lavus parvusbryanii](/Awards/Lava_Lamps/Lavus_parvusbryanii/)
-- [2](/Awards/Lava_Lamps/2/)
+- [Lavus lucerna caerulea](/Awards/Lava_Lamps/2/)
 - [Lavus rastafarii](/Awards/Lava_Lamps/3/)
 - [4](/Awards/Lava_Lamps/4/)
 - [5](/Awards/Lava_Lamps/5/)
