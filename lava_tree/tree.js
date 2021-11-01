@@ -69,9 +69,18 @@ class Node{
     computeheight(){
         return this.height
     }
+    add_image(image){
+        this.image = image
+        this.width = image.width/10
+        this.height = image.height/10
+    }
 
     draw(){
-        drawCircle(ctx, this.x, this.y, 5, "#444444", "#AAAAAA", 2)
+        if(this.image){
+            ctx.drawImage(this.image, this.x - this.width/2, this.y - this.height/2, this.width, this.height)
+        }else{
+            drawCircle(ctx, this.x, this.y, 5, "#444444", "#AAAAAA", 2)
+        }
     }
 }
 
@@ -86,9 +95,9 @@ class Tree{
         this.children = [] //list of indecies in All_trees
         this.parent = null
 
-        //this.widthcomputed = true
+        this.widthcomputed = true
         this.width = this.node.width
-        //this.heightcomputed = true
+        this.heightcomputed = true
         this.height = this.node.height
 
         //this.positionscomputed = false
@@ -253,6 +262,12 @@ C.addChild(B);
 
 tree.addChild(C)
 tree.addChild(new Tree(100,100,new Node()))
+
+const alien_lamp = document.getElementById('alien_lamp');
+alien_lamp.addEventListener('load', e => {
+    B.node.add_image(alien_lamp)
+});
+
 tree.computepositions()
 
 
@@ -286,7 +301,8 @@ function draw() {
     
     ctx.fillStyle = "#999999";
 
-    
+    tree.resetpositions()
+    tree.computepositions()
     tree.draw();
     
     window.requestAnimationFrame(draw);

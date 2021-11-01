@@ -8,11 +8,13 @@ sort: 8
 
 <html>
 <head>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <img src="DANGER.png">
-<canvas id="myCanvas" width="100%" height="500px"></canvas>
-<script src="tree.js"></script>
+<canvas id="myCanvas" width="100%" height="100%"></canvas>
 <img src="DANGER.png">
+<img class="lamp" id="alien_lamp" src="lava_pics/alien_lamp.png">
+<script src="tree.js"></script>
 </body>
 </html>
