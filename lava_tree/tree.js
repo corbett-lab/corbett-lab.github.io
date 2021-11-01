@@ -267,6 +267,7 @@ const alien_lamp = document.getElementById('alien_lamp');
 alien_lamp.addEventListener('load', e => {
     B.node.add_image(alien_lamp)
 });
+console.log("what")
 
 tree.computepositions()
 
