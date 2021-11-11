@@ -2,6 +2,8 @@
 sort: 7.75
 ---
 
+# Our Art
+
 #### A one-act reminder email play:
 
 You (wondering aloud): How can I see awesome research talks from amazing, diverse and accomplished UC postdocs this Monday and Tuesday mornings, and also make Russ proud?
