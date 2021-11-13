@@ -263,7 +263,7 @@ C.addChild(B);
 tree.addChild(C)
 tree.addChild(new Tree(100,100,new Node()))
 
-console.log("what")
+
 
 /*
 const alien_lamp = document.getElementById('alien_lamp');
@@ -276,7 +276,6 @@ console.log("what")
 tree.computepositions()
 
 
-console.log("aaaa")
 
 
 
@@ -306,7 +305,7 @@ function draw() {
     tree.resetpositions()
     tree.computepositions()
     tree.draw();
-    console.log("bbbb")
+
     window.requestAnimationFrame(draw);
 }
 
