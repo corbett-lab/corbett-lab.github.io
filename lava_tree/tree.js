@@ -276,10 +276,7 @@ console.log("what")
 tree.computepositions()
 
 
-for(let i = 0; i < 10; i++){
-    //All_Trees.push(new Tree(100,100,new Node()))
-}
-
+console.log("aaaa")
 
 
 
@@ -309,7 +306,7 @@ function draw() {
     tree.resetpositions()
     tree.computepositions()
     tree.draw();
-    
+    console.log("bbbb")
     window.requestAnimationFrame(draw);
 }
 
