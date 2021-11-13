@@ -263,11 +263,13 @@ C.addChild(B);
 tree.addChild(C)
 tree.addChild(new Tree(100,100,new Node()))
 
+/*
 const alien_lamp = document.getElementById('alien_lamp');
 alien_lamp.addEventListener('load', e => {
     B.node.add_image(alien_lamp)
 });
 console.log("what")
+*/
 
 tree.computepositions()
 
