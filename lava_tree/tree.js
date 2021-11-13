@@ -263,6 +263,8 @@ C.addChild(B);
 tree.addChild(C)
 tree.addChild(new Tree(100,100,new Node()))
 
+console.log("what")
+
 /*
 const alien_lamp = document.getElementById('alien_lamp');
 alien_lamp.addEventListener('load', e => {

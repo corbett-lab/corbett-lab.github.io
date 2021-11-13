@@ -14,7 +14,6 @@ sort: 8
 <img src="DANGER.png">
 <canvas id="myCanvas" width="100%" height="100%"></canvas>
 <img src="DANGER.png">
-
 <script src="tree.js"></script>
 </body>
 </html>
