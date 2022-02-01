@@ -1,6 +1,3 @@
----
-sort: ?
----
 
 
 # Lava lamp phylogeny creator
