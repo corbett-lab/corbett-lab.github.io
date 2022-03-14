@@ -11,16 +11,19 @@
 }
 
 #totalinput{
-    margin:auto;
-    width:50%;
+    margin: 0 auto;
+    padding: 0;
+    width:100%;
     text-align: center;
+    white-space:nowrap;
 }
+
 #playersinput{
     border-width:2px;
     margin:0%;
 }
+
 #playersbutton{
     border-width:2px;
     margin:0%;
 }
-
