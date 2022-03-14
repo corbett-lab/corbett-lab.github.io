@@ -10,6 +10,9 @@ sort: 998
 <div id="titlepage">
 <img id="insignia" src="images/slug/slug1.png">
 <img id="logo" src="images/title/title1.png">
+<div id="totalinput">
+<input id="playersinput" placeholder="Number of Players" type="text"><button id="playersbutton">Enter</button>
+</div>
 </div>
 </body>
 </html>

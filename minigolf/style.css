@@ -5,6 +5,22 @@
 #insignia{
     width:50%;
 }
+
 #logo{
     width:100%;
 }
+
+#totalinput{
+    margin:auto;
+    width:50%;
+    text-align: center;
+}
+#playersinput{
+    border-width:2px;
+    margin:0%;
+}
+#playersbutton{
+    border-width:2px;
+    margin:0%;
+}
+
