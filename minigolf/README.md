@@ -8,7 +8,7 @@ sort: 998
 </head>
 <body>
 <div id="titlepage">
-<img id="insignia" src="images/slug/slug1.png">
+<img id="insignia" src="images/slug/slug2.jpg">
 <img id="logo" src="images/title/title1.png">
 <div id="totalinput">
 <input id="playersinput" placeholder="Number of Players" type="text"><button id="playersbutton">Enter</button>
