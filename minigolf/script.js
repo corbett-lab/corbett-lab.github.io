@@ -159,15 +159,15 @@ function draw() {
             ctx.drawImage(sf1, thisstart,starty + theight);
         if(players > 1){
             ctx.drawImage(sf1, thisstart,starty + theight);
-            thisx = thisstart + f1width + m1width*2
-            thisp = (players - 3)
+            thisx = thisstart + f1width
+            thisp = (players - 1)
             finalx = thisx
             for(let i = 0; i < Math.floor(thisp/2); i++){
-                ctx.drawImage(tm2, thisx + m1width*i*2,starty);
+                ctx.drawImage(sm2, thisx + m1width*i*2,starty + theight);
                 finalx += m1width*2
             }
             if(thisp%2 == 1){
-                ctx.drawImage(tm1, finalx,starty);
+                ctx.drawImage(sm1, finalx,starty + theight);
             }
         }
         
