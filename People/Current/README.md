@@ -6,6 +6,7 @@ sort: 1
 - [Bryan Thornlow](/People/Current/bryan/)
 - [Cade Mirchandani](/People/Current/cade/)
 - [Erik Enbody](/People/Current/erik/)  
+- [Gabriel Penunuri](/People/Current/gabe/)
 - [Jakob McBroome](/People/Current/jakob/)
 - [Jesper Svedberg](/People/Current/jesper/)
 - [Mara Baylis](/People/Current/mara/)
