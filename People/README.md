@@ -8,6 +8,7 @@ sort: 1
     - [Alex Kramer](/People/Current/alex/)
     - [Bryan Thornlow](/People/Current/bryan/)
     - [Cade Mirchandani](/People/Current/cade/)
+    - [Gabriel Penunuri](/People/Current/gabe/)
     - [Jakob McBroome](/People/Current/jakob/)
     - [Jesper Svedberg](/People/Current/jesper/)
     - [Mara Baylis](/People/Current/mara/)
