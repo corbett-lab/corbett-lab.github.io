@@ -30,11 +30,13 @@ var this_frame = Date.now()
 
 var startx = 100
 var starty = 100
-var players = 4
+var players = 5
 
 var f1width = 86
 var theight = 50
 var m1width = 68
+
+var bwidth = 3
 
 how_many_loaded = 0
 
@@ -170,6 +172,46 @@ function draw() {
                 ctx.drawImage(sm1, finalx,starty + theight);
             }
         }
+
+        thisstart += f1width + m1width*(players-1)
+        
+
+        ctx.drawImage(b, thisstart,starty);
+
+        thisstart += bwidth
+        
+        
+        thisx = thisstart
+        thisp = players
+        finalx = thisx
+        for(let i = 0; i < Math.floor(thisp/2); i++){
+            ctx.drawImage(tm2, thisx + m1width*i*2,starty);
+            finalx += m1width*2
+        }
+        if(thisp%2 == 1){
+            ctx.drawImage(tm1, finalx,starty);
+        }
+
+        
+        
+        
+        thisx = thisstart
+        thisp = players
+        finalx = thisx
+        
+        for(let i = 0; i < Math.floor(thisp/2); i++){
+            ctx.drawImage(sm2, thisx + m1width*i*2,starty + theight);
+            finalx += m1width*2
+        }
+        if(thisp%2 == 1){
+            ctx.drawImage(sm1, finalx,starty + theight);
+        }
+
+        thisstart += m1width*players
+
+        ctx.drawImage(te, thisstart,starty);
+        ctx.drawImage(se, thisstart,starty + theight);
+        
         
     }
 
