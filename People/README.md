@@ -17,6 +17,7 @@ sort: 1
     - [Nicolas Ayala](/People/Current/nico/)
     - [Rachel Mendelson](/People/Current/rachel/)
     - [Russ Corbett-Detig](/People/Current/russ/)
+    - [Chris Condon](/People/Current/chris/)
 - [Alumni](/People/Alumni/)
     - [Andrew Gjelsteen](/People/Alumni/andrew/)  
     - [Axel Kent](/People/Alumni/axel/)  
