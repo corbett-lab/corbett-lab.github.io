@@ -40,8 +40,8 @@
     outline: none;
     font-family: Brush Script MT, Brush Script Std, cursive;
     font-size: larger;
-    height: 40;
-    width: 65;
+    height: 40px;
+    width: 65px;
 }
 
 .enter{
@@ -51,8 +51,8 @@
     border: none;
     outline: none;
     font-family: Brush Script MT, Brush Script Std, cursive;
-    font-size:30;
-    height: 42;
-    width: 65;
+    font-size: 30px;
+    height: 42px;
+    width: 65px;
     text-align: center;
 }

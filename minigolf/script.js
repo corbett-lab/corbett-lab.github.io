@@ -149,7 +149,7 @@ function init() {
     canvas.addEventListener("mousedown", doMouseDown, false);
     ctx = canvas.getContext("2d");
     canvas.style.width ='100%';
-    canvas.style.height='100%';
+    canvas.style.height='500px';
 
     canvas.width = canvas.getBoundingClientRect().width
     canvas.height = canvas.getBoundingClientRect().height
@@ -168,8 +168,7 @@ function init() {
         const nameleft = document.createElement("textarea");
         nameleft.setAttribute("class","name")
         nameleft.id = "nl"+i.toString()
-        nameleft.style.top = (starty + 5)
-        nameleft.style.left = (startx + 21 + 68*i)
+        nameleft.style.cssText = "top:"+(starty + 5).toString()+"px;left:"+(startx + 21 + 68*i).toString()+"px"
         nameleft.addEventListener("change", update_names);
         
         scorecard.appendChild(nameleft);
@@ -177,8 +176,7 @@ function init() {
         const nameright = document.createElement("textarea");
         nameright.setAttribute("class","name")
         nameright.id = "nr"+i.toString()
-        nameright.style.top = (starty + 5)
-        nameright.style.left = (startx + 21 + 68*players + bwidth + 68*i)
+        nameright.style.cssText = "top:"+(starty + 5).toString()+"px;left:"+(startx + 21 + 68*players + bwidth + 68*i).toString()+"px"
         nameright.addEventListener("change", update_names);
 
         scorecard.appendChild(nameright);
@@ -189,8 +187,7 @@ function init() {
             const scoreleft = document.createElement("textarea")
             scoreleft.setAttribute("class","enter")
             scoreleft.id = "s"+i.toString()+"p"+j.toString()
-            scoreleft.style.top = (starty + theight + 47*i)
-            scoreleft.style.left = (startx + 21 + 68*j)
+            scoreleft.style.cssText = "top:"+(starty + theight + 47*i).toString()+"px;left:"+(startx + 21 + 68*j).toString()+"px"
             scoreleft.addEventListener("change", calculate_total);
             
             scorecard.appendChild(scoreleft);
@@ -198,8 +195,7 @@ function init() {
             const scoreright = document.createElement("textarea")
             scoreright.setAttribute("class","enter")
             scoreright.id = "s"+(9+i).toString()+"p"+j.toString()
-            scoreright.style.top = (starty + theight + 47*i)
-            scoreright.style.left = (startx + 21 + 68*players + bwidth + 68*j)
+            scoreright.style.cssText = "top:"+(starty + theight + 47*i).toString()+"px;left:"+(startx + 21 + 68*players + bwidth + 68*j).toString()+"px"
             scoreright.addEventListener("change", calculate_total);
             
             scorecard.appendChild(scoreright);
@@ -264,8 +260,8 @@ function calculate_total(){
 var seconds = 0;
 
 function draw() {
-    canvas.width = canvas.getBoundingClientRect().width
-    canvas.height = canvas.getBoundingClientRect().height
+    //canvas.width = canvas.getBoundingClientRect().width
+    //canvas.height = canvas.getBoundingClientRect().height
     width = canvas.width;
     height = canvas.height;
 
