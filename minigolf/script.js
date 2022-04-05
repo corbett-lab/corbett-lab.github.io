@@ -1,19 +1,11 @@
-function change_to_scorecard(){
-    console.log("HELO")
-    window.location.href = "http://www.w3schools.com";
-}
 
 
-var canvas = document.getElementById("myCanvas");
-canvas.addEventListener("mousedown", doMouseDown, false);
-var ctx = canvas.getContext("2d");
-canvas.style.width ='100%';
-canvas.style.height='100%';
+var canvas = 0
+var ctx = 0
 
-canvas.width = canvas.getBoundingClientRect().width
-canvas.height = canvas.getBoundingClientRect().height
-var width = canvas.width;
-var height = canvas.height;
+
+var width = 0;
+var height = 0;
 
 var mouseX = 0;
 var mouseY = 0;
@@ -25,7 +17,35 @@ var this_frame = Date.now()
 
 
 function to_scorecard(){
-    console.log("YESS")
+    console.log("To scorecard")
+
+    players = parseInt(document.getElementById("playersinput").value)
+
+    if(isNaN(players)){
+        alert("Enter a number buddy")
+        return
+    }
+    
+    titlepage = document.getElementById("titlepage")
+    body = titlepage.parentNode
+
+    body.removeChild(titlepage);
+
+    const scoreboard = document.createElement("div")
+    scoreboard.setAttribute("id","scorecard")
+
+    
+    const canv = document.createElement("canvas")
+    canv.setAttribute("id","myCanvas")
+    canv.style.width = "50%"
+    canv.style.height = "100%"
+
+    scoreboard.appendChild(canv)
+
+    body.appendChild(scoreboard)
+
+
+    init();
 }
 
 
@@ -105,8 +125,8 @@ se.src = "images/card/se.png"
 
 
 
-var startx = 100
-var starty = 100
+var startx = 0
+var starty = 0
 var players = 3
 
 //f 18
@@ -117,15 +137,31 @@ var m1width = 68
 var bwidth = 3
 
 
-const scorecard = document.getElementById("scorecard");
+
 
 
 
 function init() {
+
+    console.log("HELLO")
+
+    canvas = document.getElementById("myCanvas");
+    canvas.addEventListener("mousedown", doMouseDown, false);
+    ctx = canvas.getContext("2d");
+    canvas.style.width ='100%';
+    canvas.style.height='100%';
+
+    canvas.width = canvas.getBoundingClientRect().width
+    canvas.height = canvas.getBoundingClientRect().height
+
+    width = canvas.width;
+    height = canvas.height;
+
+
     last_frame = Date.now()
     this_frame = Date.now()
     
-    
+    const scorecard = document.getElementById("scorecard");
 
     for(let i = 0; i < players; i++){
         
