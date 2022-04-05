@@ -24,19 +24,15 @@ var this_frame = Date.now()
 
 
 
+function to_scorecard(){
+    console.log("YESS")
+}
 
 
 
 
-var startx = 100
-var starty = 100
-var players = 5
 
-var f1width = 86
-var theight = 50
-var m1width = 68
 
-var bwidth = 3
 
 how_many_loaded = 0
 
@@ -107,10 +103,124 @@ se.onload = function() {
 se.src = "images/card/se.png"
 
 
+
+
+var startx = 100
+var starty = 100
+var players = 3
+
+//f 18
+var f1width = 86
+var theight = 50
+var m1width = 68
+
+var bwidth = 3
+
+
+const scorecard = document.getElementById("scorecard");
+
+
+
 function init() {
     last_frame = Date.now()
     this_frame = Date.now()
+    
+    
+
+    for(let i = 0; i < players; i++){
+        
+        const nameleft = document.createElement("textarea");
+        nameleft.setAttribute("class","name")
+        nameleft.id = "nl"+i.toString()
+        nameleft.style.top = (starty + 5)
+        nameleft.style.left = (startx + 21 + 68*i)
+        nameleft.addEventListener("change", update_names);
+        
+        scorecard.appendChild(nameleft);
+
+        const nameright = document.createElement("textarea");
+        nameright.setAttribute("class","name")
+        nameright.id = "nr"+i.toString()
+        nameright.style.top = (starty + 5)
+        nameright.style.left = (startx + 21 + 68*players + bwidth + 68*i)
+        nameright.addEventListener("change", update_names);
+
+        scorecard.appendChild(nameright);
+    }
+
+    for(let i = 0; i < 9; i++){
+        for(let j = 0; j < players; j++){
+            const scoreleft = document.createElement("textarea")
+            scoreleft.setAttribute("class","enter")
+            scoreleft.id = "s"+i.toString()+"p"+j.toString()
+            scoreleft.style.top = (starty + theight + 47*i)
+            scoreleft.style.left = (startx + 21 + 68*j)
+            scoreleft.addEventListener("change", calculate_total);
+            
+            scorecard.appendChild(scoreleft);
+
+            const scoreright = document.createElement("textarea")
+            scoreright.setAttribute("class","enter")
+            scoreright.id = "s"+(9+i).toString()+"p"+j.toString()
+            scoreright.style.top = (starty + theight + 47*i)
+            scoreright.style.left = (startx + 21 + 68*players + bwidth + 68*j)
+            scoreright.addEventListener("change", calculate_total);
+            
+            scorecard.appendChild(scoreright);
+        }
+    }
+    
+    
+
     window.requestAnimationFrame(draw);
+}
+
+
+
+
+
+function update_names(evt){
+    console.log(evt.currentTarget.id)
+    sister_id = evt.currentTarget.id.split("")
+    
+
+    if(sister_id[1] == 'l'){
+        sister_id[1] = 'r'
+    }else{
+        sister_id[1] = 'l'
+    }
+
+    sister_id = sister_id.join("")
+
+    const sister_box = document.getElementById(sister_id);
+    sister_box.value = evt.currentTarget.value
+    console.log(sister_id)
+}
+
+player_totals = []
+
+function calculate_total(){
+
+    id_array = ["s","0","p","0"]
+    ans = []
+
+    for(let p = 0; p < players; p++){
+
+        total = 0
+
+        for(let i = 0; i < 18; i++){
+            id_array[1] = i.toString()
+            id_array[3] = p.toString()
+
+            id = id_array.join("")
+
+            total += parseInt(document.getElementById(id).value)
+        }
+
+        ans.push(total)
+    }
+
+    console.log(ans)
 }
 
 
@@ -230,11 +340,6 @@ function doMouseDown(e){
         mouseY = e.layerY;
     }
 
-    if(mouseX >= tree.x && mouseX <= tree.x + tree.computewidth() && mouseY >= tree.y && mouseY <= tree.y + tree.computeheight()){
-        tree.handleclick()
-        tree.resetpositions()
-        tree.computepositions()
-    }
 }
 
 init();

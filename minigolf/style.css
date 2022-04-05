@@ -13,17 +13,46 @@
 #totalinput{
     margin: 0 auto;
     padding: 0;
-    width:100%;
+    width: 100%;
     text-align: center;
-    white-space:nowrap;
+    white-space: nowrap;
 }
 
 #playersinput{
-    border-width:2px;
-    margin:0%;
+    border-width: 2px;
+    margin: 0%;
 }
 
 #playersbutton{
-    border-width:2px;
-    margin:0%;
+    border-width: 2px;
+    margin: 0%;
+}
+
+#scorecard{
+    position: relative;
+}
+
+.name{
+    position: absolute;
+    resize:none;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: larger;
+    height: 40;
+    width: 65;
+}
+
+.enter{
+    position: absolute;
+    resize:none;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size:30;
+    height: 42;
+    width: 65;
+    text-align: center;
 }
