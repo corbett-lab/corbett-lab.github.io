@@ -2,6 +2,8 @@
 sort: 998
 ---
 
+# Pirate Minigolf Scorecard
+
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="style.css">
