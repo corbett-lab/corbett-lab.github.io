@@ -148,7 +148,7 @@ function init() {
     canvas = document.getElementById("myCanvas");
     canvas.addEventListener("mousedown", doMouseDown, false);
     ctx = canvas.getContext("2d");
-    canvas.style.width ='100%';
+    canvas.style.width = (18*2 + m1width*players*2 + bwidth).toString()+'px';
     canvas.style.height='500px';
 
     canvas.width = canvas.getBoundingClientRect().width
