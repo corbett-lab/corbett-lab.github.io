@@ -3,7 +3,6 @@ sort: 1
 ---
 # Current
 - [Alex Kramer](/People/Current/alex/)
-- [Bryan Thornlow](/People/Current/bryan/)
 - [Cade Mirchandani](/People/Current/cade/)
 - [Erik Enbody](/People/Current/erik/)  
 - [Gabriel Penunuri](/People/Current/gabe/)
