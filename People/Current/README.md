@@ -2,14 +2,4 @@
 sort: 1
 ---
 # Current
-- [Alex Kramer](/People/Current/alex/)
-- [Cade Mirchandani](/People/Current/cade/)
-- [Erik Enbody](/People/Current/erik/)  
-- [Gabriel Penunuri](/People/Current/gabe/)
-- [Jakob McBroome](/People/Current/jakob/)
-- [Jesper Svedberg](/People/Current/jesper/)
-- [Mara Baylis](/People/Current/mara/)
-- [Maximilian Genetti](/People/Current/max/)
-- [Nicolas Ayala](/People/Current/nico/)
-- [Rachel Mendelson](/People/Current/rachel/)
-- [Russ Corbett-Detig](/People/Current/russ/)
+
