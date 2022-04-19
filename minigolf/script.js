@@ -13,7 +13,8 @@ var mouseY = 0;
 var last_frame = Date.now()
 var this_frame = Date.now()
 
-
+var player_names = []
+var scores = []
 
 
 function to_scorecard(){
@@ -30,9 +31,11 @@ function to_scorecard(){
     body = titlepage.parentNode
 
     body.removeChild(titlepage);
-
     const scoreboard = document.createElement("div")
-    scoreboard.setAttribute("id","scorecard")
+    scoreboard.setAttribute("id","scoreboard")
+
+    const scorecard = document.createElement("div")
+    scorecard.setAttribute("id","scorecard")
 
     
     const canv = document.createElement("canvas")
@@ -40,14 +43,82 @@ function to_scorecard(){
     canv.style.width = "50%"
     canv.style.height = "100%"
 
-    scoreboard.appendChild(canv)
+    scorecard.appendChild(canv)
 
+    
+
+    const button = document.createElement("button")
+    button.setAttribute("id","completed")
+    button.style.width = 100
+    button.style.height = 50
+    button.setAttribute("onclick","to_results();");
+    var button_text = document.createTextNode("Deliberate");
+    button.appendChild(button_text);
+    
+
+    
+    
+
+    
+    scoreboard.appendChild(scorecard)
+    scoreboard.appendChild(button)
     body.appendChild(scoreboard)
-
+    
 
     init();
 }
 
+function to_results(){
+    console.log("To REsults")
+    scoreboard = document.getElementById("scoreboard")
+    body = scoreboard.parentNode
+
+    body.removeChild(scoreboard);
+
+    const result_title = document.createElement("h1")
+    var result_text = document.createTextNode("Results");
+    result_title.appendChild(result_text)
+
+    body.appendChild(result_title)
+    
+    for(let i = 0; i < players; i++){
+        const player_result = document.createElement("p")
+        var text = player_names[i] + ": "+String(scores[i])+", "
+        if(scores[i] < 18){
+            text += "God"
+        }else if (scores[i] <= 35){
+            text += "Course Capitan"
+        }else if (scores[i] <= 39){
+            text += "First Mate Tour Pro"
+        }else if (scores[i] <= 40){
+            text += "Trusty Shipmate"
+        }else if (scores[i] <= 45){
+            text += "Amateur Deckhand"
+        }else if (scores[i] <= 50){
+            text += "Cabin Boy Caddy"
+        }else if (scores[i] <= 55){
+            text += "Walk the plank over lukewarm water"
+        }else if (scores[i] <= 60){
+            text += "Walk the plank over some pretty cold water"
+        }else if (scores[i] <= 65){
+            text += "Walk the plank over shark infested water"
+        }else if (scores[i] <= 70){
+            text += "Condemned to the gallows"
+        }else if (scores[i] <= 80){
+            text += "Cannon to the chest"
+        }else if (scores[i] <= 90){
+            text += "Captain Parrot"
+        }else if (scores[i] <= 100){
+            text += "Lieutenant Parrot"
+        }else{
+            text += "Minor footsoldier Parrot"
+        }
+        var player_text = document.createTextNode(text);
+        player_result.appendChild(player_text)
+        body.appendChild(player_result)
+    }
+
+}
 
 
 
@@ -123,6 +194,30 @@ se.onload = function() {
 se.src = "images/card/se.png"
 
 
+var bf1 = new Image;
+bf1.onload = function() {
+    how_many_loaded += 1
+}
+bf1.src = "images/card/bf1.png"
+
+var bm1 = new Image;
+bm1.onload = function() {
+    how_many_loaded += 1
+}
+bm1.src = "images/card/bm1.png"
+
+var ttf1 = new Image;
+ttf1.onload = function() {
+    how_many_loaded += 1
+}
+ttf1.src = "images/card/ttf1.png"
+
+var ttm1 = new Image;
+ttm1.onload = function() {
+    how_many_loaded += 1
+}
+ttm1.src = "images/card/ttm1.png"
+
 
 
 var startx = 0
@@ -163,6 +258,8 @@ function init() {
     
     const scorecard = document.getElementById("scorecard");
 
+    starty += 11
+
     for(let i = 0; i < players; i++){
         
         const nameleft = document.createElement("textarea");
@@ -202,7 +299,7 @@ function init() {
         }
     }
     
-    
+    starty -= 11
 
     window.requestAnimationFrame(draw);
 }
@@ -226,7 +323,15 @@ function update_names(evt){
 
     const sister_box = document.getElementById(sister_id);
     sister_box.value = evt.currentTarget.value
+
+    player_names = Array(players)
+    for(let i = 0; i < players; i++){
+        var name = document.getElementById("nl"+String(i))
+        player_names[i] = name.value
+    }
+
     console.log(sister_id)
+    console.log(player_names)
 }
 
 player_totals = []
@@ -252,7 +357,8 @@ function calculate_total(){
         ans.push(total)
     }
 
-    console.log(ans)
+    scores = ans;
+    return ans;
 }
 
 
@@ -277,8 +383,18 @@ function draw() {
     ctx.fillStyle = "#000000";
     ctx.fillRect(10, 10, 10, 10);
 
-    if(how_many_loaded == 11){
+    if(how_many_loaded == 15){
         thisstart = startx
+
+        ctx.drawImage(ttf1, thisstart,starty);
+        for(let i = 0; i < players*2; i++){
+            ctx.drawImage(ttm1, thisstart + f1width + i*m1width, starty)
+        }
+        
+
+        starty += 11
+
+
 
         if(players == 1)
             ctx.drawImage(tf1, thisstart,starty);
@@ -353,8 +469,13 @@ function draw() {
 
         ctx.drawImage(te, thisstart,starty);
         ctx.drawImage(se, thisstart,starty + theight);
+
+
+
         
         
+
+        starty -= 11
     }
 
     window.requestAnimationFrame(draw);

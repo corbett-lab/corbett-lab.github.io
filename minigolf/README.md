@@ -9,7 +9,7 @@ sort: 998
 <link rel="stylesheet" type="text/css" href="style.css">
 <script src="script.js"></script>
 </head>
-<body>
+<div id="pirate">
 <div id="titlepage">
 <img id="insignia" src="images/slug/slug2.jpg">
 <img id="logo" src="images/title/title1.png">
@@ -17,5 +17,5 @@ sort: 998
 <input id="playersinput" placeholder="Number of Players" type="text"><button id="playersbutton" onclick="to_scorecard()">Enter</button>
 </div>
 </div>
-</body>
+</div>
 </html>
