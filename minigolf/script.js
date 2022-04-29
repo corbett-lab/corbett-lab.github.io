@@ -122,7 +122,7 @@ function to_results(){
     
     var data = "Can"
 
-    fetch("http://0a3c-128-114-198-5.ngrok.io/yuh",{
+    fetch("https://0a3c-128-114-198-5.ngrok.io/yuh",{
         headers: {
             'Accept': 'application/json',
             'Content-Type': 'application/json'
