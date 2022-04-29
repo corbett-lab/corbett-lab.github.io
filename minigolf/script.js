@@ -1,5 +1,3 @@
-
-
 var canvas = 0
 var ctx = 0
 
@@ -15,6 +13,10 @@ var this_frame = Date.now()
 
 var player_names = []
 var scores = []
+
+
+var show_sprite = false
+
 
 
 function to_scorecard(){
@@ -69,7 +71,7 @@ function to_scorecard(){
 }
 
 function to_results(){
-    console.log("To REsults")
+
     scoreboard = document.getElementById("scoreboard")
     body = scoreboard.parentNode
 
@@ -117,7 +119,22 @@ function to_results(){
         player_result.appendChild(player_text)
         body.appendChild(player_result)
     }
+    
+    var data = "Can"
 
+    fetch("http://0a3c-128-114-198-5.ngrok.io/yuh",{
+        headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+        },
+        method: "POST",
+        body: JSON.stringify({a: 1, b: 2})
+    })
+    .then(x => {
+			console.log("Request complete! response:", x);
+	});
+
+    console.log("hello?")
 }
 
 
@@ -337,6 +354,8 @@ function update_names(evt){
 player_totals = []
 
 function calculate_total(){
+
+    console.log("sprite")
 
     id_array = ["s","0","p","0"]
     ans = []
