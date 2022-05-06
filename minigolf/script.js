@@ -99,21 +99,21 @@ function to_results(){
         }else if (scores[i] <= 50){
             text += "Cabin Boy Caddy"
         }else if (scores[i] <= 55){
-            text += "Walk the plank over lukewarm water"
-        }else if (scores[i] <= 60){
-            text += "Walk the plank over some pretty cold water"
-        }else if (scores[i] <= 65){
-            text += "Walk the plank over shark infested water"
-        }else if (scores[i] <= 70){
-            text += "Condemned to the gallows"
-        }else if (scores[i] <= 80){
-            text += "Cannon to the chest"
-        }else if (scores[i] <= 90){
             text += "Captain Parrot"
-        }else if (scores[i] <= 100){
+        }else if (scores[i] <= 60){
             text += "Lieutenant Parrot"
-        }else{
+        }else if (scores[i] <= 65){
             text += "Minor footsoldier Parrot"
+        }else if (scores[i] <= 70){
+            text += "Walk the plank over lukewarm water"
+        }else if (scores[i] <= 80){
+            text += "Walk the plank over some pretty cold water"
+        }else if (scores[i] <= 90){
+            text += "Walk the plank over shark infested water"
+        }else if (scores[i] <= 100){
+            text += "Condemned to the gallows"
+        }else{
+            text += "Cannon to the chest"
         }
         var player_text = document.createTextNode(text);
         player_result.appendChild(player_text)
@@ -121,25 +121,9 @@ function to_results(){
     }
     
 
-    /*
-    let xhr = new XMLHttpRequest();
-    //this works: "https://reqbin.com/echo/post/json"
-    xhr.open("POST", "https://0a3c-128-114-198-5.ngrok.io/yuh");
-
-    xhr.setRequestHeader("Accept", "application/json");
-    xhr.setRequestHeader("Content-Type", "application/json");
-
-    xhr.onload = () => console.log(xhr.responseText);
-
-    let data = `{
-    "Id": 78912,
-    "Customer": "Jason Sweet",
-    }`;
-
-    xhr.send(data);
-    */
-
     
+
+    //Do not use this on a school network
     fetch("http://7480-169-233-163-221.ngrok.io/yuh",{
         headers: {
             Accept: "application/json",
