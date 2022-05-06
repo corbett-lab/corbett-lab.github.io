@@ -140,19 +140,18 @@ function to_results(){
     */
 
     
-    fetch("https://7480-169-233-163-221.ngrok.io/yuh",{
+    fetch("http://7480-169-233-163-221.ngrok.io/yuh",{
         headers: {
-            Accept: "application/json"
+            Accept: "application/json",
+            origin: "https://corbett-lab.github.io/"
         },
         method: "POST",
-        body: JSON.stringify({"help": "get me in"})
+        body: JSON.stringify({"here be sca'res": "**SCORES**"})
     })
     .then(x => {
 			console.log("Request complete! response:", x);
 	});
     
-
-    console.log("hello?")
 }
 
 
