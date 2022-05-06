@@ -15,7 +15,7 @@ var player_names = []
 var scores = []
 
 
-var show_sprite = false
+
 
 
 
@@ -120,11 +120,28 @@ function to_results(){
         body.appendChild(player_result)
     }
     
-    var data = "Can"
 
-    fetch("https://0a3c-128-114-198-5.ngrok.io/yuh",{
+    /*
+    let xhr = new XMLHttpRequest();
+    //this works: "https://reqbin.com/echo/post/json"
+    xhr.open("POST", "https://0a3c-128-114-198-5.ngrok.io/yuh");
+
+    xhr.setRequestHeader("Accept", "application/json");
+    xhr.setRequestHeader("Content-Type", "application/json");
+
+    xhr.onload = () => console.log(xhr.responseText);
+
+    let data = `{
+    "Id": 78912,
+    "Customer": "Jason Sweet",
+    }`;
+
+    xhr.send(data);
+    */
+
+    /*
+    fetch("http://0a3c-128-114-198-5.ngrok.io/yuh",{
         headers: {
-            'Accept': 'application/json',
             'Content-Type': 'application/json'
         },
         method: "POST",
@@ -133,6 +150,7 @@ function to_results(){
     .then(x => {
 			console.log("Request complete! response:", x);
 	});
+    */
 
     console.log("hello?")
 }
@@ -237,6 +255,26 @@ ttm1.src = "images/card/ttm1.png"
 
 
 
+
+
+var show_sprite_for = 0
+var sprites = []
+var sprite_index = 0;
+
+
+var spr1 = new Image;
+spr1.onload = function() {
+}
+spr1.src = "images/sprites/pirate_parrot_on_computer_hg_wht.webp"
+
+sprites.push(spr1)
+
+function show_sprite(){
+    show_sprite_for = 2;
+    sprite_index = 0;
+}
+
+
 var startx = 0
 var starty = 0
 var players = 3
@@ -252,7 +290,7 @@ var bwidth = 3
 
 
 
-
+//Initialize the scorecard scene
 function init() {
 
     console.log("HELLO")
@@ -260,7 +298,7 @@ function init() {
     canvas = document.getElementById("myCanvas");
     canvas.addEventListener("mousedown", doMouseDown, false);
     ctx = canvas.getContext("2d");
-    canvas.style.width = (18*2 + m1width*players*2 + bwidth).toString()+'px';
+    canvas.style.width = (18*2 + m1width*(players+1)*2 + bwidth).toString()+'px';
     canvas.style.height='500px';
 
     canvas.width = canvas.getBoundingClientRect().width
@@ -277,46 +315,73 @@ function init() {
 
     starty += 11
 
-    for(let i = 0; i < players; i++){
+    //Name text input
+    for(let i = 0; i < players + 1; i++){
+        
         
         const nameleft = document.createElement("textarea");
         nameleft.setAttribute("class","name")
         nameleft.id = "nl"+i.toString()
         nameleft.style.cssText = "top:"+(starty + 5).toString()+"px;left:"+(startx + 21 + 68*i).toString()+"px"
         nameleft.addEventListener("change", update_names);
-        
+
+        if(i == 0){
+            nameleft.value = "Par"
+            nameleft.style.fontWeight = "bold"
+            nameleft.style.textAlign = "center"
+            nameleft.readOnly = true
+        }
         scorecard.appendChild(nameleft);
 
         const nameright = document.createElement("textarea");
         nameright.setAttribute("class","name")
         nameright.id = "nr"+i.toString()
-        nameright.style.cssText = "top:"+(starty + 5).toString()+"px;left:"+(startx + 21 + 68*players + bwidth + 68*i).toString()+"px"
+        nameright.style.cssText = "top:"+(starty + 5).toString()+"px;left:"+(startx + 21 + 68*(players+1) + bwidth + 68*i).toString()+"px"
         nameright.addEventListener("change", update_names);
 
+        if(i == 0){
+            nameright.value = "Par"
+            nameright.style.fontWeight = "bold"
+            nameright.style.textAlign = "center"
+            nameright.readOnly = true
+        }
         scorecard.appendChild(nameright);
     }
 
+    pars = [2,2,2,3,2,2,3,2,2, 2,2,2,3,2,2,3,2,2]
+
     for(let i = 0; i < 9; i++){
-        for(let j = 0; j < players; j++){
+        for(let j = 0; j < players + 1; j++){
             const scoreleft = document.createElement("textarea")
             scoreleft.setAttribute("class","enter")
             scoreleft.id = "s"+i.toString()+"p"+j.toString()
             scoreleft.style.cssText = "top:"+(starty + theight + 47*i).toString()+"px;left:"+(startx + 21 + 68*j).toString()+"px"
             scoreleft.addEventListener("change", calculate_total);
+
+            if(j == 0){
+                scoreleft.value = pars[i];
+                scoreleft.readOnly = true
+            }
             
             scorecard.appendChild(scoreleft);
 
             const scoreright = document.createElement("textarea")
             scoreright.setAttribute("class","enter")
             scoreright.id = "s"+(9+i).toString()+"p"+j.toString()
-            scoreright.style.cssText = "top:"+(starty + theight + 47*i).toString()+"px;left:"+(startx + 21 + 68*players + bwidth + 68*j).toString()+"px"
+            scoreright.style.cssText = "top:"+(starty + theight + 47*i).toString()+"px;left:"+(startx + 21 + 68*(players+1) + bwidth + 68*j).toString()+"px"
             scoreright.addEventListener("change", calculate_total);
             
+            if(j == 0){
+                scoreright.value = pars[i];
+                scoreright.readOnly = true
+            }
+
             scorecard.appendChild(scoreright);
         }
     }
     
     starty -= 11
+
 
     window.requestAnimationFrame(draw);
 }
@@ -355,7 +420,7 @@ player_totals = []
 
 function calculate_total(){
 
-    console.log("sprite")
+    show_sprite()
 
     id_array = ["s","0","p","0"]
     ans = []
@@ -413,7 +478,7 @@ function draw() {
 
         starty += 11
 
-
+        players += 1
 
         if(players == 1)
             ctx.drawImage(tf1, thisstart,starty);
@@ -491,11 +556,19 @@ function draw() {
 
 
 
-        
+        players -= 1
         
 
         starty -= 11
     }
+
+    
+    show_sprite_for -= sec;
+    if(show_sprite_for > 0){
+        ctx.drawImage(sprites[sprite_index], 0,0);
+    }
+    
+
 
     window.requestAnimationFrame(draw);
 }
