@@ -140,7 +140,7 @@ function to_results(){
     */
 
     
-    fetch("http://e11c-128-114-198-5.ngrok.io/yuh",{
+    fetch("https://7480-169-233-163-221.ngrok.io/yuh",{
         headers: {
             Accept: "application/json"
         },
