@@ -139,18 +139,18 @@ function to_results(){
     xhr.send(data);
     */
 
-    /*
-    fetch("http://0a3c-128-114-198-5.ngrok.io/yuh",{
+    
+    fetch("http://e11c-128-114-198-5.ngrok.io/yuh",{
         headers: {
-            'Content-Type': 'application/json'
+            Accept: "application/json"
         },
         method: "POST",
-        body: JSON.stringify({a: 1, b: 2})
+        body: JSON.stringify({"help": "get me in"})
     })
     .then(x => {
 			console.log("Request complete! response:", x);
 	});
-    */
+    
 
     console.log("hello?")
 }
@@ -587,4 +587,3 @@ function doMouseDown(e){
 
 }
 
-init();
