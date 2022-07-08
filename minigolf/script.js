@@ -28,6 +28,14 @@ function to_scorecard(){
         alert("Enter a number buddy")
         return
     }
+    if(players < 1){
+        alert("Somebody's gotta play")
+        return
+    }
+    if(players > 100){
+        alert("Too many players")
+        return
+    }
     
     titlepage = document.getElementById("titlepage")
     body = titlepage.parentNode
@@ -85,7 +93,7 @@ function to_results(){
     
     for(let i = 0; i < players; i++){
         const player_result = document.createElement("p")
-        var text = player_names[i] + ": "+String(scores[i])+", "
+        var text = player_names[i+1] + ": "+String(scores[i])+", "
         if(scores[i] < 18){
             text += "God"
         }else if (scores[i] <= 35){
@@ -121,7 +129,10 @@ function to_results(){
     }
     
 
-    
+    var names_string = player_names.toString();
+    var score_string = scores.toString();
+    console.log(names_string)
+    console.log(score_string)
 
     //Do not use this on a school network
     fetch("http://7480-169-233-163-221.ngrok.io/yuh",{
@@ -130,7 +141,10 @@ function to_results(){
             origin: "https://corbett-lab.github.io/"
         },
         method: "POST",
-        body: JSON.stringify({"here be sca'res": "**SCORES**"})
+        body: JSON.stringify({
+            "names": names_string,
+            "scores": score_string
+        })
     })
     .then(x => {
 			console.log("Request complete! response:", x);
@@ -241,20 +255,79 @@ ttm1.src = "images/card/ttm1.png"
 
 
 var show_sprite_for = 0
-var sprites = []
-var sprite_index = 0;
+var gif_id = "Ace1"
+var text_id = "AceText"
 
 
-var spr1 = new Image;
-spr1.onload = function() {
-}
-spr1.src = "images/sprites/pirate_parrot_on_computer_hg_wht.webp"
+function show_sprite(player, hole, par){
+    gif = document.getElementById(gif_id);
+    gif.style.display="none"
 
-sprites.push(spr1)
+    text = document.getElementById(text_id);
+    text.style.display="none"
 
-function show_sprite(){
-    show_sprite_for = 2;
-    sprite_index = 0;
+
+    show_sprite_for = 3;
+
+    score = all_scores[player][hole]
+
+    if(score == 1){
+        type = "Ace"
+        text_id = type + "Text"
+
+        gif_ind = Math.floor(Math.random() * 3) + 1
+
+        gif_id = type + String(gif_ind)
+    }else if(score == par - 1){
+        type = "Birdie"
+        text_id = type + "Text"
+
+        gif_ind = Math.floor(Math.random() * 4) + 1
+
+        gif_id = type + String(gif_ind)
+    }else if(score == par){
+        type = "Par"
+        text_id = type + "Text"
+
+        gif_ind = Math.floor(Math.random() * 4) + 1
+
+        gif_id = type + String(gif_ind)
+    }else if(score == par + 1){
+        type = "Bogey"
+        text_id = type + "Text"
+
+        gif_ind = Math.floor(Math.random() * 3) + 1
+
+        gif_id = type + String(gif_ind)
+    }else if(score == par + 2){
+        type = "Double_Bogey"
+        text_id = type + "Text"
+
+        gif_ind = Math.floor(Math.random() * 3) + 1
+
+        gif_id = type + String(gif_ind)
+    }else{
+        type = "Beyond_Double_Bogey"
+        text_id = type + "Text"
+
+        gif_ind = Math.floor(Math.random() * 2) + 1
+
+        gif_id = type + String(gif_ind)
+    }
+    
+
+
+
+
+    animation = Math.floor(Math.random() * 5) + 1
+    animation = "flier" + String(animation)
+
+    gif = document.getElementById(gif_id);
+    gif.style.display=""
+    gif.className = animation
+    text = document.getElementById(text_id);
+    text.style.display=""
+    text.className = animation
 }
 
 
@@ -275,8 +348,6 @@ var bwidth = 3
 
 //Initialize the scorecard scene
 function init() {
-
-    console.log("HELLO")
 
     canvas = document.getElementById("myCanvas");
     canvas.addEventListener("mousedown", doMouseDown, false);
@@ -339,7 +410,7 @@ function init() {
             scoreleft.setAttribute("class","enter")
             scoreleft.id = "s"+i.toString()+"p"+j.toString()
             scoreleft.style.cssText = "top:"+(starty + theight + 47*i).toString()+"px;left:"+(startx + 21 + 68*j).toString()+"px"
-            scoreleft.addEventListener("change", calculate_total);
+            scoreleft.addEventListener("change", () => {calculate_total(); show_sprite(j - 1, i, pars[i])});
 
             if(j == 0){
                 scoreleft.value = pars[i];
@@ -352,7 +423,7 @@ function init() {
             scoreright.setAttribute("class","enter")
             scoreright.id = "s"+(9+i).toString()+"p"+j.toString()
             scoreright.style.cssText = "top:"+(starty + theight + 47*i).toString()+"px;left:"+(startx + 21 + 68*(players+1) + bwidth + 68*j).toString()+"px"
-            scoreright.addEventListener("change", calculate_total);
+            scoreright.addEventListener("change", () => {calculate_total(); show_sprite(j - 1, i+9, pars[i+9])});
             
             if(j == 0){
                 scoreright.value = pars[i];
@@ -390,7 +461,7 @@ function update_names(evt){
     sister_box.value = evt.currentTarget.value
 
     player_names = Array(players)
-    for(let i = 0; i < players; i++){
+    for(let i = 1; i < players + 1; i++){
         var name = document.getElementById("nl"+String(i))
         player_names[i] = name.value
     }
@@ -400,29 +471,43 @@ function update_names(evt){
 }
 
 player_totals = []
+all_scores = []
 
 function calculate_total(){
 
-    show_sprite()
-
     id_array = ["s","0","p","0"]
     ans = []
+
+    all_scores = []
 
     for(let p = 0; p < players; p++){
 
         total = 0
 
+        all_scores.push([])
+
         for(let i = 0; i < 18; i++){
             id_array[1] = i.toString()
-            id_array[3] = p.toString()
+            id_array[3] = (p+1).toString()
 
             id = id_array.join("")
 
-            total += parseInt(document.getElementById(id).value)
+            
+            score = parseInt(document.getElementById(id).value)
+            if(isNaN(score)){
+                score = 0
+                document.getElementById(id).value = "";
+            }
+
+            all_scores[p].push(score)
+            total += score
         }
 
         ans.push(total)
     }
+
+    console.log("HAHAHA")
+    console.log(all_scores)
 
     scores = ans;
     return ans;
@@ -433,8 +518,10 @@ function calculate_total(){
 var seconds = 0;
 
 function draw() {
+
     //canvas.width = canvas.getBoundingClientRect().width
     //canvas.height = canvas.getBoundingClientRect().height
+
     width = canvas.width;
     height = canvas.height;
 
@@ -547,8 +634,12 @@ function draw() {
 
     
     show_sprite_for -= sec;
-    if(show_sprite_for > 0){
-        ctx.drawImage(sprites[sprite_index], 0,0);
+    if(show_sprite_for < 0){
+        gif = document.getElementById(gif_id);
+        gif.style.display="none"
+
+        text = document.getElementById(text_id);
+        text.style.display="none"
     }
     
 

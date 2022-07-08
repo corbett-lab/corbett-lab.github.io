@@ -61,3 +61,118 @@
     width: 65px;
     text-align: center;
 }
+
+
+
+
+
+	
+
+
+	.flier1 > * {
+		animation: fly1 3s linear infinite;
+		position: fixed;
+		animation-delay: 0s;
+		z-index: 999999;
+	}
+	
+	@keyframes fly1 {
+		0% {
+			transform: translateX(-50%) translateY(50vh) rotateZ(0deg)
+		}
+        100% {
+            transform: translateX(100vw) translateY(50vh) rotateZ(360deg)
+        }
+	}
+
+
+
+
+
+
+	.flier2 > * {
+		animation: fly2 3s linear infinite;
+		position: fixed;
+		animation-delay: 0s;
+		z-index: 999999;
+	}
+	
+	@keyframes fly2 {
+		0% {
+			transform: translateX(100vw) translateY(70vh) rotateZ(180deg)
+		}
+        100% {
+            transform: translateX(-50%) translateY(0vh) rotateZ(0deg)
+        }
+	}
+
+
+
+
+
+
+	.flier3 > * {
+		animation: fly3 3s linear infinite;
+		position: fixed;
+		animation-delay: 0s;
+		z-index: 999999;
+	}
+	
+	@keyframes fly3 {
+		0% {
+			transform: translateX(20vw) translateY(-100%) rotateZ(-180deg)
+		}
+        100% {
+            transform: translateX(80vw) translateY(100vh) rotateZ(180deg)
+        }
+	}
+
+
+
+
+
+
+	.flier4 > * {
+		animation: fly4 3s linear infinite;
+		position: fixed;
+		animation-delay: 0s;
+		z-index: 999999;
+	}
+	
+	@keyframes fly4 {
+		0% {
+			transform: translateX(10vw) translateY(100vh) rotateZ(0deg)
+		}
+        100% {
+            transform: translateX(30vw) translateY(-100%) rotateZ(360deg)
+        }
+	}
+
+
+
+
+
+
+	.flier5 > * {
+		animation: fly5 3s linear infinite;
+		position: fixed;
+		animation-delay: 0s;
+		z-index: 999999;
+	}
+	
+	@keyframes fly5 {
+		0% {
+			transform: translateX(50vw) translateY(-100%) rotateZ(0deg)
+		}
+		33% {
+			transform: translateX(50vw) translateY(50vh) rotateZ(360deg)
+		}
+		66% {
+			transform: translateX(50vw) translateY(50vh) rotateZ(720deg)
+		}
+        100% {
+            transform: translateX(50vw) translateY(-100%) rotateZ(1080deg)
+        }
+	}
+
+	
