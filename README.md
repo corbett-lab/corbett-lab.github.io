@@ -30,6 +30,7 @@ email: rucorbet@ucsc.edu
 | [`Nicolas Ayala`](/People/Current/nico/)         | Undergrad              |[Nico's Publications](https://scholar.google.com/citations?user=Q2nj73IAAAAJ&hl=en)| [Nova](https://user-images.githubusercontent.com/88911118/132076284-2b07b952-0f40-470a-ab0f-78611f94ab9f.jpg) |
 | [`Adriano de Bernardi Schneider`](/People/Current/adriano/)           | Postdoctoral Researcher|[Adriano's Publications](https://scholar.google.com/citations?user=bZOyZ9cAAAAJ&hl=en) |
 | [`Gabriel Penunuri`](/People/Current/gabe/)       | Grad student |    |
+| [`Lily Karim`](/People/Current/lily/)           | Grad student              |                   | |
   
 ## Social Media
   
