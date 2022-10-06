@@ -2,7 +2,7 @@
 
 ![science](https://img.shields.io/badge/FileType-cade-brightgreen)
 
-Assistant Specialist, cade@ucsc.edu  
+PhD Student, cade@ucsc.edu  
 Research Interests: genomes, I guess.  
 
 
