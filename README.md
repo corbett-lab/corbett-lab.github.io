@@ -2,7 +2,7 @@
 
 ![science](https://img.shields.io/badge/Corbett-Lab-brightgreen)
 
-This is the official website of the Corbett-Detig lab at UCSC.
+This is the official website of the Corbett-Detig lab at UCSC. 
 
 ## What it does?
 
