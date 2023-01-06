@@ -29,7 +29,8 @@ email: rucorbet@ucsc.edu
 | [`Adriano de Bernardi Schneider`](/People/Current/adriano/)           | Postdoctoral Researcher|[Adriano's Publications](https://scholar.google.com/citations?user=bZOyZ9cAAAAJ&hl=en) |
 | [`Gabriel Penunuri`](/People/Current/gabe/)       | Grad student |    |
 | [`Lily Karim`](/People/Current/lily/)           | Grad student              |                   | |
-| [`Nick Chan`](/People/Current/nick/)  | Undergrad | | |
+| [`Nick Chan`](/People/Current/nick/)           | Undergrad              |                   | |
+
 ## Social Media
   
 [![Twitter](https://user-images.githubusercontent.com/10063921/136299975-547fe4c5-94b0-49cc-b66d-cbe1f5c12913.png "Russ' Twitter")](https://twitter.com/RussCorbett)  [![Instagram](https://user-images.githubusercontent.com/88911118/134778849-c25417c8-ee14-40d5-a3d0-a03e9d759c08.png "Lab Instagram")](https://www.instagram.com/corbettdetiglab/)
