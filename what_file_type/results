@@ -63,7 +63,7 @@
     0.9
     0.1
     0.5
-%gff is a massive, complex, messy table file. Try harder next time
+%gff is a massive and complex table file.
 #.fasta
     0.1
     0.9
@@ -127,7 +127,7 @@
     1
     0.25
     0.5
-%vcf is a messy but common and useful text format. It could be worse
+%vcf is a common and useful text format for genotypes. Also it's an email contact format. Neat!
 #.paf
     0.9
     0.75
@@ -143,7 +143,7 @@
     0.95
     0.6
     0.6
-%mpileup is a nicely visual if inefficient text format. A solid outcome
+%mpileup is a nicely visual text format. A solid outcome
 #.newick
     0.2
     0.6
@@ -151,7 +151,7 @@
     1
     0.4
     0.95
-%newick is an old and frustrating tree format, like a gnarled and stunted oak. You can do better!
+%((newick is an old and frustrating tree format), like a gnarled and stunted oak.);
 #.mat
     0.9
     0.5
@@ -159,7 +159,7 @@
     0.9
     0.9
     0.1
-%mat is an awesome new tree format, like a powerful young redwood. A great outcome!
+%mat is an awesome new tree format, like a powerful young redwood. Soon to dominate the forest. A great outcome!
 #.tar.gz
     0.9
     0
@@ -175,7 +175,7 @@
     0.9
     0.1
     0.8
-%rar is a file that no one pays for. Do better!
+%rar is a file that no one pays for.
 #.pl
     0.5
     0.3
@@ -183,7 +183,7 @@
     0
     0.3
     1
-%pl is like py but for old people
+%pl is like py but for old people. It's the foundation of all bioinformatics.
 #.r
     0.5
     0.6
@@ -191,7 +191,7 @@
     0
     0.4
     1
-%R is py for people who have no coding skills
+%R is good for plotting and nothing else.
 #.jar
     0.4
     0.4
@@ -215,7 +215,7 @@
     1
     0.4
     0.7
-%xml is an uncool file
+%<xml> is an uncool file, but you're okay.</xml>
 #.docx
     0.1
     0.9
@@ -223,4 +223,4 @@
     0.9
     0.1
     0.5
-%docx is what you use when you refuse to use Google Docs to work on your paper. You can do better
+%docx is what you use when your 70-year-old collaborator refuses to use Google Docs.
