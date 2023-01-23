@@ -16,6 +16,9 @@ email: rucorbet@ucsc.edu
 
 ## Features
 
+![IMG_5339](https://user-images.githubusercontent.com/10063921/214126873-cdd37a9c-41a5-4381-863f-16851b23b72b.jpg)
+
+
 | name                    | default value          | google scholar    |  dog   |
 | ----------------------- | ---------------------- | ----------------- |---------------|
 | [`Russell Corbett-Detig`](/People/Current/russ/) | Principal Investigator |[Russ' Publications](https://scholar.google.com/citations?user=9sF4nOkAAAAJ&hl=en)| [Maeby](https://user-images.githubusercontent.com/10063921/132934537-0feab719-b8ec-4ec9-b300-68086de61ffa.png) |
