@@ -1,16 +1,24 @@
 ---
 sort: 7
-published: false
+published: true
 ---
+
 
 
 
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="style.css">
+<title>Phylogenetic Tree Example</title>
 </head>
 <body>
-<script src="traverse.js"></script>
+<h1>Phylogenetic Tree Example</h1>
 
+<div>
+      <input type="text" id="guessInput" style="width: 300px;">
+      <button onclick="guessString()">Guess</button>
+    </div>
+	<ul id="guessList"></ul>
+
+<script src="TEST.js"></script>
 </body>
-</html> 
+</html>
