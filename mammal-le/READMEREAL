@@ -1,9 +1,10 @@
-TEST.html and TEST.js is where im testing javascript newick packages
 
+change published in README.md from false to true when testing
+change it back to false when done
 
 answer_list_1 is a list of common and scientific names of mammals that are in the time tree
 	(thanks chatGPT3)
 
 
-traverse_tree.py has some python code to play a very basic version
+TEST.js has some python code to play a very basic version
 
