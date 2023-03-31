@@ -1,3 +1,7 @@
+
+
+
+
 function loadFile(filePath) {
 	var result = null;
 	var xmlhttp = new XMLHttpRequest();
@@ -8,6 +12,8 @@ function loadFile(filePath) {
 	}
 	return result;
 }
+
+
 
 var taxa_names_full = loadFile("tree_data/4705_mammal.taxa");
 var taxa_names = taxa_names_full.split(' ')
@@ -99,6 +105,7 @@ answer = get_index_from_latin_name(t.pop())
 
 
 var guesses = []
+var guess_taxa = []
 var guess_dists = []
 
 
@@ -149,11 +156,14 @@ function guessString() {
   
   
   
+  
   var dist = get_dist(answer, guess_index)
   dist = Math.round(dist * 100) / 100
   
 
   guess_dists.push(dist)
+  guess_taxa.push(taxa_names[guess_index])
+  console.log(guess_taxa)
   guesses.push(guess_name)
 
   update_list()
