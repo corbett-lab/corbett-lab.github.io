@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery Autocomplete Example</title>
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+	<script src="https://unpkg.com/@phylocanvas/phylocanvas.gl@latest/dist/bundle.min.js"></script>
+	<style>
+		#selectedItems {
+			margin-top: 20px;
+		}
+		.ui-autocomplete {
+			max-height: 100px;
+			overflow-y: auto;
+			overflow-x: hidden;
+		}
+	</style>
+</head>
+<body>
+	<label for="taxonInput">Taxon: </label>
+	<input type="text" id="taxonInput">
+	<button id="addItemButton">Guess</button>
+
+	<div id="selectedTaxon">
+		<h2>Guessed Taxa:</h2>
+		<ul id="selectedItemsList"></ul>
+	</div>
+
+	<script src="phy-le.js"></script>
+
+</body>
+
+<div id="tree_display" style="border: 1px solid lightgray"></div>
+
+<div id="GotIt">
+	<h1> </h1>
+	<ul id="printTarget"></ul>
+</div>
+
+</html>
