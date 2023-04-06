@@ -13,15 +13,15 @@ function loadFile(filePath) {
 	return result;
 }
 
-
+/*
 
 var taxa_names_full = loadFile("tree_data/4705_mammal.taxa");
-var taxa_names = taxa_names_full.split(' ')
+var taxa_names = taxa_names_full.split(' ')                             ////
 taxa_names_full = undefined
 delete(taxa_names_full)
 
 var answer_list_file = loadFile("answer_list_1")
-var answer_list = answer_list_file.split('\n')
+var answer_list = answer_list_file.split('\n')                         ////
 answer_list_file = undefined
 delete(answer_list_file)
 
@@ -31,7 +31,7 @@ var m_0_lines = mat_0.split('\n')
 m_0_lines.pop()
 var m_1_lines = mat_1.split('\n')
 m_1_lines.pop()
-var matrix = m_0_lines.concat(m_1_lines)
+var matrix = m_0_lines.concat(m_1_lines)                                
 
 mat_0 = undefined
 mat_1 = undefined
@@ -42,7 +42,7 @@ delete(mat_1)
 delete(m_0_lines)
 delete(m_1_lines)
 
-var dist_matrix = Array(4705*(4706)/2) 
+var dist_matrix = Array(4705*(4706)/2)                                       /////
 // The distance matrix is symmetric, so we only store the bottom half,
 // in a one dimensional array. D[i][j] = dist_matrix[i*(i + 1)/2 + j]
 
@@ -52,6 +52,13 @@ for(let i = 0; i < 4705; i++){
     dist_matrix[i*(i+1)/2 + j] = parseFloat(line[j])
   }
 }
+
+*/
+
+
+
+
+
 
 
 function get_index_from_latin_name(name) {
@@ -83,13 +90,11 @@ function get_dist(index_1, index_2){
 }
 
 
-var answer = get_index_from_latin_name("loxodonta_africana")
-
-
+// Select random one
 var common_name_answer_index = Math.floor(Math.random() * answer_list.length)
 let t = answer_list[common_name_answer_index].split(' ')
 
-answer = get_index_from_latin_name(t.pop())
+var answer = get_index_from_latin_name(t.pop())
 
 
 

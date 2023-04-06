@@ -1,6 +1,6 @@
 ---
 sort: 7
-published: true
+published: false
 ---
 
 
@@ -9,7 +9,8 @@ published: true
 <html>
 <head>
 <title>Phylogenetic Tree Example</title>
-<script src="TEST.js"></script>
+<script src="var_include.js"></script>
+<script src="temp.js"></script>
 </head>
 <body>
 <h1>Mammal-le</h1>
