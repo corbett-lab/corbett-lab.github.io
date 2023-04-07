@@ -11,13 +11,13 @@
 			margin-top: 20px;
 		}
 		.ui-autocomplete {
-			max-height: 100px;
+			max-height: 150px;
 			overflow-y: auto;
 			overflow-x: hidden;
 		}
 	</style>
 </head>
-<body style="background-color:aquamarine;">
+<body style="background-color:lightgrey;">
 
 	<center><h1>Phy-Le</h1>
 
@@ -25,23 +25,28 @@
 	<input type="text" id="taxonInput">
 	<button id="addItemButton">Guess</button>
 
+	<!--
 	<div id="selectedTaxon" style="margin:10px;">
 		<h2>Guessed Taxa:</h2>
 		<ul id="selectedItemsList" style="font-size:25px; list-style-type:none"></ul>
 	</div>
+	-->
+	
 
 	<script src="phy-le.js"></script>
 
+</center> 
 	
-
-	</center> 
-
 	<div id="tree_display" style="border: 1px solid lightgray"></div>
 
 	<div id="GotIt">
 		<h1> </h1>
 		<ul id="printTarget"></ul>
 	</div>
+
+<center>
+	<button onclick="tweet()">Share on Twitter</button>
+</center>
 
 	
 </body>
