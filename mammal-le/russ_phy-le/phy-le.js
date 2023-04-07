@@ -222,7 +222,8 @@ $("#taxonInput").autocomplete({
               last_guess: { fillColour: "blue", label: selectedTaxon, shape: phylocanvas.Shapes.Star },
               Target: { fillColour: "red", label: replaceID, shape: phylocanvas.Shapes.Star },
             }, 
-            size: { width: 1200 , height: 600 },
+            // height function is junk if guessed right becuase the height gets larger 
+            size: { width: 1200 , height: guesses.length*35 },
             showLabels: true,
             showLeafLabels: true,
             source: prunedNewick ,
