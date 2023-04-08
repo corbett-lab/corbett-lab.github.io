@@ -98,7 +98,7 @@ $("#taxonInput").autocomplete({
               Target: { fillColour: "red", label: replaceID, shape: phylocanvas.Shapes.Star },
             }, 
             // height function is junk if guessed right becuase the height gets larger 
-            size: { width: 1200 , height: guesses.length*35 },
+            size: { width: 1200 , height: guesses.length*40 },
             showLabels: true,
             showLeafLabels: true,
             source: prunedNewick ,
@@ -327,7 +327,6 @@ function getNodeIds(tree) {
 /// probably should have the button appear after the user finishes. 
 function tweet() {
   var guess_total = guesses.length ; 
-  guess_total -= 3 ; 
   var text = "I blew my mind and scored a " + guess_total + " on Phylo-Le" ; 
   var url = encodeURIComponent("https://www.Phylo-Le.com"); 
   var tweetUrl = "https://twitter.com/intent/tweet?text=" + text + "&url=" + url;
