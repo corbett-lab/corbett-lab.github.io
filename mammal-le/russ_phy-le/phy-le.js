@@ -329,7 +329,9 @@ function findDistance(tree, leaf1, leaf2) {
 /// to be updated with a score and a more subversive message
 /// probably should have the button appear after the user finishes. 
 function tweet() {
-  var text = "I blew my mined nad scored a " + guesses.length + " on Phylo-Le" ; 
+  var guess_total = guesses.length ; 
+  guess_total -= 3 ; 
+  var text = "I blew my mind and scored a " + guess_total + " on Phylo-Le" ; 
   var url = encodeURIComponent("https://www.Phylo-Le.com"); 
   var tweetUrl = "https://twitter.com/intent/tweet?text=" + text + "&url=" + url;
   window.open(tweetUrl);
