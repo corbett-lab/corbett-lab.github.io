@@ -6,6 +6,7 @@
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
 	<script src="https://unpkg.com/@phylocanvas/phylocanvas.gl@latest/dist/bundle.min.js"></script>
+
 	<style>
 		#selectedItems {
 			margin-top: 20px;
@@ -16,6 +17,7 @@
 			overflow-x: hidden;
 		}
 	</style>
+
 </head>
 <body style="background-color:lightgrey;">
 
@@ -36,6 +38,17 @@
 			animation-delay: 0s;
 			z-index: 999999;
 		}
+
+		.nico > * {
+			animation: nicoanimation 30s linear infinite;
+			pointer-events: none !important;
+		top: 0px;
+		right: 0;
+		transform: translateX(-40%) translateY(-40%) rotateZ(0);
+		position: fixed;
+		animation-delay: 0s;
+		z-index: 999999;
+	}
 
 	@keyframes rhinoanimation {
 		20% {
@@ -65,6 +78,45 @@
 		
 	}
 
+	@keyframes nicoanimation {
+		10% {
+			display: block;
+			transform: translateX(200%) translateY(00vh) rotateZ(0deg)
+		}
+		20% {
+			display: block;
+			transform: translateX(-1000%) translateY(100vh) rotateZ(0deg)
+		}
+		30% {
+			display: block;
+			transform: translateX(700%) translateY(0vh) rotateZ(360deg)
+		}
+		40% {
+			display: block;
+			transform: translateX(-200%) translateY(100vh) rotateZ(0deg)
+		}
+		50% {
+			display: block;
+			transform: translateX(-200%) translateY(85vh) rotateZ(0deg)
+		}
+		60% {
+			display: block;
+			transform: translateX(-200%) translateY(85vh) rotateZ(0deg)
+		}
+		70% {
+			display: block;
+			transform: translateX(-200%) translateY(100vh) rotateZ(0deg)
+		}
+		80% {
+			display: block;
+			transform: translateX(-1000%) translateY(-30vh) rotateZ(360deg)
+		}
+		90% {
+			display: block;
+			transform: translateX(-400%) translateY(50vh) rotateZ(0deg)
+		}
+	}
+
 	@keyframes expand {
 		from {width: 100px; opacity: 0.0;}
 		to {width: 10000px; opacity: 0.9;}
@@ -73,6 +125,7 @@
 </style>
 
 <div id="rhino" class="rhino"><img src="rhino.webp" width=300></div>
+<div id="nico" class="nico"><img src="nico_club_penguin_dance.gif" width=200></div>
 
 <center>
 	
@@ -105,6 +158,7 @@
 	<button id="tweetButton" style="display: none;" onclick="tweet()">Share on Twitter</button>
 </center>
 
+<div id="fullscreen"></div>
 	
 </body>
 
