@@ -207,6 +207,8 @@ $("#taxonInput").autocomplete({
       if ( selectedTaxon == target ) {
           replaceID = target ;
           rhinoDiv.style.display = "block" ;
+          var tweet = document.getElementById("tweetButton") ; 
+          tweet.style.display="block" ;
       }
       
       //// but also what we do if we don't have it
@@ -214,7 +216,6 @@ $("#taxonInput").autocomplete({
           prunedNewick = prunedNewick.replace(selectedTaxon,"last_guess") ; 
           /// this works for getting dstances
           var distance = findDistance( prunedTree, "Target", selectedTaxon ) ; 
-          console.log( distance ) ; 
       }
 
       /// now render this. 
@@ -325,14 +326,11 @@ function findDistance(tree, leaf1, leaf2) {
   return( distance ) ; 
 }
 
-
-
-
 /// to be updated with a score and a more subversive message
 /// probably should have the button appear after the user finishes. 
 function tweet() {
-  var text = "Check out PHY-LE!"; 
-  var url = encodeURIComponent("https://www.PHY-LE.com"); 
+  var text = "I blew my mined nad scored a " + guesses.length + " on Phylo-Le" ; 
+  var url = encodeURIComponent("https://www.Phylo-Le.com"); 
   var tweetUrl = "https://twitter.com/intent/tweet?text=" + text + "&url=" + url;
   window.open(tweetUrl);
 }
