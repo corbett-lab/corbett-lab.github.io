@@ -19,7 +19,64 @@
 </head>
 <body style="background-color:lightgrey;">
 
-	<center><h1>Phy-Le</h1>
+<style>	
+
+	.rhino{
+		pointer-events: none;
+		
+		}
+	
+		.rhino > * {
+				animation: rhinoanimation 30s linear infinite;
+				pointer-events: none !important;
+			top: 50px;
+			left: -30px;
+			transform: translateX(-40%) translateY(0%) rotateZ(0);
+			position: fixed;
+			animation-delay: 0s;
+			z-index: 999999;
+		}
+
+	@keyframes rhinoanimation {
+		20% {
+					display: block;
+			transform: translateX(800%) translateY(00vh) rotateZ(0deg)
+		}
+		20.1% {
+			transform: translateX(800%) translateY(0) rotateY(180deg)
+		}
+		40% {
+			transform: translateX(-200%) translateY(30vh) rotateY(180deg) rotateZ(0deg)
+		}
+		40.1% {
+			transform: translateX(-200%) translateY(30vh) rotateY(0deg) rotateZ(0deg)
+		}
+		60% {
+					display: block;
+			transform: translateX(800%) translateY(30vh) rotateY(0deg) rotateZ(0deg)
+		}
+		60.1% {
+					display: block;
+			transform: translateX(800%) translateY(30vh) rotateY(180deg) rotateZ(0deg)
+		}
+		100% {
+			transform: translateX(-220%) translateY(30vh) rotateY(180deg) rotateZ(0deg)
+		}
+		
+	}
+
+	@keyframes expand {
+		from {width: 100px; opacity: 0.0;}
+		to {width: 10000px; opacity: 0.9;}
+	}
+
+</style>
+
+<div id="rhino" class="rhino"><img src="rhino.webp" width=221></div>
+
+<center>
+	
+	<h1>Phy-Le</h1>
 
 	<label for="taxonInput" style="font-size:25px"> Taxon: </label>
 	<input type="text" id="taxonInput">
