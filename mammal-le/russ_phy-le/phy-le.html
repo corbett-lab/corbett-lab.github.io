@@ -22,10 +22,8 @@
 <body style="background-color:lightgrey;">
 
 <style>	
-
 	.rhino{
-		pointer-events: none;
-		
+		pointer-events: none;	
 		}
 	
 		.rhino > * {
@@ -131,7 +129,16 @@
 	
 	<h1>Phylo-Le</h1>
 
-	<label for="taxonInput" style="font-size:25px"> Taxon: </label>
+	<select id="treeSelector" onchange="setTree()">
+		<option value="Choose">Choose Phylogeny</option>
+		<option value="mammals">Mammle-le ~100 Common Mammals (Easy)</option>
+		<option value="vertebrates">Vertebrate-le ~500 Vertebrates (Medium)</option>
+	</select>
+
+	<br>
+	<br> 
+
+	<!--     <label for="taxonInput" style="font-size:25px"> Taxon: </label>   -->
 	<input type="text" id="taxonInput">
 	<button id="addItemButton">Guess</button>
 

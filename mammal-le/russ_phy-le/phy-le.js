@@ -11,41 +11,67 @@
 // animals to add: 
 // seal, whale, otter, orca, dolphin, armadillo, honeybadger, beaver, aardvark, possu, pangolin
 
-
 // turn off the rhino and nico at the beginning
-var rhinoDiv = document.getElementById("rhino") ; 
+let rhinoDiv = document.getElementById("rhino") ; 
 rhinoDiv.style.display = "none" ;
-var nicoDiv = document.getElementById("nico") ; 
+let nicoDiv = document.getElementById("nico") ; 
 nicoDiv.style.display = "none" ;
+/// turn off input initally 
+let inputDiv = document.getElementById("taxonInput") ; 
+inputDiv.style.display = "none" ;
+let itemDiv = document.getElementById("addItemButton") ; 
+itemDiv.style.display = "none" ;
 
-/// set our tree here
-const newickTree = "(((Macropus_giganteus_Giant_kangaroo:52.64000000,Phascolarctos_cinereus_Koala:52.64000000):107.36000000,((((((((Puma_concolor_Mountain_lion:11.22499000,Felis_catus_Domestic_cat:11.22499000):0.68819000,(Panthera_tigris_tigris_Bengal_tiger:6.76700000,Panthera_leo_Lion:6.76700000):5.14618000):43.44846000,((Vulpes_vulpes_Red_fox:12.24414000,(Canis_lupus_familiaris_Domestic_dog:0.50500000,Canis_lupus_lupus_Gray_wolf:0.50500000):11.73914000):32.85586000,((((Taxidea_taxus_American_badger:20.30000000,(Gulo_gulo_Wolverine:13.50000000,Mustela_putorius_Ferret:13.50000000):6.80000000):8.07665000,Procyon_lotor_Common_raccoon:28.37665000):3.97745000,Mephitis_mephitis_Striped_skunk:32.35410000):7.76590000,(Ailuropoda_melanoleuca_Giant_panda:19.25625000,(Ursus_americanus_American_black_bear:4.87940000,Ursus_maritimus_Polar_bear:4.87940000):14.37685000):20.86375000):4.98000000):10.26164000):18.88836000,(Equus_caballus_Horse:11.10000000,Equus_asinus_Donkey:11.10000000):63.15000000):1.75000000,(((Vicugna_pacos_Alpaca:0.65714000,Lama_glama_Llama:0.65714000):20.25989000,Camelus_dromedarius_Dromedary_camel:20.91703000):43.08297000,((((((Bos_grunniens_Yak:1.49662000,Bison_bison_Buffalo:1.49662000):2.80348000,Bos_taurus_Cow:4.30010000):17.32553000,(Capra_hircus_Goat:7.65408000,Ovis_aries_Sheep:7.65408000):13.97155000):2.06947000,(Alces_alces_Moose:10.99420000,Odocoileus_virginianus_White-tailed_deer:10.99420000):12.70090000):3.05625000,Giraffa_reticulata_Giraffe:26.75135000):35.09130000,Sus_scrofa_Pig:61.84265000):2.15735000):12.00000000):5.02605000,Desmodus_rotundus_Common_vampire_bat:81.02605000):12.97395000,((Oryctolagus_cuniculus_European_rabbit:78.97061000,((Tamias_striatus_Eastern_chipmunk:34.46259000,Sciurus_vulgaris_Eurasian_red_squirrel:34.46259000):35.73991000,((Rattus_norvegicus_Brown_rat:11.64917000,Mus_musculus_domesticus_House_mouse:11.64917000):58.26208000,Cavia_porcellus_Guinea_pig:69.91125000):0.29125000):8.76811000):8.22939000,(((Gorilla_beringei_Eastern_gorilla:8.60000000,((Homo_sapiens_Human:1.38948000,Homo_sapiens_subsp._Denisova:1.38948000):5.01052000,Pan_troglodytes_troglodytes_Central_chimpanzee:6.40000000):2.20000000):6.60000000,Pongo_pygmaeus_Bornean_orangutan:15.20000000):13.62000000,(Papio_hamadryas_Hamadryas_baboon:10.45400000,Macaca_mulatta_brevicaudus_Pigtail_macaque:10.45400000):18.36600000):58.38000000):6.80000000):5.18870000,((Trichechus_manatus_Manatee:60.77500000,Loxodonta_africana_African_elephant:60.77500000):36.04420000,Bradypus_variegatus_Three-toed_sloth:96.81920000):2.36950000):60.81130000):20.06610000,(Tachyglossus_aculeatus:46.72840000,Ornithorhynchus_anatinus_Platypus:46.72840000):133.33770000);" ;
+main() ; 
 
-/// get the list of taxa in whichever tree we use
-var taxa = getNodeIds( parse( newickTree ) ) ; 
+function setTree() {
+  return new Promise(resolve => {
+    const dropdown = document.getElementById("treeSelector");
+    dropdown.addEventListener("change", () => {
+      resolve(dropdown.value);
+    });
+  });
+}
 
-/// set target here
-var target = replaceRandomElement( taxa ) ; 
+async function main() {
+  const selectedTree = await setTree();
+  const dropdown = document.getElementById("treeSelector");
+  dropdown.disabled = true; 
 
-/// then replace the target in the tree
-var newick = newickTree.replace( target, "Target");
+  itemDiv.style.display = "block" ;
+  inputDiv.style.display = "block" ;
+  console.log(selectedTree);
+  // The rest of your code goes here...
 
-/// store as a useful tree object
-jsonTree = setNodeIDs( parse( newick ) ) ;
 
-/// then put target into the existing guess list
-var guesses = ["Target"] ; 
+  /// set our tree here
+  var newickTree = "" ; 
+    if ( selectedTree == "mammals" ) { 
+     newickTree = "(((Macropus_giganteus_Giant_kangaroo:52.64000000,Phascolarctos_cinereus_Koala:52.64000000):107.36000000,((((((((Puma_concolor_Mountain_lion:11.22499000,Felis_catus_Domestic_cat:11.22499000):0.68819000,(Panthera_tigris_tigris_Bengal_tiger:6.76700000,Panthera_leo_Lion:6.76700000):5.14618000):43.44846000,((Vulpes_vulpes_Red_fox:12.24414000,(Canis_lupus_familiaris_Domestic_dog:0.50500000,Canis_lupus_lupus_Gray_wolf:0.50500000):11.73914000):32.85586000,((((Taxidea_taxus_American_badger:20.30000000,(Gulo_gulo_Wolverine:13.50000000,Mustela_putorius_Ferret:13.50000000):6.80000000):8.07665000,Procyon_lotor_Common_raccoon:28.37665000):3.97745000,Mephitis_mephitis_Striped_skunk:32.35410000):7.76590000,(Ailuropoda_melanoleuca_Giant_panda:19.25625000,(Ursus_americanus_American_black_bear:4.87940000,Ursus_maritimus_Polar_bear:4.87940000):14.37685000):20.86375000):4.98000000):10.26164000):18.88836000,(Equus_caballus_Horse:11.10000000,Equus_asinus_Donkey:11.10000000):63.15000000):1.75000000,(((Vicugna_pacos_Alpaca:0.65714000,Lama_glama_Llama:0.65714000):20.25989000,Camelus_dromedarius_Dromedary_camel:20.91703000):43.08297000,((((((Bos_grunniens_Yak:1.49662000,Bison_bison_Buffalo:1.49662000):2.80348000,Bos_taurus_Cow:4.30010000):17.32553000,(Capra_hircus_Goat:7.65408000,Ovis_aries_Sheep:7.65408000):13.97155000):2.06947000,(Alces_alces_Moose:10.99420000,Odocoileus_virginianus_White-tailed_deer:10.99420000):12.70090000):3.05625000,Giraffa_reticulata_Giraffe:26.75135000):35.09130000,Sus_scrofa_Pig:61.84265000):2.15735000):12.00000000):5.02605000,Desmodus_rotundus_Common_vampire_bat:81.02605000):12.97395000,((Oryctolagus_cuniculus_European_rabbit:78.97061000,((Tamias_striatus_Eastern_chipmunk:34.46259000,Sciurus_vulgaris_Eurasian_red_squirrel:34.46259000):35.73991000,((Rattus_norvegicus_Brown_rat:11.64917000,Mus_musculus_domesticus_House_mouse:11.64917000):58.26208000,Cavia_porcellus_Guinea_pig:69.91125000):0.29125000):8.76811000):8.22939000,(((Gorilla_beringei_Eastern_gorilla:8.60000000,((Homo_sapiens_Human:1.38948000,Homo_sapiens_subsp._Denisova:1.38948000):5.01052000,Pan_troglodytes_troglodytes_Central_chimpanzee:6.40000000):2.20000000):6.60000000,Pongo_pygmaeus_Bornean_orangutan:15.20000000):13.62000000,(Papio_hamadryas_Hamadryas_baboon:10.45400000,Macaca_mulatta_brevicaudus_Pigtail_macaque:10.45400000):18.36600000):58.38000000):6.80000000):5.18870000,((Trichechus_manatus_Manatee:60.77500000,Loxodonta_africana_African_elephant:60.77500000):36.04420000,Bradypus_variegatus_Three-toed_sloth:96.81920000):2.36950000):60.81130000):20.06610000,(Tachyglossus_aculeatus:46.72840000,Ornithorhynchus_anatinus_Platypus:46.72840000):133.33770000);" ;
+    }
 
-/// parsing function to create useful representation of newick
-var node_num = 0 ; 
+  /// get the list of taxa in whichever tree we use
+  let taxa = getNodeIds( parse( newickTree ) ) ; 
 
-/// get the path to Target node
-const targetNode = findLeafNode( jsonTree, "Target" ) ;
-const pathToTarget = findPathToNode( jsonTree, targetNode ) ;
-sortTree(jsonTree, pathToTarget) ; 
+  /// set target here
+  let target = replaceRandomElement( taxa ) ; 
 
-/// main interactive elements 
-$("#taxonInput").autocomplete({
+  /// then replace the target in the tree
+  var newick = newickTree.replace( target, "Target");
+
+  /// store as a useful tree object
+  jsonTree = setNodeIDs( parse( newick ) ) ;
+
+  /// then put target into the existing guess list
+  var guesses = ["Target"] ; 
+
+  /// get the path to Target node
+  const targetNode = findLeafNode( jsonTree, "Target" ) ;
+  const pathToTarget = findPathToNode( jsonTree, targetNode ) ;
+  sortTree(jsonTree, pathToTarget) ; 
+
+  /// main interactive elements 
+  $("#taxonInput").autocomplete({
     source: taxa
   });
 
@@ -115,6 +141,8 @@ $("#taxonInput").autocomplete({
     $("#itemInput").val("");
 
 });
+
+}
 
 /// randomly select a taxon from the list
 function replaceRandomElement ( array ) {
