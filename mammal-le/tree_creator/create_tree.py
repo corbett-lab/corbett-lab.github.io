@@ -36,6 +36,7 @@ for i in range(len(animal_list)):
     lat_name = animal_list[i].split(',')[1].rstrip()
     full_name = get_true_taxa_name(lat_name)
 
+
     if full_name != None:
         common_names.append(com_name)
         latin_names.append(lat_name)
@@ -60,7 +61,10 @@ for i in range(len(common_names)):
     print("'"+display_name+"',", end='')
 print('];')
 print("var leaf_names = [", end='')
-for i in latin_names:
+for i in full_names:
     print("'"+i+"',", end='')
 print('];')
-print("var newickTree = '"+ Subtree.write() + "';")
+print("var newickTree = '"+ Subtree.write(format=5) + "';")
+
+
+
