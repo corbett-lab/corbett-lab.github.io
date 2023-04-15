@@ -24,6 +24,9 @@ inputDiv.style.display = "none" ;
 let itemDiv = document.getElementById("addItemButton") ; 
 itemDiv.style.display = "none" ;
 
+/// 
+var guess_total ; 
+
 main() ; 
 
 /// function to set the tree via the tree selector
@@ -122,9 +125,8 @@ $("#taxonInput").autocomplete({
           var tweet = document.getElementById("tweetButton") ; 
           tweet.style.display="block" ;
           guesses.shift() ;
+          guess_total = guesses.length ; 
       }
-
-      
       
       //// but also what we do if we don't have it
       else {
@@ -471,8 +473,7 @@ function getNodeIds(tree) {
 
 /// to be updated with a score and a more subversive message
 /// probably should have the button appear after the user finishes. 
-function tweet() {
-  var guess_total = guesses.length ; 
+function tweet( ) {
   var text = "I blew my mind and scored a " + guess_total + " on Phylo-Le" ; 
   var url = encodeURIComponent("https://www.Phylo-Le.com"); 
   var tweetUrl = "https://twitter.com/intent/tweet?text=" + text + "&url=" + url;
