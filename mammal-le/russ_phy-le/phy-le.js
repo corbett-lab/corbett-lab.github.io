@@ -107,6 +107,9 @@ $("#taxonInput").autocomplete({
       $("#selectedItemsList").append("<li>" + selectedTaxon + "</li>"); //deprecated?
       guesses.push(selectedTaxon) ; 
 
+      // added this to uniqueify guesses
+      guesses = [...new Set(guesses)]
+
       /// prune the list of selected taxa from the newick
       /// probably could do this only once as long as we deep copy the tree object
       const parsedTree = structuredClone( jsonTree ) ; 
@@ -159,7 +162,7 @@ $("#taxonInput").autocomplete({
         {
             styles: tree_styles, 
             // height function is junk if guessed right becuase the height gets larger 
-            size: { width: 1200 , height: guesses.length*40 },
+            size: { width: window.screen.width * 0.8 , height: guesses.length*40 },
             showLabels: true,
             showLeafLabels: true,
             source: prunedNewick ,
