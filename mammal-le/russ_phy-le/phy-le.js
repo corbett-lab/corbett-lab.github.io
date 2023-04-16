@@ -119,12 +119,11 @@ $("#taxonInput").autocomplete({
       // should be some kind of real celebration
       replaceID = "Guess This Species" ; 
       if ( selectedTaxon == target ) {
-          replaceID = target ;
+          replaceID = display_names[leaf_names.indexOf(guesses[guesses.length-1])] ;
           rhinoDiv.style.display = "block" ;
           nicoDiv.style.display = "block" ; 
           var tweet = document.getElementById("tweetButton") ; 
           tweet.style.display="block" ;
-          guesses.shift() ;
           guess_total = guesses.length ; 
       }
       
@@ -134,8 +133,6 @@ $("#taxonInput").autocomplete({
           prunedNewick = prunedNewick.replace(selectedTaxon,"last_guess") ;
           distance = findDistance( prunedTree, "Target", selectedTaxon ) ;
           console.log(distance)
-          /// this works for getting dstances
-          
       }
 
       console.log("TARGET: " + target)
@@ -166,7 +163,7 @@ $("#taxonInput").autocomplete({
             showLabels: true,
             showLeafLabels: true,
             source: prunedNewick ,
-            alignLabels: true,
+            alignLabels: false,
         },
       );
     }
