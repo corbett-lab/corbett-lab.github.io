@@ -126,6 +126,9 @@ $("#taxonInput").autocomplete({
           rhinoDiv.style.display = "block" ;
           nicoDiv.style.display = "block" ; 
           var tweet = document.getElementById("tweetButton") ; 
+          var reset = document.getElementById("resetButton") ; 
+          reset.style.display="block" ;
+
           tweet.style.display="block" ;
           guess_total = guesses.length ; 
       }
@@ -478,4 +481,8 @@ function tweet( ) {
   var url = encodeURIComponent("https://www.Phylo-Le.com"); 
   var tweetUrl = "https://twitter.com/intent/tweet?text=" + text + "&url=" + url;
   window.open(tweetUrl);
+}
+
+function reset() {
+  location.reload();
 }

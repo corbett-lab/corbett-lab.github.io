@@ -17,8 +17,8 @@
 			overflow-x: hidden;
 		}
 		#treeSelector {
-  			height: 30px;
-  			width: 300px;
+  			height: 50px;
+  			width: 450px;
 		}
 	</style>
 
@@ -135,7 +135,7 @@
 	
 	<h1>Phylo-Le</h1>
 
-	<select id="treeSelector" onchange="setTree()">
+	<select id="treeSelector" onchange="setTree()" style="font-size: 16px; padding: 10px 20px;">
 		<option value="Choose">Choose Phylogeny</option>
 		<option value="mammals">Mammal-le ~100 Common Mammals (Easy)</option>
 		<option value="vertebrates">Vertebrate-le ~500 Vertebrates (Medium)</option>
@@ -144,17 +144,8 @@
 	<br>
 	<br> 
 
-	<!--     <label for="taxonInput" style="font-size:25px"> Taxon: </label>   -->
-	<input type="text" id="taxonInput">
-	<button id="addItemButton">Guess</button>
-
-	<!--
-	<div id="selectedTaxon" style="margin:10px;">
-		<h2>Guessed Taxa:</h2>
-		<ul id="selectedItemsList" style="font-size:25px; list-style-type:none"></ul>
-	</div>
-	-->
-	
+	<input type="text" id="taxonInput" style="font-size: 16px; padding: 10px 20px;">
+	<button id="addItemButton" style="font-size: 16px; padding: 10px 20px;">Guess</button>
 
 	<script src="phy-le.js"></script>
 
@@ -168,7 +159,9 @@
 	</div>
 
 <center>
-	<button id="tweetButton" style="display: none;" onclick="tweet()">Share on Twitter</button>
+	<button id="tweetButton" style="display: none; font-size: 16px; padding: 10px 20px;" onclick="tweet()">Share on Twitter</button>
+	<button id="resetButton" style="display: none; font-size: 16px; padding: 10px 20px;" onclick="reset()">Play Again</button>
+
 </center>
 
 <div id="fullscreen"></div>
