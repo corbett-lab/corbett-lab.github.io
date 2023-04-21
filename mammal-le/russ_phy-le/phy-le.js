@@ -86,6 +86,19 @@ const targetNode = findLeafNode( jsonTree, "Target" ) ;
 const pathToTarget = findPathToNode( jsonTree, targetNode ) ;
 sortTree(jsonTree, pathToTarget) ; 
 
+function getRandomValuesFromArray(arr) {
+  //chatGPT generated
+  console.log("Beginning random fetch")
+  const result = [];
+  const arrCopy = arr.slice(0); // create a copy of the original array to avoid modifying it
+  for (let i = 0; i < 5; i++) {
+    const randomIndex = Math.floor(Math.random() * arrCopy.length);
+    result.push(arrCopy[randomIndex]);
+    arrCopy.splice(randomIndex, 1); // remove the selected element from the copy
+  }
+  return result;
+}
+
 /// main interactive elements 
 $("#taxonInput").autocomplete({
     source: display_names
@@ -95,11 +108,30 @@ $("#taxonInput").autocomplete({
   $("#addItemButton").click(function() {
     // get the value of the item input field
     
-    var selectedTaxon = $("#taxonInput").val();
-
     var display_name_of_selected_taxon = $("#taxonInput").val() ; 
-    var latin_name_of_selected_taxon = leaf_names[display_names.indexOf(display_name_of_selected_taxon)] ; 
-    selectedTaxon = latin_name_of_selected_taxon ; 
+    console.log(display_name_of_selected_taxon)
+    if (display_name_of_selected_taxon == "") {
+      console.log("Trying to guess");
+      //pick five at random
+      const possibleHints = getRandomValuesFromArray(leaf_names);
+      console.log(possibleHints);
+      let minDist = findDistance(jsonTree, "Target", possibleHints[0]);
+      let guess = possibleHints[0];
+      for (let i = 1; i < possibleHints.length; i++) {
+        let tmd = findDistance(jsonTree, "Target", possibleHints[i]);
+        if ((tmd < minDist) && (minDist > 0)) {
+          minDist = tmd;
+          guess = possibleHints[i];
+        }
+      }
+      console.log(guess);
+      console.log(minDist);
+      selectedTaxon = guess;
+      display_name_of_selected_taxon = display_names[leaf_names.indexOf(guess)];
+    } else {
+      selectedTaxon = leaf_names[display_names.indexOf(display_name_of_selected_taxon)] ; 
+    }
+    console.log(selectedTaxon)
 
     // add the selected item to the selected items list we display and to one we are keeping
     if (selectedTaxon !== "") {
