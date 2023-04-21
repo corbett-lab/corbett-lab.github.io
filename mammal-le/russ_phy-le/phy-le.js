@@ -128,9 +128,8 @@ $("#taxonInput").autocomplete({
           var tweet = document.getElementById("tweetButton") ; 
           var reset = document.getElementById("resetButton") ; 
           reset.style.display="block" ;
-
           tweet.style.display="block" ;
-          guess_total = guesses.length ; 
+          guess_total = guesses.length - 1 ; 
       }
       
       //// but also what we do if we don't have it
