@@ -116,10 +116,19 @@ $("#taxonInput").autocomplete({
       const possibleHints = getRandomValuesFromArray(leaf_names);
       console.log(possibleHints);
       let minDist = findDistance(jsonTree, "Target", possibleHints[0]);
-      let guess = possibleHints[0];
+
+      /// note to selves: make this not stupid
+      /// should not hint the same as previous guesses
+      /// does not need to redraw all when the first is the target
+
+      while ( minDist !== null ) { 
+          possibleHints = getRandomValuesFromArray(leaf_names);
+          minDist = findDistance(jsonTree, "Target", possibleHints[0]);
+      }
+      let guess = possibleHints[0];    
       for (let i = 1; i < possibleHints.length; i++) {
         let tmd = findDistance(jsonTree, "Target", possibleHints[i]);
-        if ((tmd < minDist) && (minDist > 0)) {
+        if ((tmd < minDist) && (minDist !== null)) {
           minDist = tmd;
           guess = possibleHints[i];
         }
@@ -159,8 +168,10 @@ $("#taxonInput").autocomplete({
           nicoDiv.style.display = "block" ; 
           var tweet = document.getElementById("tweetButton") ; 
           var reset = document.getElementById("resetButton") ; 
+          var give = document.getElementById("giveButton") ; 
           reset.style.display="block" ;
           tweet.style.display="block" ;
+          give.style.display="block" ;
           guess_total = guesses.length - 1 ; 
       }
       
@@ -516,4 +527,8 @@ function tweet( ) {
 
 function reset() {
   location.reload();
+}
+
+function redirectToLab() {
+  window.open("https://secure.ucsc.edu/s/1069/bp18/interior.aspx?sid=1069&gid=1001&pgid=780&cid=1749&dids=1186", "_blank");
 }
