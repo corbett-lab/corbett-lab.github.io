@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Phy-le</title>
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+	<script src="https://unpkg.com/@phylocanvas/phylocanvas.gl@latest/dist/bundle.min.js"></script>
+	<style>
+		#selectedItems {
+			margin-top: 20px;
+		}
+		.ui-autocomplete {
+			max-height: 150px;
+			overflow-y: auto;
+			overflow-x: hidden;
+		}
+	</style>
+</head>
+<body style="background-color:lightgrey;">
+
+	<center><h1>Phy-Le</h1>
+
+	<label for="taxonInput" style="font-size:25px"> Taxon: </label>
+	<input type="text" id="taxonInput">
+	<button id="addItemButton">Guess</button>
+
+	<!--
+	<div id="selectedTaxon" style="margin:10px;">
+		<h2>Guessed Taxa:</h2>
+		<ul id="selectedItemsList" style="font-size:25px; list-style-type:none"></ul>
+	</div>
+	-->
+	
+	<script src="small_tree_include.js"></script>
+	<script src="phy-le.js"></script>
+
+</center> 
+	
+	<div id="tree_display" style="border: 1px solid lightgray"></div>
+
+	<div id="GotIt">
+		<h1> </h1>
+		<ul id="printTarget"></ul>
+	</div>
+
+<center>
+	<button onclick="tweet()">Share on Twitter</button>
+</center>
+
+	
+</body>
+
+</html>
