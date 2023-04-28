@@ -78,7 +78,11 @@ async function main() {
     newickTree = gigamammal_newickTree;
     leaf_names = gigamammal_leaf_names;
   }
-
+  else if ( selectedTree == "maxmammal") {
+    display_names = max_display_names;
+    newickTree = max_newickTree;
+    leaf_names = max_leaf_names;
+  }
 console.log("Starting");
 /// set target here
 var target = replaceRandomElement( leaf_names ) ; 
@@ -227,12 +231,13 @@ $("#taxonInput").autocomplete({
       }
       
       var last_guess_dist = (findDistance( prunedTree, "Target", selectedTaxon ) * 50).toFixed(2)
-      tree_styles['last_guess'].label = " ".repeat(Math.min(0,6-last_guess_dist.length)) + last_guess_dist + " " + display_name_of_selected_taxon
+      console.log(last_guess_dist);
+      tree_styles['last_guess'].label = " ".repeat(Math.min(0,7-last_guess_dist.length)) + last_guess_dist + " " + display_name_of_selected_taxon
 
       for(let i = 1; i < guesses.length; i++){
         var disp_name = display_names[leaf_names.indexOf(guesses[i])] ; 
         var distance = (findDistance( prunedTree, "Target", guesses[i] ) * 50).toFixed(2) ; 
-        tree_styles[guesses[i]] = {label:" ".repeat(Math.min(0,6-distance.length)) + distance + " " + disp_name} ; 
+        tree_styles[guesses[i]] = {label:" ".repeat(Math.min(0,7-distance.length)) + distance + " " + disp_name} ; 
       }
 
       /// now render this. 
@@ -262,7 +267,7 @@ $("#taxonInput").autocomplete({
 
 function parse(newick) {
   let nextid = 0;
-  const regex = /([^;:,()\s]*)(?:\s*:\s*([\d.]+)\s*)?([,);])|(\S)/g;
+  const regex = /([^;:,()\s]*)(?:\s*:\s*([\d.eE+-]+)\s*)?([,);])|(\S)/g;
   newick += ";"
   
   return (function recurse(parentid = -1) {
