@@ -138,7 +138,9 @@
 	<select id="treeSelector" onchange="setTree()" style="font-size: 16px; padding: 10px 20px;">
 		<option value="Choose">Choose Phylogeny</option>
 		<option value="mammals">Mammal-le ~100 Common Mammals (Easy)</option>
-		<option value="vertebrates">Vertebrate-le ~500 Vertebrates (Medium)</option>
+		<option value="supermammal">Vertebrate-le ~500 Vertebrates (Medium)</option>
+		<option value="vertebrates">SuperMammal-le ~150 Mammals (Medium)</option>
+		<option value="gigamammal">GigaMammal-le ~2000 Mammals (Insane)</option>
 	</select>
 
 	<br>
@@ -148,7 +150,9 @@
 		<input type="text" id="taxonInput" style="font-size: 16px; padding: 10px 20px;"> 
 		<button id="addItemButton" style="font-size: 16px; padding: 10px 20px;">Guess</button>
 	</div>
-
+	<script src="vertebrate_data.js"></script>
+	<script src="gigadata.js"></script>
+	<script src="superdata.js"></script>
 	<script src="phy-le.js"></script>
 
 </center> 
