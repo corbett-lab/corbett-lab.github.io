@@ -164,15 +164,20 @@ $("#taxonInput").autocomplete({
       replaceID = "Guess This Species" ; 
       if ( selectedTaxon == target ) {
           replaceID = display_names[leaf_names.indexOf(guesses[guesses.length-1])] ;
+          guess_total = guesses.length - 1 ;
           rhinoDiv.style.display = "block" ;
           nicoDiv.style.display = "block" ; 
-          var tweet = document.getElementById("tweetButton") ; 
+          
+          /*var tweet = document.getElementById("tweetButton") ; 
           var reset = document.getElementById("resetButton") ; 
           var give = document.getElementById("giveButton") ; 
           reset.style.display="block" ;
           tweet.style.display="block" ;
           give.style.display="block" ;
-          guess_total = guesses.length - 1 ; 
+          */
+          
+
+          document.getElementById("winspace").style.display = "flex"
       }
       
       //// but also what we do if we don't have it
@@ -216,8 +221,11 @@ $("#taxonInput").autocomplete({
       );
     }
 
+    // remove phylocanvas logo ( sorry we love you but its not our style )
+    document.getElementById("tree_display").style.backgroundImage = "";
+
     // clear the input field
-    $("#itemInput").val("");
+    $("#taxonInput").val("");
 
 });
 

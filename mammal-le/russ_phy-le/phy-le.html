@@ -161,15 +161,17 @@
 	</div>
 
 <center>
-	<div style="display:flex; justify-content:center;"> 
-		<button id="tweetButton" style="display: none; font-size: 16px; padding: 10px 20px;" onclick="tweet()">Share on Twitter</button>
-		<button id="resetButton" style="display: none; font-size: 16px; padding: 10px 20px;" onclick="reset()">Play Again</button>
-	</div>
 
-	<br>
-
-	<div style="display:flex; justify-content:center;"> 
-		<button id="giveButton" style="display: none; font-size: 16px; padding: 10px 20px;" onclick="redirectToLab()">Support The Corbett-Detig Lab</button>
+	<div id="winspace" style="display:none; justify-content:center;">
+		<div id="tweetButton" onclick="tweet()" style="display: flex; align-items: center; margin-right: 7px; margin-left: 7px;">
+			<image src="twitter.png" height="20px" width="20px" style="margin-right: 7px;"></image> <a>Tweet</a>
+		</div>
+		<div id="resetButton" onclick="reset()" style="display: flex; align-items: center; margin-right: 7px; margin-left: 7px;">
+			<image src="refresh.png" height="20px" width="20px" style="margin-right: 7px;"></image> <a>Play again</a>
+		</div>
+		<div id="giveButton" onclick="redirectToLab()" style="display: flex; align-items: center; margin-right: 7px; margin-left: 5px;">
+			<image src="dollar.png" height="20px" width="20px" style="margin-right: 5px;"></image> <a>Support us</a>
+		</div>
 	</div>
 
 </center>
