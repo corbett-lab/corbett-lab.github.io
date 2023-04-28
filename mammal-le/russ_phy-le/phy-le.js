@@ -78,44 +78,35 @@ async function main() {
     newickTree = max_newickTree;
     leaf_names = max_leaf_names;
   }
-console.log("Starting");
 /// set target here
 var target = replaceRandomElement( leaf_names ) ; 
 console.log('TARGET IS');
 console.log(target);
 /// then replace the target in the tree
 var newick = newickTree.replace( target, "Target");
-console.log("Newick updated");
 /// store as a useful tree object
-console.log("Attempting to load tree") ;
 jsonTree = setNodeIDs( parse( newick ) ) ;
-console.log("Tree loaded") ;
-console.log(toNewick(jsonTree));
-console.log(getNodeIds(jsonTree));
-/// then put target into the existing guess list
+// console.log(toNewick(jsonTree));
+// console.log(getNodeIds(jsonTree));
+// / then put target into the existing guess list
 var guesses = ["Target"] ; 
 
 /// parsing function to create useful representation of newick
 var node_num = 0 ; 
 
 /// get the path to Target node
-console.log("FINDING TARGET") ;
 const targetNode = findLeafNode( jsonTree, "Target" ) ;
 if (!targetNode) {
   console.log("NODE NOT FOUND");
 }
-console.log(targetNode) ;
 const pathToTarget = findPathToNode( jsonTree, targetNode ) ;
 if (!pathToTarget) {
   console.log("PATH NOT FOUND");
 }
-console.log(pathToTarget) ;
-console.log("Sorting tree") ;
 sortTree(jsonTree, pathToTarget) ; 
-console.log("Tree sorted") ;
 function getRandomValuesFromArray(arr) {
   //chatGPT generated
-  console.log("Beginning random fetch")
+  // console.log("Beginning random fetch")
   const result = [];
   const arrCopy = arr.slice(0); // create a copy of the original array to avoid modifying it
   for (let i = 0; i < 5; i++) {
@@ -254,8 +245,8 @@ $("#taxonInput").autocomplete({
           guess = possibleHints[i];
         }
       }
-      console.log(guess);
-      console.log(minDist);
+      // console.log(guess);
+      // console.log(minDist);
       selectedTaxon = guess;
       display_name_of_selected_taxon = display_names[leaf_names.indexOf(guess)];
     } else {
@@ -386,12 +377,8 @@ function replaceRandomElement ( array ) {
 
 /// sort the tree so that the sample at the end of the path is always on top
 function sortTree (root, pathToTarget) {
-  console.log("Starting tree sort function");
-  console.log(pathToTarget);
   let node = root;
   for (let i = 1; i < pathToTarget.length; i++){
-    console.log(i);
-    console.log(node.children);
     if(node.children[1].id == pathToTarget[i].id){
       let temp = node.children[0] ; 
       node.children[0] = node.children[1];
@@ -493,7 +480,6 @@ function setNodeIDs( tree ) {
 /// functions to find a specific node by name
 function findLeafNode(root, leafName) {
   if (!root) return null;
-  console.log("attempting to traverse")
   if (root.name === leafName) return root;
   for (const child of root.children) {
     const leaf = findLeafNode(child, leafName);
