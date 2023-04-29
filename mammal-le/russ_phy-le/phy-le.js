@@ -545,9 +545,9 @@ function computePathDistance( path, lca ) {
 function findDistance(tree, leaf1, leaf2) {
   const node1 = findLeafNode(tree, leaf1);
   const node2 = findLeafNode(tree, leaf2);
-  console.log("FOUND NODES");
-  console.log(node1);
-  console.log(node2);
+  // console.log("FOUND NODES");
+  // console.log(node1);
+  // console.log(node2);
   if (!node1 || !node2) return null;
   const lca = lowestCommonAncestor(tree, node1.name, node2.name);
 
