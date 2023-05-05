@@ -195,7 +195,7 @@ function guess_taxon(display_name_of_selected_taxon){
         {
             styles: tree_styles, 
             // height function is junk if guessed right becuase the height gets larger 
-            size: { width: window.screen.width * 0.8 , height: guesses.length*40 },
+            size: { width: window.innerWidth * 0.8 , height: guesses.length*40 },
             showLabels: true,
             showLeafLabels: true,
             source: prunedNewick ,
