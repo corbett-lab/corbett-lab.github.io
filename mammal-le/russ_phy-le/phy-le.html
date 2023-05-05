@@ -150,6 +150,24 @@
 		<button id="addItemButton" style="font-size: 16px; padding: 10px 20px;">Guess</button>
 		<button id="imlucky" style="font-size: 16px; padding: 10px 20px;">I'm Feelin' Lucky</button>
 	</div>
+
+	<br>
+	<br>
+
+	<div id="winspace" style="display:none; justify-content:center; font-size: 24px">
+		<div id="tweetButton" onclick="tweet()" style="display: flex; align-items: center; margin-right: 7px; margin-left: 7px;">
+			<image src="twitter.png" height="40px" width="40px" style="margin-right: 7px;"></image> <a>Tweet</a>
+		</div>
+		<div id="resetButton" onclick="reset()" style="display: flex; align-items: center; margin-right: 7px; margin-left: 7px;">
+			<image src="refresh.png" height="40px" width="40px" style="margin-right: 7px;"></image> <a>Play again</a>
+		</div>
+		<div id="giveButton" onclick="redirectToLab()" style="display: flex; align-items: center; margin-right: 7px; margin-left: 5px;">
+			<image src="dollar.png" height="40px" width="40px" style="margin-right: 5px;"></image> <a>Support us</a>
+		</div>
+	</div>
+
+	<br>
+
 	<script src="gigadata.js"></script>
 	<script src="maxdata.js"></script>
 	<script src="phy-le.js"></script>
@@ -163,21 +181,7 @@
 		<ul id="printTarget"></ul>
 	</div>
 
-<center>
 
-	<div id="winspace" style="display:none; justify-content:center;">
-		<div id="tweetButton" onclick="tweet()" style="display: flex; align-items: center; margin-right: 7px; margin-left: 7px;">
-			<image src="twitter.png" height="20px" width="20px" style="margin-right: 7px;"></image> <a>Tweet</a>
-		</div>
-		<div id="resetButton" onclick="reset()" style="display: flex; align-items: center; margin-right: 7px; margin-left: 7px;">
-			<image src="refresh.png" height="20px" width="20px" style="margin-right: 7px;"></image> <a>Play again</a>
-		</div>
-		<div id="giveButton" onclick="redirectToLab()" style="display: flex; align-items: center; margin-right: 7px; margin-left: 5px;">
-			<image src="dollar.png" height="20px" width="20px" style="margin-right: 5px;"></image> <a>Support us</a>
-		</div>
-	</div>
-
-</center>
 
 <div id="fullscreen"></div>
 	
