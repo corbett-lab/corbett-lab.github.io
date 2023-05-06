@@ -140,11 +140,12 @@ function guess_taxon(display_name_of_selected_taxon){
 
       // should be some kind of real celebration
       replaceID = "Guess This Species" ; 
-      if ( selectedTaxon == target ) {
+      if ( selectedTaxon === target ) {
           replaceID = display_names[leaf_names.indexOf(guesses[guesses.length-1])] ;
           guess_total = guesses.length - 1 ;
           rhinoDiv.style.display = "block" ;
           nicoDiv.style.display = "block" ; 
+          document.querySelector("#buttons").style.display = "none";
           
           /*var tweet = document.getElementById("tweetButton") ; 
           var reset = document.getElementById("resetButton") ; 
