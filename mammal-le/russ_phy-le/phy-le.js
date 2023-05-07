@@ -28,9 +28,6 @@ lucky.style.display = "none" ;
 /// 
 var guess_total ; 
 
-// console.log("before import");
-// import {supermammal_leaf_names, supermammal_newickTree, supermammal_display_names} from "./data.js";
-// console.log("after import");
 main() ; 
 
 /// function to set the tree via the tree selector
@@ -44,6 +41,7 @@ function setTree() {
 }
 var newickTree = "" ; 
 var display_names = "" ;
+var possible_guesses = "" ; 
 var leaf_names = "" ;
 
 async function main() {
@@ -57,9 +55,6 @@ async function main() {
   lucky.style.display = "block";
 
   console.log(selectedTree);
-
-  /// set our tree here
-  
 
   /// set our tree here
   if ( selectedTree == "mammals" ) { 
@@ -78,6 +73,10 @@ async function main() {
     newickTree = max_newickTree;
     leaf_names = max_leaf_names;
   }
+
+  /// list to record possible guesses
+  let possible_guesses = [...display_names] ; 
+
 /// set target here
 var target = replaceRandomElement( leaf_names ) ; 
 console.log('TARGET IS');
@@ -104,18 +103,6 @@ if (!pathToTarget) {
   console.log("PATH NOT FOUND");
 }
 sortTree(jsonTree, pathToTarget) ; 
-function getRandomValuesFromArray(arr) {
-  //chatGPT generated
-  // console.log("Beginning random fetch")
-  const result = [];
-  const arrCopy = arr.slice(0); // create a copy of the original array to avoid modifying it
-  for (let i = 0; i < 5; i++) {
-    const randomIndex = Math.floor(Math.random() * arrCopy.length);
-    result.push(arrCopy[randomIndex]);
-    arrCopy.splice(randomIndex, 1); // remove the selected element from the copy
-  }
-  return result;
-}
 
 
 function guess_taxon(display_name_of_selected_taxon){
@@ -123,7 +110,7 @@ function guess_taxon(display_name_of_selected_taxon){
     // add the selected item to the selected items list we display and to one we are keeping
     if (selectedTaxon !== "") {
 
-      $("#selectedItemsList").append("<li>" + selectedTaxon + "</li>"); //deprecated?
+      $("#selectedItemsList").append("<li>" + selectedTaxon + "</li>"); //deprecated? 
       guesses.push(selectedTaxon) ; 
 
       // added this to uniqueify guesses
@@ -138,6 +125,14 @@ function guess_taxon(display_name_of_selected_taxon){
       // clear the previous tree
       document.getElementById("tree_display").innerHTML = "" ;
 
+      // update the list of possible guesses so we only display things not alreday guessed
+      let indexToDelete = possible_guesses.indexOf(display_name_of_selected_taxon) ;
+      if (indexToDelete !== -1) {
+          possible_guesses.splice(indexToDelete, 1);
+      }
+      console.log( possible_guesses.length ) ; 
+
+
       // should be some kind of real celebration
       replaceID = "Guess This Species" ; 
       if ( selectedTaxon === target ) {
@@ -146,19 +141,9 @@ function guess_taxon(display_name_of_selected_taxon){
           rhinoDiv.style.display = "block" ;
           nicoDiv.style.display = "block" ; 
           document.querySelector("#buttons").style.display = "none";
-          
-          /*var tweet = document.getElementById("tweetButton") ; 
-          var reset = document.getElementById("resetButton") ; 
-          var give = document.getElementById("giveButton") ; 
-          reset.style.display="block" ;
-          tweet.style.display="block" ;
-          give.style.display="block" ;
-          */
-          
-
-          document.getElementById("winspace").style.display = "flex"
+          document.getElementById("winspace").style.display = "flex"; 
       }
-      
+
       //// but also what we do if we don't have it
       else {
           //var distance = findDistance( prunedTree, "Target", selectedTaxon ) ; 
@@ -175,13 +160,9 @@ function guess_taxon(display_name_of_selected_taxon){
         last_guess: { fillColour: "blue", label: selectedTaxon, shape: phylocanvas.Shapes.Star },
         Target: { fillColour: "red", label: replaceID, shape: phylocanvas.Shapes.Star },
       }
-      
-      
-      
 
       var last_guess_dist = (findDistance( prunedTree, "Target", selectedTaxon ) * 50).toFixed(2) 
       
-
       tree_styles['last_guess'].label = " ".repeat(Math.min(0,7-last_guess_dist.length)) + last_guess_dist + " " + display_name_of_selected_taxon
 
       for(let i = 1; i < guesses.length; i++){
@@ -214,7 +195,7 @@ function guess_taxon(display_name_of_selected_taxon){
 
 /// main interactive elements 
 $("#taxonInput").autocomplete({
-    source: display_names
+    source: possible_guesses
   });
 
   // add click listener to the "Add taxon" button
@@ -254,17 +235,26 @@ $("#taxonInput").autocomplete({
       selectedTaxon = leaf_names[display_names.indexOf(display_name_of_selected_taxon)] ; 
     }
 
-
     guess_taxon(display_name_of_selected_taxon)
-
 
   });
 
   $("#imlucky").click(function() {
-    const randomIndex = Math.floor(Math.random() * display_names.length);
-    selectedTaxon = leaf_names[display_names.indexOf(display_names[randomIndex])] ; 
 
-    guess_taxon(display_names[randomIndex])
+    let targetIndex = possible_guesses.indexOf(display_names[leaf_names.indexOf(target)]) ;
+    const randomIndex = Math.floor(Math.random() * possible_guesses.length);
+
+    console.log( targetIndex ) ; 
+    console.log( randomIndex ) ; 
+
+    while ( randomIndex === targetIndex ) { 
+        randomIndex = Math.floor(Math.random() * possible_guesses.length);
+    }
+    /// was this ever necessary?
+    selectedTaxon = leaf_names[display_names.indexOf(possible_guesses[randomIndex])] ; 
+    /// this is our bug because we need a way to go back 
+
+    guess_taxon(possible_guesses[randomIndex])
   }
   )
 
@@ -582,8 +572,8 @@ function getNodeIds(tree) {
 
 /// to be updated with a score and a more subversive message
 /// probably should have the button appear after the user finishes. 
-function tweet( ) {
-  var text = "I blew my mind and scored a " + guess_total + " on Phylo-Le" ; 
+function tweet(  ) {
+  var text = "I just scored a " + guess_total + " on Phylo-Le" ; 
   var url = encodeURIComponent("https://www.Phylo-Le.com"); 
   var tweetUrl = "https://twitter.com/intent/tweet?text=" + text + "&url=" + url;
   window.open(tweetUrl);
@@ -602,3 +592,4 @@ function redirectToLab() {
 function imlucky(){
   
 }
+
