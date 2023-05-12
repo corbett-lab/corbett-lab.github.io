@@ -151,7 +151,7 @@ function guess_taxon(display_name_of_selected_taxon){
 
       var tree_styles = {
         // set colour, shape and label for last guess and target. 
-        last_guess: { fillColour: "blue", label: selectedTaxon, shape: phylocanvas.Shapes.Star },
+        last_guess: {  label: selectedTaxon, shape: phylocanvas.Shapes.DoubleChevronRight },
         Target: { fillColour: "red", label: replaceID, shape: phylocanvas.Shapes.Star },
       }
 
