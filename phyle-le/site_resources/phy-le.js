@@ -80,8 +80,6 @@ console.log(target);
 var newick = newickTree.replace( target, "Target");
 /// store as a useful tree object
 jsonTree = setNodeIDs( parse( newick ) ) ;
-// console.log(toNewick(jsonTree));
-// console.log(getNodeIds(jsonTree));
 // / then put target into the existing guess list
 var guesses = ["Target"] ; 
 
@@ -131,7 +129,7 @@ function guess_taxon(display_name_of_selected_taxon){
       // should be some kind of real celebration
       replaceID = "   Guess This Species" ; 
       if ( selectedTaxon === target ) {
-          replaceID = display_names[leaf_names.indexOf(guesses[guesses.length-1])] ;
+          replaceID = "   " + display_names[leaf_names.indexOf(guesses[guesses.length-1])] ;
           guess_total = guesses.length - 1 ;
           rhinoDiv.style.display = "block" ;
           nicoDiv.style.display = "block" ; 
@@ -144,7 +142,6 @@ function guess_taxon(display_name_of_selected_taxon){
           //var distance = findDistance( prunedTree, "Target", selectedTaxon ) ; 
           prunedNewick = prunedNewick.replace(selectedTaxon,"last_guess") ;
           distance = findDistance( prunedTree, "Target", selectedTaxon ) ;
-          console.log(distance)
       }
 
       console.log("TARGET: " + target)
@@ -152,7 +149,7 @@ function guess_taxon(display_name_of_selected_taxon){
 
       var tree_styles = {
         // set colour, shape and label for last guess and target. 
-        last_guess: { fillColour: "blue", label: selectedTaxon, shape: phylocanvas.Shapes.Star },
+        last_guess: {  label: selectedTaxon, shape: phylocanvas.Shapes.DoubleChevronRight },
         Target: { fillColour: "red", label: replaceID, shape: phylocanvas.Shapes.Star },
       }
 
@@ -163,8 +160,6 @@ function guess_taxon(display_name_of_selected_taxon){
       for(let i = 1; i < guesses.length; i++){
         var disp_name = display_names[leaf_names.indexOf(guesses[i])] ; 
         var distance = (findDistance( prunedTree, "Target", guesses[i] ) * 50).toFixed(2) ; 
-        console.log(distance)  ; 
-        console.log(distance.length) ; 
         tree_styles[guesses[i]] = {label:" ".repeat(Math.max(0,8-distance.length)) + distance + " MY | " + disp_name} ; 
       }
 
@@ -180,6 +175,7 @@ function guess_taxon(display_name_of_selected_taxon){
             source: prunedNewick ,
             alignLabels: false,
             showBranchLengths: false, 
+            fontFamily: "Roboto Mono" , 
         },
       );
     }
@@ -225,8 +221,6 @@ $("#taxonInput").autocomplete({
           guess = possibleHints[i];
         }
       }
-      // console.log(guess);
-      // console.log(minDist);
       selectedTaxon = guess;
       display_name_of_selected_taxon = display_names[leaf_names.indexOf(guess)];
     } else {
@@ -240,10 +234,7 @@ $("#taxonInput").autocomplete({
   $("#imlucky").click(function() {
 
     let targetIndex = possible_guesses.indexOf(display_names[leaf_names.indexOf(target)]) ;
-    const randomIndex = Math.floor(Math.random() * possible_guesses.length);
-
-    console.log( targetIndex ) ; 
-    console.log( randomIndex ) ; 
+    const randomIndex = Math.floor(Math.random() * possible_guesses.length); 
 
     while ( randomIndex === targetIndex ) { 
         randomIndex = Math.floor(Math.random() * possible_guesses.length);
@@ -533,9 +524,7 @@ function computePathDistance( path, lca ) {
 function findDistance(tree, leaf1, leaf2) {
   const node1 = findLeafNode(tree, leaf1);
   const node2 = findLeafNode(tree, leaf2);
-  // console.log("FOUND NODES");
-  // console.log(node1);
-  // console.log(node2);
+
   if (!node1 || !node2) return null;
   const lca = lowestCommonAncestor(tree, node1.name, node2.name);
 
