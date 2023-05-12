@@ -7,7 +7,7 @@ from ete3 import Tree
 
 # This script takes a list of animals
 
-animal_list = open("animal_list_1").readlines()
+animal_list = open(sys.argv[1]).readlines()
 
 full_tree_string = open("4705_mammal.newick").read()
 taxa_names = open("4705_mammal.taxa").read()
@@ -30,6 +30,7 @@ latin_names = []
 full_names = []       #names as they appear in the tree
 
 
+rejects = open("rejected_list", "w")
 
 for i in range(len(animal_list)):
     com_name = animal_list[i].split(',')[0]
@@ -41,6 +42,8 @@ for i in range(len(animal_list)):
         common_names.append(com_name)
         latin_names.append(lat_name)
         full_names.append(full_name)
+    else:
+        rejects.writelines([animal_list[i]])
 
 
 # First, I create a subtree 
