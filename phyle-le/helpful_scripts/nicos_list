@@ -1,5 +1,4 @@
-African bush elephant,loxodonta_africana
-African forest elephant,loxodonta_cyclotis
+African elephant,loxodonta_africana
 African wild dog,lycaon_pictus
 American black bear,ursus_americanus
 Arctic fox,vulpes_lagopus
@@ -59,7 +58,6 @@ Lion,panthera_leo
 Little brown bat,myotis_lucifugus
 Lynx,lynx
 Manatee,trichechus
-Marmot,marmota
 Meerkat,suricata_suricatta
 Minke whale,balaenoptera_acutorostrata
 Moose,alces_alces
@@ -96,7 +94,6 @@ Spotted hyena,crocuta_crocuta
 Striped dolphin,stenella_coeruleoalba
 Tasmanian devil,sarcophilus_harrisii
 Tarsier,tarsius
-Tasmanian devil,sarcophilus_harrisii
 Tiger,panthera_tigris
 Walrus,odobenus_rosmarus
 Warthog,phacochoerus_africanus
@@ -108,11 +105,10 @@ Wolf,canis_lupus
 Wombat,vombatus_ursinus
 Yak,bos_grunniens
 Gerbal,meriones_unguiculatus
-Marmoset,callimico_goeldii
 Domestic dog,canis_familiaris
 Hamster,mesocricetus_auratus
 Gopher,geomys_bursarius
-Lemur,lemur
+Lemur,lemur_catta
 Chinchilla,chinchilla
 Opossum,didelphis
 Guinea pig,cavia_porcellus
