@@ -134,7 +134,7 @@ function guess_taxon(display_name_of_selected_taxon){
 
 
       // should be some kind of real celebration
-      replaceID = "Guess This Species" ; 
+      replaceID = "   Guess This Species" ; 
       if ( selectedTaxon === target ) {
           replaceID = display_names[leaf_names.indexOf(guesses[guesses.length-1])] ;
           guess_total = guesses.length - 1 ;
@@ -163,12 +163,14 @@ function guess_taxon(display_name_of_selected_taxon){
 
       var last_guess_dist = (findDistance( prunedTree, "Target", selectedTaxon ) * 50).toFixed(2) 
       
-      tree_styles['last_guess'].label = " ".repeat(Math.min(0,7-last_guess_dist.length)) + last_guess_dist + " " + display_name_of_selected_taxon
+      tree_styles['last_guess'].label = " ".repeat(Math.max(0,8-last_guess_dist.length)) + last_guess_dist + " MY | " + display_name_of_selected_taxon
 
       for(let i = 1; i < guesses.length; i++){
         var disp_name = display_names[leaf_names.indexOf(guesses[i])] ; 
         var distance = (findDistance( prunedTree, "Target", guesses[i] ) * 50).toFixed(2) ; 
-        tree_styles[guesses[i]] = {label:" ".repeat(Math.min(0,7-distance.length)) + distance + " " + disp_name} ; 
+        console.log(distance)  ; 
+        console.log(distance.length) ; 
+        tree_styles[guesses[i]] = {label:" ".repeat(Math.max(0,8-distance.length)) + distance + " MY | " + disp_name} ; 
       }
 
       /// now render this. 
@@ -182,6 +184,7 @@ function guess_taxon(display_name_of_selected_taxon){
             showLeafLabels: true,
             source: prunedNewick ,
             alignLabels: false,
+            showBranchLengths: false, 
         },
       );
     }
@@ -299,8 +302,6 @@ function parse(newick) {
 function filter(tree, list) {
   let filteredChildren = [];
 
-  // there is a bug somewhere aorund here that causes branch lenghts to be too short.
-  // suspect it's about how we merge when pruning.  
   for (let child of tree.children) {
     if (list.includes(child.name)) {
       child.children = filter(child, list).children;
@@ -319,6 +320,7 @@ function filter(tree, list) {
   tree.children = filteredChildren;
   return tree;
 }
+
 
 function toNewick(tree) {
 let newick = "";
