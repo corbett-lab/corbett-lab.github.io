@@ -8,8 +8,6 @@
 
 /// it should color the last guess differently as well. 
 
-// animals to add: 
-// seal, whale, otter, orca, dolphin, armadillo, honeybadger, beaver, aardvark, possu, pangolin
 
 // turn off the rhino and nico at the beginning
 var rhinoDiv = document.getElementById("rhino") ; 
