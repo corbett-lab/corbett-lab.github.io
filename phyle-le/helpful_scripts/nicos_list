@@ -1,7 +1,5 @@
 African elephant,loxodonta_africana
-African wild dog,lycaon_pictus
 American black bear,ursus_americanus
-Arctic fox,vulpes_lagopus
 Arctic hare,lepus_arcticus
 Armadillo,dasypus_novemcinctus
 Asian elephant,elephas_maximus
@@ -19,27 +17,20 @@ Capybara,hydrochoerus_hydrochaeris
 Cheetah,acinonyx_jubatus
 Chimpanzee,pan_troglodytes
 Common dolphin,delphinus_delphis
-Cougar,puma_concolor
 Coyote,canis_latrans
-Gazelle,gazella
+Gazelle,gazella_dorcas
 Domestic cat,felis_catus
 Domestic cow,bos_taurus
 Domestic pig,sus_scrofa_domesticus
-Dugong,dugong_dugon
 Eastern gray squirrel,sciurus_carolinensis
 Echidna,tachyglossus_aculeatus
-Elephant seal,mirounga
+Elephant seal,mirounga_angustirostris
 Elk,cervus_canadensis
 European hare,lepus_europaeus
-European otter,lutra_lutra
-Fallow deer,dama_dama
 Ferret,mustela_putorius_furo
-Fin whale,balaenoptera_physalus
-Fox,vulpes
 Giraffe,giraffa_camelopardalis
-Gnu,connochaetes
 Golden jackal,canis_aureus
-Gorilla,gorilla
+Gorilla,gorilla_gorilla
 Gray fox,urocyon_cinereoargenteus
 Gray seal,halichoerus_grypus
 Groundhog,marmota_monax
@@ -51,47 +42,35 @@ House mouse,mus_musculus
 Human,homo_sapiens
 Humpback whale,megaptera_novaeangliae
 Jaguar,panthera_onca
-Kangaroo,macropus
+Kangaroo,macropus_giganteus
 Koala,phascolarctos_cinereus
 Leopard,panthera_pardus
 Lion,panthera_leo
 Little brown bat,myotis_lucifugus
-Lynx,lynx
-Manatee,trichechus
+Bobcat,lynx_rufus
+Manatee,trichechus_manatus
 Meerkat,suricata_suricatta
-Minke whale,balaenoptera_acutorostrata
 Moose,alces_alces
 Mountain goat,oreamnos_americanus
-Mountain lion,puma_concolor
-Musk ox,ovibos_moschatus
 Ocelot,leopardus_pardalis
-Orangutan,pongo
+Orangutan,pongo_pygmaeus
 Orca,orcinus_orca
-Pilot whale,globicephala
 Platypus,ornithorhynchus_anatinus
 Polar bear,ursus_maritimus
 Porcupine,erethizon_dorsatum
-Prairie dog,cynomys
-Pronghorn,antilocapra_americana
+Prairie dog,cynomys_ludovicianus
 Puma,puma_concolor
 Rabbit,oryctolagus_cuniculus
 Raccoon,procyon_lotor
 Red fox,vulpes_vulpes
 Red kangaroo,macropus_rufus
-Red panda,ailurus_fulgens
-Red squirrel,tamiasciurus_hudsonicus
 Reindeer,rangifer_tarandus
-River dolphin,platanista
-Saiga antelope,saiga_tatarica
+Antelope,antilope_cervicapra
 Sea otter,enhydra_lutris
 Sheep,ovis_aries
-Siberian tiger,panthera_tigris_altaica
 Skunk,mephitis_mephitis
 Sloth,bradypus
-Snow leopard,panthera_uncia
-Spectacled bear,tremarctos_ornatus
-Spotted hyena,crocuta_crocuta
-Striped dolphin,stenella_coeruleoalba
+Hyena,crocuta_crocuta
 Tasmanian devil,sarcophilus_harrisii
 Tarsier,tarsius
 Tiger,panthera_tigris
@@ -99,12 +78,10 @@ Walrus,odobenus_rosmarus
 Warthog,phacochoerus_africanus
 Water buffalo,bubalus_bubalis
 Weasel,mustela_nivalis
-Wild boar,sus_scrofa
 Wolverine,gulo_gulo
 Wolf,canis_lupus
 Wombat,vombatus_ursinus
 Yak,bos_grunniens
-Gerbal,meriones_unguiculatus
 Domestic dog,canis_familiaris
 Hamster,mesocricetus_auratus
 Gopher,geomys_bursarius
@@ -113,3 +90,8 @@ Chinchilla,chinchilla
 Opossum,didelphis
 Guinea pig,cavia_porcellus
 Narwhal,monodon_monoceros
+Sperm whale,physeter_catodon
+Panda,ailuropoda_melanoleuca
+Anteater,myrmecophaga_tridactyla
+Pangolin,manis_pentadactyla
+Chipmunk,tamias_striatus
