@@ -1,3 +1,4 @@
+
 /// good hints 
 /// insulting when you guess species not in the tree
 /// rotate tree by shuffling child array at each node
@@ -151,7 +152,7 @@ function guess_taxon(display_name_of_selected_taxon){
       var tree_styles = {
         // set colour, shape and label for last guess and target. 
         last_guess: {  label: selectedTaxon, shape: phylocanvas.Shapes.DoubleChevronRight },
-        Target: { fillColour: "red", label: replaceID, shape: phylocanvas.Shapes.Star },
+        Target: { fillColour: "#3972ff", label: replaceID, shape: phylocanvas.Shapes.ChevronRight },
       }
 
       var last_guess_dist = (findDistance( prunedTree, "Target", selectedTaxon ) * 50).toFixed(2) 
@@ -177,6 +178,7 @@ function guess_taxon(display_name_of_selected_taxon){
             alignLabels: false,
             showBranchLengths: false, 
             fontFamily: "Roboto Mono" , 
+            padding: 0 ,
         },
       );
     }
