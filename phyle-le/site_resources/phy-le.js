@@ -147,6 +147,7 @@ function guess_taxon(display_name_of_selected_taxon){
       console.log("TARGET: " + target)
       console.log("CHOICE: " + selectedTaxon)
 
+
       var tree_styles = {
         // set colour, shape and label for last guess and target. 
         last_guess: {  label: selectedTaxon, shape: phylocanvas.Shapes.DoubleChevronRight },
