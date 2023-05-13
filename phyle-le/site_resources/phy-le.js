@@ -1,16 +1,3 @@
-/// good hints 
-/// insulting when you guess species not in the tree
-/// rotate tree by shuffling child array at each node
-/// can we also arrange the tree so that the target is always on the top?
-  //// yes, this is an easy algorithm
-  //// find the full path from root to target, 
-  //// then, sort each child array so the path is first
-
-/// it should color the last guess differently as well. 
-
-// animals to add: 
-// seal, whale, otter, orca, dolphin, armadillo, honeybadger, beaver, aardvark, possu, pangolin
-
 // turn off the rhino and nico at the beginning
 var rhinoDiv = document.getElementById("rhino") ; 
 rhinoDiv.style.display = "none" ;
