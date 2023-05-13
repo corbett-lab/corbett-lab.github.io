@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 /// good hints 
 /// insulting when you guess species not in the tree
 /// rotate tree by shuffling child array at each node
@@ -11,7 +10,6 @@
 /// it should color the last guess differently as well. 
 
 
->>>>>>> ec4a9a8b39362edda2c6d6056f0501514b517c9d
 // turn off the rhino and nico at the beginning
 var rhinoDiv = document.getElementById("rhino") ; 
 rhinoDiv.style.display = "none" ;
