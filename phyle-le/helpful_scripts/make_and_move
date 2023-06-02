@@ -1,0 +1,2 @@
+python3 create_tree.py nicos_list > nicodata.js
+cp nicodata.js ../site_resources/

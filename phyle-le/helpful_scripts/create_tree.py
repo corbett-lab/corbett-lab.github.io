@@ -24,6 +24,7 @@ def get_true_taxa_name(s):
     return taxa_names[start+1: end]
 
 
+file_name = sys.argv[1].split('_')[0]
 
 common_names = []
 latin_names = []
@@ -52,7 +53,7 @@ Subtree.prune(full_names, preserve_branch_length=True)
 
 
 
-print("var display_names = [", end='')
+print("var "+file_name+"_display_names = [", end='')
 for i in range(len(common_names)):
     display_name = common_names[i] + ", "
     scientific_name = latin_names[i].split('_')
@@ -63,11 +64,11 @@ for i in range(len(common_names)):
 
     print("'"+display_name+"',", end='')
 print('];')
-print("var leaf_names = [", end='')
+print("var "+file_name+"_leaf_names = [", end='')
 for i in full_names:
     print("'"+i+"',", end='')
 print('];')
-print("var newickTree = '"+ Subtree.write(format=5) + "';")
+print("var "+file_name+"_newickTree = '"+ Subtree.write(format=5) + "';")
 
 
 
