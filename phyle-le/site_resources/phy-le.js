@@ -69,6 +69,11 @@ async function main() {
     newickTree = max_newickTree;
     leaf_names = max_leaf_names;
   }
+  else if ( selectedTree == "erikbird") {
+    display_names = erik_display_names ; 
+    newickTree = erik_newickTree ; 
+    leaf_names = erik_leaf_names ; 
+  }
 
   /// list to record possible guesses
   let possible_guesses = [...display_names] ; 
