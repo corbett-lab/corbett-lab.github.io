@@ -562,8 +562,8 @@ function getNodeIds(tree) {
 /// to be updated with a score and a more subversive message
 /// probably should have the button appear after the user finishes. 
 function tweet(  ) {
-  var text = "I just scored a " + guess_total + " on Phylo-Le" ; 
-  var url = encodeURIComponent("https://www.Phylo-Le.com"); 
+  var text = "I just scored a " + guess_total + " on Phylo-Le from the Corbett-Detig lab. " ; 
+  var url = encodeURIComponent("https://corbett-lab.github.io/phyle-le/site_resources/phy-le.html"); 
   var tweetUrl = "https://twitter.com/intent/tweet?text=" + text + "&url=" + url;
   window.open(tweetUrl);
 }
