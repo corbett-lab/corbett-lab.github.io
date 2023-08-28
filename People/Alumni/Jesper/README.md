@@ -6,4 +6,4 @@ Former Postdoc 2020 - 2022
 
 I'm particularly interested in adaptive introgression, fungi, and California fries from Los Pinos. 
 
-<img src='jesper.jpg'  alt='jesper' width='500'/>
+<img src='jesper.jpeg'  alt='jesper' width='500'/>
