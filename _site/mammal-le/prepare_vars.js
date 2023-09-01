@@ -54,10 +54,6 @@ for(let i = 0; i < 4705; i++){
 }
 
 
-var newick_string = loadFile("tree_data/4705_mammal.newick")
-
-
-
 
 
 
@@ -90,19 +86,7 @@ str_js_file += "]\n"
 
 
 
-
-
-
-
-
-
-
-var tree_string = "var newick = '" + newick_string + "'"
-
-
-
-
-
+console.log(str_js_file)
 
 function download(filename, text) {
     var element = document.createElement('a');
@@ -117,6 +101,6 @@ function download(filename, text) {
     document.body.removeChild(element);
   }
 
-//download("var_include.js", str_js_file)
+download("var_include.js", str_js_file) 
 
-download("tree_include.js", tree_string)
+console.log('got vars')

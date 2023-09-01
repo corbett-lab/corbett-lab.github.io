@@ -99,7 +99,7 @@ var answer = get_index_from_latin_name(t.pop())
 
 
 
-console.log(newick_string.slice(0, 10))
+
 
 
 

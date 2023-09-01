@@ -1,0 +1,1 @@
+window.location.href = 'site_resources/phy-le.html';

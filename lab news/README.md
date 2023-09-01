@@ -4,6 +4,24 @@ sort: 4
 
 # Lab News
 
+## [Chris Condon](/People/Current/Chris/) Advances (8/17/2023)
+Chris wrecked his qualifying exam (in a good, non-confusing way). Congratulations, Chris! 
+
+His research will use a ton of innovative genomic techniques to figure out how genetic conflicts shape popupations and molecules.
+
+
+## [Gabe Penunuri](/People/Current/Gabe/) Advances (7/13/2023)
+Gabe nailed his qualifying exam. His work producing tools to facilitate the detection of protein mimics will take the symbiosis world by storm.
+
+
+## [Lily Karim](/People/Current/Lily/) Advances (7/7/2023)
+Lily passed her qualifying exam with flying colors --- like a glorious autumn wind. Her thesis proposal was rad. Lily's work will enable public health offices to mitigate the spread of major pathogens.
+
+
+## [Jakob McBroome](/People/Alumni/Jakob/) Defended his Thesis (5/26/2023)
+Jakob's thesis work is amazing. He built tools to study pathogen genomes, and invented new ways the we will track the evolution adn emergence of epidemiologically novel strains of major pathogens. Congratulations, Jakob! 
+
+
 ## Bryan Thornlow Defended his Thesis (10/25/2021)
 One of the two first graduate student to join our lab, Bryan, defended his thesis! Bryan showcased amazing work on tRNA evolution and predicting tRNA activity. Next, he's head to Boston to work as a data scientist at [Rome Therapeutics](https://rometx.com/). Congratulations, Bryan! We're super excited to see what's next for you.  
 ![image_50445569](https://user-images.githubusercontent.com/10063921/139553706-16e99e45-42bd-4ea3-bc22-e5e76653a04e.JPG)

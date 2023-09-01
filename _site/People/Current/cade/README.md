@@ -2,7 +2,8 @@
 
 ![science](https://img.shields.io/badge/FileType-cade-brightgreen)
 
-Assistant Specialist, cmirchan@ucsc.edu  
-Research Interests: Interesting Research  
-Brief Bio: Cade is cading. Cade, cade, cade, CADDDEEE!  
+PhD Student, cade@ucsc.edu  
+Research Interests: genomes, I guess.  
+
+
 <img src='2021-05-17.jpeg' alt='cade' width='500'/>
