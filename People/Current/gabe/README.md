@@ -5,4 +5,4 @@
 PhD Candidate
 Research Interest: Host-Microbe interactions and evolution, computational proteome analysis.
 
-<img src='GabeTree.png' alt='fry' width='500'/>
+<img src='GabeTree.jpg' alt='fry' width='500'/>
