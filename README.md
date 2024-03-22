@@ -33,6 +33,7 @@ email: rucorbet@ucsc.edu
 | [`Jodie Jacobs`](/People/Current/jodie/)           | Friend of the lab              |                   | |
 | [`Chris Condon`](/People/Current/chris/)           | Grad student              | [Chris' Publications](https://scholar.google.com/citations?user=NFpd0PsAAAAJ&hl=en&oi=ao) | |
 | [`Shelbi Russell`](https://russellsymbiosislab.engineering.ucsc.edu/)     | Friend of the lab   |  | |
+| [`Alan Zhang`](People/Current/alan/) | Grad student | | Luna |
 
 
 ## Social Media
