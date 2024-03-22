@@ -34,6 +34,7 @@ email: rucorbet@ucsc.edu
 | [`Chris Condon`](/People/Current/chris/)           | Grad student              | [Chris' Publications](https://scholar.google.com/citations?user=NFpd0PsAAAAJ&hl=en&oi=ao) | |
 | [`Shelbi Russell`](https://russellsymbiosislab.engineering.ucsc.edu/)     | Friend of the lab   |  | |
 | [`Alan Zhang`](People/Current/alan/) | Grad student | | [Luna](People/Current/alan/luna.jpg) |
+| [`Anne Nakamoto`](People/Current/anne/) | Grad student | [Anne's Publications](https://scholar.google.com/citations?user=d3Ndg64AAAAJ&hl=en&oi=ao) | |
 
 
 ## Social Media
