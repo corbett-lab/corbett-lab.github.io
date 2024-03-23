@@ -34,6 +34,7 @@ email: rucorbet@ucsc.edu
 | [`Shelbi Russell`](https://russellsymbiosislab.engineering.ucsc.edu/)     | Friend of the lab   |  | |
 | [`Alan Zhang`](People/Current/alan/) | Grad student | | [Luna](People/Current/alan/luna.jpg) |
 | [`Anne Nakamoto`](People/Current/anne/) | Grad student | [Anne's Publications](https://scholar.google.com/citations?user=d3Ndg64AAAAJ&hl=en&oi=ao) | |
+| [`Bianca De Sanctis`](People/Current/bianca/) | Postdoc | [Bianca's Publications](https://scholar.google.com/citations?user=IvpdXzEAAAAJ&hl=en) | [Chloe](https://github.com/corbett-lab/corbett-lab.github.io/assets/15896948/c72bf3ab-d5b0-41af-9e62-6fd200c4efad) |
 
 
 ## Social Media
