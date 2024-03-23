@@ -4,6 +4,9 @@ sort: 4
 
 # Lab News
 
+## [Anne Nakamoto](/People/Current/anne/) and [Alan Zhang](/People/Current/alan/) Join the the lab (3/22/2024)
+We're delighted to welcome Anne and Alan to the lab. Anne comes to us as a GRFP fellow from UC Berkeley undergrad and Alan joins from undergraduate work with Ian Korf at UC Davis. 
+
 ## [Chris Condon](/People/Current/Chris/) Advances (8/17/2023)
 Chris wrecked his qualifying exam (in a good, non-confusing way). Congratulations, Chris! 
 
