@@ -2,7 +2,7 @@
 
 ![Type](https://img.shields.io/badge/FileType-.fasta-red)
 
-PhD Student
-Research Interest: Protein mimicry in Wolbachia
+PhD Candidate
+Research Interest: Host-Microbe interactions and evolution, computational proteome analysis.
 
-<img src='Robot_Devil_Fiddle.png' alt='fry' width='500'/>
+<img src='GabeTree.jpg' alt='fry' width='500'/>
