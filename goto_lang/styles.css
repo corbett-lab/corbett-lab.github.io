@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh; /* Make the container take up the full height of the viewport */
+}
+
+.text-field {
+    flex: 1; /* Make the text field flex to take up remaining vertical space */
+    display: flex; /* Utilize flexbox */
+    width: 100%; /* Ensure the text fields take full width */
+    margin-bottom: 10px;
+}
+
+.text-field textarea {
+    flex: 1; /* Utilize flex property to distribute available space */
+    padding: 10px;
+    resize: none;
+    border: 1px solid #ccc;
+    font-family: monospace;
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+    width: 100%; /* Take full available width */
+    height: 100%; /* Take up full available height */
+}
+
+#run-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 10px; /* Add margin to separate button from text field */
+}
