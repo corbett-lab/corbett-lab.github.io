@@ -1,6 +1,6 @@
 ## Bryan Thornlow  
 ![Type](https://img.shields.io/badge/FileType-.newick-purple)  
-Ph.D. Candidate    
+Ph.D.   
 bthornlo@ucsc.edu  
 [Website](https://users.soe.ucsc.edu/~bpt26/)  
 [CV](https://users.soe.ucsc.edu/~bpt26/thornlow_CV.pdf)  
