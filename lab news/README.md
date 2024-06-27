@@ -4,6 +4,11 @@ sort: 4
 
 # Lab News
 
+## [Cade Mirchandani](/People/Current/cade/) Advances (6/27/24)
+Cade passed his qualifying exam in a totally Cade-like fashion (totally crushed it)! His work will explore the evolutionary genomics of diverse organisms, from tiny endosymbionts to species of conservation interest across California. Congrats, Ph.D Cade-did-it!
+
+<img src='cade_advancement.jpg' alt='cade_advancement' width='500'/>
+
 ## [Maximilian Genetti](/People/Current/max/) Defended his Thesis (5/24/2024)
 Max did an amazing job defending his thesis on leveraging various approaches for studying admixture in diverse natural populations. He linked Neotropical cats' hybridization with human-mediated deforestation, found signals of ancestry specific selection in Aficanized honebees, and developed tools to model multilocus selection in European sparrows. Congrats, Dr. Genetticist!
 
