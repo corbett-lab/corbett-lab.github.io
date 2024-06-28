@@ -4,6 +4,16 @@ sort: 4
 
 # Lab News
 
+## [Cade Mirchandani](/People/Current/cade/) Advances (6/27/24)
+Cade passed his qualifying exam in a totally Cade-like fashion (totally crushed it)! His work will explore the evolutionary genomics of diverse organisms, from tiny endosymbionts to species of conservation interest across California. Congrats, Ph.D Cade-did-it!
+
+<img src='cade_advancement.jpg' alt='cade_advancement' width='500'/>
+
+## [Maximilian Genetti](/People/Current/max/) Defended his Thesis (5/24/2024)
+Max did an amazing job defending his thesis on leveraging various approaches for studying admixture in diverse natural populations. He linked Neotropical cats' hybridization with human-mediated deforestation, found signals of ancestry specific selection in Aficanized honebees, and developed tools to model multilocus selection in European sparrows. Congrats, Dr. Genetticist!
+
+<img src='max_denfense.jpg' alt='max_defense' width='500'/>
+
 ## [Anne Nakamoto](/People/Current/anne/) and [Alan Zhang](/People/Current/alan/) Join the the lab (3/22/2024)
 We're delighted to welcome Anne and Alan to the lab. Anne comes to us as a GRFP fellow from UC Berkeley undergrad in Ksenia Krasileva's lab, and Alan joins from undergraduate work with Ian Korf at UC Davis. 
 
