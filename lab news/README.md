@@ -4,6 +4,12 @@ sort: 4
 
 # Lab News
 
+## Jodie Jacobs Advances (7/1/24)
+Jodie (dear friend of the lab) passed her qualifying exam wonderfully! Her work will investigate changes in cell state in infected versus uninfected *Wolbachia* cells, characterize the transcriptome of new *Wolbachia* infections, and construct a genetically tractible system for manipulation of *Wolbachia*. Congrats, *Candidatus Jodii*!
+
+<img src='jodie_advancement.jpg' alt='jodie_advancement' width='500'/>
+
+
 ## [Cade Mirchandani](/People/Current/cade/) Advances (6/27/24)
 Cade passed his qualifying exam in a totally Cade-like fashion (totally crushed it)! His work will explore the evolutionary genomics of diverse organisms, from tiny endosymbionts to species of conservation interest across California. Congrats, Ph.D Cade-did-it!
 
