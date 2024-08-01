@@ -4,6 +4,11 @@ sort: 4
 
 # Lab News
 
+## Farewell [Nico](/People/Current/nico/)! (7/31/24)
+After approximately 3.5 years with the lab, today was Nico's last day. This fall he will begin His PhD in Computational Biology at UC Berkeley. Nicolas, the timeless being, will be remembered. We wish him the best! May He spread his gospel to his future lab and the city of Berkeley. 
+
+<img src='nico_farewell.jpg' alt='nico_farewell' width='500'/>
+
 ## Jodie Jacobs Advances (7/1/24)
 Jodie (dear friend of the lab) passed her qualifying exam wonderfully! Her work will investigate changes in cell state in infected versus uninfected *Wolbachia* cells, characterize the transcriptome of new *Wolbachia* infections, and construct a genetically tractible system for manipulation of *Wolbachia*. Congrats, *Candidatus Jodii*!
 
