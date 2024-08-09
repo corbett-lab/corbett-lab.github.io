@@ -5,7 +5,7 @@ sort: 4
 # Lab News
 
 ## Farewell [Nico](/People/Current/nico/)! (7/31/24)
-After approximately 3.5 years with the lab, today was Nico's last day. This fall he will begin His PhD in Computational Biology at UC Berkeley. Nicolas, the timeless being, will be remembered. We wish him the best! May He spread his gospel to his future lab and the city of Berkeley. 
+After approximately 3.5 years with the lab, today was Nico's last day. This fall he will begin His PhD in Computational Biology at UC Berkeley. Nicolas, the timeless being, will be remembered. We wish Him the best! May He spread his gospel to His future lab and the city of Berkeley. 
 
 <img src='nico_farewell.jpg' alt='nico_farewell' width='500'/>
 
