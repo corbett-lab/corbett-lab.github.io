@@ -3,7 +3,7 @@
 ![Type](https://img.shields.io/badge/FileType-.fasta-yellow)
 
 Master Student, pkatte@ucsc.edu  
-Research Interests: 
+Research Interests: Trees.
 
 <img src='pratik.JPEG' alt='pratik' width='500'/>
 
