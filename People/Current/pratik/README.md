@@ -1,6 +1,6 @@
 ## Pratik Katte
 
-![Type](https://img.shields.io/badge/FileType-.fasta-yellow)
+![Type](https://img.shields.io/badge/FileType-.newick-yellow)
 
 Master Student, pkatte@ucsc.edu  
 Research Interests: Trees.
