@@ -3,10 +3,25 @@ sort: 7
 ---
 
 # Lab Activities
+- [Chubbsies](#Chubssies)
+- [BAPG 2024](#BAPG-2024)
 - [Davenport](#davenport)
 - [Desolation Wilderness](#desolation-wilderness)
 - [Elkhorn Slough](#elkhorn-slough)
 - [Providence, RI Evolution Conference](#providence-ri)
+
+
+
+# Chubssies
+
+![image](chubbsies_1.png)
+
+![image](chubbsies_2.png)
+
+# BAPG 2024
+
+![image](BAPG_2024.jpg)
+
 
 # Davenport
 ![image](https://user-images.githubusercontent.com/10063921/132953039-c906cc78-64a4-4e77-9d03-0058fbf27285.png)  
