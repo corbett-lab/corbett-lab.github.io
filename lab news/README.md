@@ -4,6 +4,11 @@ sort: 4
 
 # Lab News
 
+## Farewell [Erik](/People/Current/erik/)!
+This week we bird farewell to Erik, who has been a postoc in the lab since 2021. We could warble on about Erik’s awesome work in the lab leading bioinformatics for the California Conservation Genomics Project, but will sparrow you of all the details. We are plover-whelmed with excitement that Erik will soon be starting his tenure track position at Cornell Computational Biology, and can’t wait to see all the finch-resting work he does next. Congrats Erik, we will miss you, and wish you owl the best!
+
+<img src='erik_farewell.jpg' alt='erik_farewell' width='500'/>
+
 ## Farewell [Nico](/People/Current/nico/)! (7/31/24)
 After approximately 3.5 years with the lab, today was Nico's last day. This fall he will begin His PhD in Computational Biology at UC Berkeley. Nicolas, the timeless being, will be remembered. We wish Him the best! May He spread his gospel to His future lab and the city of Berkeley. 
 
