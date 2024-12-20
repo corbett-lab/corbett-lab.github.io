@@ -4,7 +4,7 @@ sort: 4
 
 # Lab News
 
-## Farewell [Erik](/People/Current/erik/)!
+## Farewell [Erik](/People/Current/erik/)! (12/19/24)
 This week we bird farewell to Erik, who has been a postoc in the lab since 2021. We could warble on about Erik’s awesome work in the lab leading bioinformatics for the California Conservation Genomics Project, but will sparrow you of all the details. We are plover-whelmed with excitement that Erik will soon be starting his tenure track position at Cornell Computational Biology, and can’t wait to see all the finch-resting work he does next. Congrats Erik, we will miss you, and wish you owl the best!
 
 <img src='erik_farewell.jpg' alt='erik_farewell' width='500'/>
