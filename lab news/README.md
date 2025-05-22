@@ -4,6 +4,13 @@ sort: 4
 
 # Lab News
 
+## [Anne Nakamoto](/People/Current/anne/) advances (5/22/25)
+
+Congrats Anne for passing her adv-anne-cement to c-anne-didacy with highest honors! Her work will use genomics for the conservation of biodiversity in California and Hawaii. Thank you Anne for conserving the genomes and saving our planet. Be sorry for future advancers who will have to live up to this standard. 
+
+<img src='anne_advancement.jpg' alt='anne_advancement' width='500'/>
+
+
 ## Farewell [Erik](/People/Current/erik/)! (12/19/24)
 This week we bird farewell to Erik, who has been a postoc in the lab since 2021. We could warble on about Erik’s awesome work in the lab leading bioinformatics for the California Conservation Genomics Project, but will sparrow you of all the details. We are plover-whelmed with excitement that Erik will soon be starting his tenure track position at Cornell Computational Biology, and can’t wait to see all the finch-resting work he does next. Congrats Erik, we will miss you, and wish you owl the best!
 
