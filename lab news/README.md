@@ -10,6 +10,8 @@ Congrats Anne for passing her adv-anne-cement to c-anne-didacy with highest hono
 
 <img src='anne_advancement.jpg' alt='anne_advancement' width='500'/>
 
+## [Cameryn Morey](/People/Current/camryn/) joins the the lab (March 2025)
+We're delighted to welcome Camryn to the lab! She comes to us from undergraduate work with Greg Rouse at UCSD. 
 
 ## Farewell [Erik](/People/Current/erik/)! (12/19/24)
 This week we bird farewell to Erik, who has been a postoc in the lab since 2021. We could warble on about Erik’s awesome work in the lab leading bioinformatics for the California Conservation Genomics Project, but will sparrow you of all the details. We are plover-whelmed with excitement that Erik will soon be starting his tenure track position at Cornell Computational Biology, and can’t wait to see all the finch-resting work he does next. Congrats Erik, we will miss you, and wish you owl the best!
