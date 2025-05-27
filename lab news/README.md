@@ -4,13 +4,19 @@ sort: 4
 
 # Lab News
 
+## [Alan Zhang](/People/Current/alan/) advances (5/27/25)
+
+Congrats to Alan on his alan-cement to candidacy! His thesis proposes three tools in the panMAN ecosystem: panMAMA, panMANIAK, and panMAARG, which will revolutionize genome analysis at the scale of millions. He is t-alan-ted and his programs are fast as af. Amazing job, PhD c-alan-did-it!
+
+<img src='alan_cement.jpg' alt='alan_cement' width='500'/>
+
 ## [Anne Nakamoto](/People/Current/anne/) advances (5/22/25)
 
 Congrats Anne for passing her adv-anne-cement to c-anne-didacy with highest honors! Her work will use genomics for the conservation of biodiversity in California and Hawaii. Thank you Anne for conserving the genomes and saving our planet. Be sorry for future advancers who will have to live up to this standard. 
 
 <img src='anne_advancement.jpg' alt='anne_advancement' width='500'/>
 
-## [Cameryn Morey](/People/Current/camryn/) joins the the lab (March 2025)
+## [Camryn Morey](/People/Current/camryn/) joins the the lab (March 2025)
 We're delighted to welcome Camryn to the lab! She comes to us from undergraduate work with Greg Rouse at UCSD. 
 
 ## Farewell [Erik](/People/Current/erik/)! (12/19/24)
