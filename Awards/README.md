@@ -15,3 +15,4 @@ These are the lamps:
 - [Lavus rosa](/Awards/Lava_Lamps/7/)
 - [Lavus lavus](/Awards/Lava_Lamps/8/)
 - [Lavus gelatapiscarii](/Awards/Lava_Lamps/9/)
+- [Lavus eruptivus](/Awards/Lava_Lamps/10/)
