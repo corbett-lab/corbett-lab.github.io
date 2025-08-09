@@ -8,7 +8,7 @@ sort: 4
 
 Congrats Pratik on his advancement to Katte-dacy! His thesis introduces advanced visualization tools to make tracking pathogen evolution and exploring massive Ancestral Recombination Graphs intuitive, transforming complex genomic data into actionable insights for scientists and public health officials. Go forth and speak for the trees, Bratik!
 
-<table>
+<table border="0">
   <tr>
     <td><img src="pratik_lorax.png" width="535"/></td>
     <td><img src="pratik_advancement.jpg" width="400"/></td>
