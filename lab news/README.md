@@ -4,6 +4,17 @@ sort: 4
 
 # Lab News
 
+## [Pratik Katte](/People/Current/pratik/) advances (8/8/25)
+
+Congrats Pratik on his advancement to Katte-dacy! His thesis introduces advanced visualization tools to make tracking pathogen evolution and exploring massive Ancestral Recombination Graphs intuitive, transforming complex genomic data into actionable insights for scientists and public health officials. Go forth and speak for the trees, Bratik!
+
+<table>
+  <tr>
+    <td><img src="pratik_lorax.png" width="535"/></td>
+    <td><img src="pratik_advancement.jpg" width="400"/></td>
+  </tr>
+</table>
+
 ## [Alan Zhang](/People/Current/alan/) advances (5/27/25)
 
 Congrats to Alan on his alan-cement to candidacy! His thesis proposes three tools in the panMAN ecosystem: panMAMA, panMANIAK, and panMAARG, which will revolutionize genome analysis at the scale of millions. He is t-alan-ted and his programs are fast as af. Amazing job, PhD c-alan-did-it!
