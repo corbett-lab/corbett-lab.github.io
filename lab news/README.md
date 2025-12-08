@@ -4,6 +4,12 @@ sort: 4
 
 # Lab News
 
+## [Lily Karim](/People/Current/lily/) gives a talk at BAPG (12/6/25)
+
+Lily presented her work on producing a global *Mycobacterium tuberculosis* phylogeny at the Bay Area Population Genomics Conference. Among its many applications, her tool will allow public health officials to rapidly and comprehensively assess new infections and outbreaks. Amazing work and congrats, Lily!
+
+<img src='lily_bapg_2025.png' alt='lily_bapg' width='500'/>
+
 ## [Pratik Katte](/People/Current/pratik/) advances (8/8/25)
 
 Congrats Pratik on his advancement to Katte-dacy! His thesis introduces advanced visualization tools to make tracking pathogen evolution and exploring massive Ancestral Recombination Graphs intuitive, transforming complex genomic data into actionable insights for scientists and public health officials. Go forth and speak for the trees, Bratik!
