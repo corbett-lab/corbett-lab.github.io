@@ -14,7 +14,7 @@ sort: 4
 *Alan’s Panmap maps reads far and wide,*
 *With genotypes, trees, all neatly inside!*  
 *Anne traced mutation load, near and afar,*
-*Across California—each genome a star!* 
+*Across California—each genome a star!*  
 *Pratik’s Lorax lets recombingation graphs unfold,*
 *Biobank-scale histories, interactive and bold!*  
 *Camryn showed elements shaping genomes anew,*
