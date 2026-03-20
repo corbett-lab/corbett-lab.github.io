@@ -27,7 +27,7 @@ sort: 4
 *So cheers to you all—what a wonderful show!* 
 *With science that sparkles and continues to grow!* 
 
-<img src='bmeretreat2026_minitalks.png' alt='bmeretreat2026' width='500'/>
+<img src='bmeretreat2026_minitalkv2.png' alt='bmeretreat2026' width='750'/>
 
 ## [Lily Karim](/People/Current/lily/) gives a talk at BAPG (12/6/25)
 
