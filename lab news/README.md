@@ -4,6 +4,31 @@ sort: 4
 
 # Lab News
 
+## [Alan](/People/Current/alan/), [Anne](/People/Current/anne/), [Pratik](/People/Current/pratik/), [Camryn](/People/Current/camryn/), [Cade](/People/Current/cade/), and Alex C. give talks at the BMEB Department Retreat (3/20/26)
+
+*Oh what a retreat! Oh what a fine day!*
+*Where science and stories all put on display!*  
+*From Corbett-Detig Lab and Russell Lab they came one and all,* 
+*With projects so clever—both big and quite small!* 
+ 
+*Alan’s Panmap maps reads far and wide,*
+*With genotypes, trees, all neatly inside!*  
+*Anne traced mutation load, near and afar,*
+*Across California—each genome a star!* 
+*Pratik’s Lorax lets recombingation graphs unfold,*
+*Biobank-scale histories, interactive and bold!*  
+*Camryn showed elements shaping genomes anew,*
+*With expansion and function in symbionts too!*  
+*Cade sized bottlenecks deep under the sea,*
+*Where clams and their microbes evolve quietly.*  
+*Alex tracked IS shifts in Wolbachia strains,*
+*With dynamic infections and ever-changing gains!* 
+ 
+*So cheers to you all—what a wonderful show!* 
+*With science that sparkles and continues to grow!* 
+
+<img src='bmeretreat2026_minitalks.png' alt='bmeretreat2026' width='500'/>
+
 ## [Lily Karim](/People/Current/lily/) gives a talk at BAPG (12/6/25)
 
 Lily presented her work on producing a global *Mycobacterium tuberculosis* phylogeny at the Bay Area Population Genomics Conference. Among its many applications, her tool will allow public health officials to rapidly and comprehensively assess new infections and outbreaks. Amazing work and congrats, Lily!
