@@ -25,15 +25,14 @@ email: rucorbet@ucsc.edu
 | [`Alex Kramer`](/People/Current/alex/)           | Grad student           | [Alex's Publications](https://scholar.google.com/citations?hl=en&user=d8U1u-wAAAAJ)|
 | [`Cade Mirchandani`](/People/Current/cade/)      | Grad student               |[Cade's Publications](https://scholar.google.com/citations?hl=en&user=9lQjfcEAAAAJ)                   | [Layla](https://user-images.githubusercontent.com/88911118/132076266-5dabc9a1-0893-4567-b528-29e324b3319b.png) |
 | [`Gabriel Penunuri`](/People/Current/gabe/)       | Grad student |    |
-| [`Lily Karim`](/People/Current/lily/)           | Grad student              |                   | |
-| [`Jodie Jacobs`](/People/Current/jodie/)           | Friend of the lab              |                   | |
+| [`Lily Karim`](/People/Current/lily/)           | Grad student              | [Lily's Publications](https://scholar.google.com/citations?user=jVTUU74AAAAJ&hl=en&oi=ao) | |
+| [`Jodie Jacobs`](/People/Current/jodie/)           | Friend of the lab              | [Jodie's Publications](https://scholar.google.co.uk/citations?user=nFOHs0MAAAAJ&hl=en&oi=ao) | |
 | [`Chris Condon`](/People/Current/chris/)           | Grad student              | [Chris' Publications](https://scholar.google.com/citations?user=NFpd0PsAAAAJ&hl=en&oi=ao) | |
 | [`Shelbi Russell`](https://russellsymbiosislab.engineering.ucsc.edu/)     | Friend of the lab   |  | |
 | [`Alan Zhang`](People/Current/alan/) | Grad student | | [Luna](People/Current/alan/luna.jpg) |
 | [`Anne Nakamoto`](People/Current/anne/) | Grad student | [Anne's Publications](https://scholar.google.com/citations?user=d3Ndg64AAAAJ&hl=en&oi=ao) | |
 | [`Pratik Katte`](People/Current/pratik/) | Grad student | | |
-| [`Justin Cullen`](People/Current/justin/) | Undergrad student | | |
-| [`Cyrus Park`](People/Current/cyrus/) | Undergrad student | | |
+| [`Camryn Morey`](People/Current/camryn/) | Grad student | [Camryn's Publications](https://scholar.google.com/citations?user=ywrqjTEAAAAJ&hl=en&oi=sra) | |
 
 
 ## Social Media
