@@ -14,5 +14,6 @@ These are the lamps:
 - [Lavus aquaticus](/Awards/Lava_Lamps/6/)
 - [Lavus rosa](/Awards/Lava_Lamps/7/)
 - [Lavus lavus](/Awards/Lava_Lamps/8/)
-- [Lavus gelatapiscarii](/Awards/Lava_Lamps/9/)
+- [Scatolus gelatapiscarii](/Awards/Lava_Lamps/9/)
 - [Lavus eruptivus](/Awards/Lava_Lamps/10/)
+- [Bubblus bicolori](/Awards/Lava_Lamps/11/)
