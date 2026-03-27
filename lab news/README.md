@@ -56,7 +56,7 @@ Congrats Anne for passing her adv-anne-cement to c-anne-didacy with highest hono
 ## [Camryn Morey](/People/Current/camryn/) joins the the lab (March 2025)
 We're delighted to welcome Camryn to the lab! She comes to us from undergraduate work with Greg Rouse at UCSD. 
 
-## Farewell [Erik](/People/Alumni/erik/)! (12/19/24)
+## Farewell [Erik](/People/Alumni/erik_e/)! (12/19/24)
 This week we bird farewell to Erik, who has been a postoc in the lab since 2021. We could warble on about Erik’s awesome work in the lab leading bioinformatics for the California Conservation Genomics Project, but will sparrow you of all the details. We are plover-whelmed with excitement that Erik will soon be starting his tenure track position at Cornell Computational Biology, and can’t wait to see all the finch-resting work he does next. Congrats Erik, we will miss you, and wish you owl the best!
 
 <img src='erik_farewell.jpg' alt='erik_farewell' width='500'/>
@@ -99,7 +99,7 @@ Gabe nailed his qualifying exam. His work producing tools to facilitate the dete
 Lily passed her qualifying exam with flying colors --- like a glorious autumn wind. Her thesis proposal was rad. Lily's work will enable public health offices to mitigate the spread of major pathogens.
 
 
-## [Jakob McBroome](/People/Alumni/Jakob/) Defended his Thesis (5/26/2023)
+## [Jakob McBroome](/People/Alumni/jakob/) Defended his Thesis (5/26/2023)
 Jakob's thesis work is amazing. He built tools to study pathogen genomes, and invented new ways the we will track the evolution adn emergence of epidemiologically novel strains of major pathogens. Congratulations, Jakob! 
 
 
