@@ -11,4 +11,3 @@ Russ did his undergraduate work at UC Davis with Brad Shaffer and Chuck Langley.
 
 <img width="769" alt="Screenshot 2024-10-28 at 9 37 17 AM" src="https://github.com/user-attachments/assets/8eac50e0-4403-4f8f-9d2f-44f8be6c9ae3">
 
-<img src='russ.png' alt='russ' width='500'/>
