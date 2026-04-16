@@ -31,7 +31,7 @@ email: rucorbet@ucsc.edu
 | [`Shelbi Russell`](https://russellsymbiosislab.engineering.ucsc.edu/)     | Friend of the lab   |  | |
 | [`Alan Zhang`](People/Current/alan/) | Grad student | | [Luna](People/Current/alan/luna.jpg) |
 | [`Anne Nakamoto`](People/Current/anne/) | Grad student | [Anne's Publications](https://scholar.google.com/citations?user=d3Ndg64AAAAJ&hl=en&oi=ao) | |
-| [`Pratik Katte`](People/Current/pratik/) | Grad student | | |
+| [`Pratik Katte`](People/Current/pratik/) | Grad student | [Pratik's Publications](https://scholar.google.com/citations?hl=en&user=KwGZpKkAAAAJ) | |
 | [`Camryn Morey`](People/Current/camryn/) | Grad student | [Camryn's Publications](https://scholar.google.com/citations?user=ywrqjTEAAAAJ&hl=en&oi=sra) | |
 
 

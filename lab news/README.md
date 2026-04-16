@@ -4,6 +4,12 @@ sort: 4
 
 # Lab News
 
+## [Pratik Katte](/People/Current/pratik/) and [Alan Zhang](/People/Current/alan/) present at BAPG (4/11/26)
+
+The Corbett-Detig lab made the long journey up to UC Davis (where many current members did their undergrad!) for the Bay Area Population Genomics Conference. Pratik spoke for the trees (gave a talk) about his wonderful tool Lorax, which allows the interactive exploration of massive ancestral recombination graphs (give it a [try](https://lorax.ucsc.edu/)!). Alan presented his poster on Panmap, which is THE tool for phylogenetic placement and genotyping on pangenomes, and was recently preprinted (check it out [here](https://doi.org/10.64898/2026.03.29.711974)!). Amazing job, Pratik and Alan!
+
+<img src='bapg_davis26.png' alt='bapg_davis26' width='750'/>
+
 ## [Alan](/People/Current/alan/), [Anne](/People/Current/anne/), [Pratik](/People/Current/pratik/), [Camryn](/People/Current/camryn/), [Cade](/People/Current/cade/), and Alex C. give talks at the BMEB Department Retreat (3/20/26)
 
 *Oh what a retreat! Oh what a fine day!*
