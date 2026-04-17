@@ -6,7 +6,7 @@ sort: 4
 
 ## [Cade Mirchandani](/People/Current/pratik/) Defended his Thesis (4/16/26)
 
-Today, Cade dazzled us all with the impressive amount of work he accomplished during his PhD. He studied key questions in the evolutionary genomics of Wolbachia endosymbionts, developed tools that will allow the analysis of large-scale conservation genomics datasets and beyond, and has been heavily invloved on the Snakemake workflow manager team. Truly a "full stack" and fully-stacked thesis! Cadriel will soon be starting his new position at the University of Utah as a Bioinformatician in the Vollger Lab. Congrats and wishing you all the best, Dr. Kah-dae!
+Today, Cade dazzled us all with the impressive amount of work he accomplished during his PhD. He studied key questions in the evolutionary genomics of endosymbionts, developed tools that will allow the analysis of large-scale conservation genomics datasets and beyond, and has been heavily invloved on the Snakemake workflow manager team. Truly a "full stack" and fully-stacked thesis! Cadriel will soon be starting his new position at the University of Utah as a Bioinformatician in the Vollger Lab. Congrats and wishing you all the best, Dr. Kah-dae!
 
 <img src='cade_defense.png' alt='cade_defense' width='750'/>
 
