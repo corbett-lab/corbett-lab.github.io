@@ -4,6 +4,12 @@ sort: 4
 
 # Lab News
 
+## [Cade Mirchandani](/People/Current/pratik/) Defended his Thesis (4/16/26)
+
+Today, Cade dazzled us all with the impressive amount of work he accomplished during his PhD. He studied key questions in the evolutionary genomics of Wolbachia endosymbionts, developed tools that will allow the analysis of large-scale conservation genomics datasets and beyond, and has been heavily invloved on the Snakemake workflow manager team. Truly a "full stack" and fully-stacked thesis! Cadriel will soon be starting his new position at the University of Utah as a Bioinformatician in the Vollger Lab. Congrats and wishing you all the best, Dr. Kah-dae!
+
+<img src='cade_defense.png' alt='cade_defense' width='750'/>
+
 ## [Pratik Katte](/People/Current/pratik/) and [Alan Zhang](/People/Current/alan/) present at BAPG (4/11/26)
 
 The Corbett-Detig lab made the long journey up to UC Davis (where many current members did their undergrad!) for the Bay Area Population Genomics Conference. Pratik spoke for the trees (gave a talk) about his wonderful tool Lorax, which allows the interactive exploration of massive ancestral recombination graphs (give it a [try](https://lorax.ucsc.edu/)!). Alan presented his poster on Panmap, which is THE tool for phylogenetic placement and genotyping on pangenomes, and was recently preprinted (check it out [here](https://doi.org/10.64898/2026.03.29.711974)!). Amazing job, Pratik and Alan!
