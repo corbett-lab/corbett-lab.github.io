@@ -23,8 +23,7 @@ email: rucorbet@ucsc.edu
 | ----------------------- | ---------------------- | ----------------- |---------------|
 | [`Russell Corbett-Detig`](/People/Current/russ/) | Principal Investigator |[Russ' Publications](https://scholar.google.com/citations?user=9sF4nOkAAAAJ&hl=en)| [Maeby](https://user-images.githubusercontent.com/10063921/132934537-0feab719-b8ec-4ec9-b300-68086de61ffa.png) |
 | [`Alex Kramer`](/People/Current/alex/)           | Grad student           | [Alex's Publications](https://scholar.google.com/citations?hl=en&user=d8U1u-wAAAAJ)|
-| [`Cade Mirchandani`](/People/Current/cade/)      | Grad student               |[Cade's Publications](https://scholar.google.com/citations?hl=en&user=9lQjfcEAAAAJ)                   | [Layla](https://user-images.githubusercontent.com/88911118/132076266-5dabc9a1-0893-4567-b528-29e324b3319b.png) |
-| [`Gabriel Penunuri`](/People/Current/gabe/)       | Grad student |    |
+| [`Gabriel Penunuri`](/People/Current/gabe/)       | Grad student |    | 
 | [`Lily Karim`](/People/Current/lily/)           | Grad student              | [Lily's Publications](https://scholar.google.com/citations?user=jVTUU74AAAAJ&hl=en&oi=ao) | |
 | [`Jodie Jacobs`](/People/Current/jodie/)           | Friend of the lab              | [Jodie's Publications](https://scholar.google.co.uk/citations?user=nFOHs0MAAAAJ&hl=en&oi=ao) | |
 | [`Chris Condon`](/People/Current/chris/)           | Grad student              | [Chris' Publications](https://scholar.google.com/citations?user=NFpd0PsAAAAJ&hl=en&oi=ao) | |
