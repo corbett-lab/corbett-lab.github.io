@@ -17,3 +17,4 @@ These are the lamps:
 - [Scatolus gelatapiscarii](/Awards/Lava_Lamps/9/)
 - [Lavus eruptivus](/Awards/Lava_Lamps/10/)
 - [Bubblus bicolori](/Awards/Lava_Lamps/11/)
+- [Lavus borealis](/Awards/Lava_Lamps/12/)
