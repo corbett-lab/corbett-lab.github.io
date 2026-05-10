@@ -4,6 +4,9 @@ sort: 4
 
 # Lab News
 
+## [Anne Nakamoto](/People/Current/anne/) received the ARCS Fellowship (5/5/26)
+Congrats Anne on receiving the ARCS Fellowship! This is a prestigious award given to oustanding American research students each year by the ARCS (Achievement Rewards for College Scientists) Foundation. Anne will use the fellowship to buy us a [super awesome lava lamp](/Awards/Lava_Lamps/12), and of course support her amazing research to save America's ecosystem.
+
 ## [Cade Mirchandani](/People/Alumni/cade/) Defended his Thesis (4/16/26)
 
 Today, Cade dazzled us all with the impressive amount of work he accomplished during his PhD. He studied key questions in the evolutionary genomics of endosymbionts, developed tools that will allow the analysis of large-scale conservation genomics datasets and beyond, and has been heavily invloved on the Snakemake workflow manager team. Truly a "full stack" and fully-stacked thesis! Cadriel will soon be starting his new position at the University of Utah as a Bioinformatician in the Vollger Lab. Congrats and wishing you all the best, Dr. Kah-dae!
