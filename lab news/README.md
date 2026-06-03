@@ -4,6 +4,11 @@ sort: 4
 
 # Lab News
 
+## [Camryn Morey](/People/Current/camryn/) advances (6/3/26)
+Congrats to Camryn on her advancement to candidacy! Her work investigates the genomic and functional innovation of endosymbiosis; from clam endosymbiont genome evolution, to host-symbiont coevolution of gene regulation, and finally gut loss in bivalves due to their chemosynthetic symbionts. Amazing job, PhD Clam-did-it Camryn!
+
+<img src='camryn_advancement.png' alt='camryn_advancement' width='500'/>
+
 ## [Anne Nakamoto](/People/Current/anne/) received the ARCS Fellowship (5/5/26)
 Congrats Anne on receiving the ARCS Fellowship! This is a prestigious award given to oustanding American research students each year by the ARCS (Achievement Rewards for College Scientists) Foundation. Anne will use the fellowship to buy us a [super awesome lava lamp](/Awards/Lava_Lamps/12), and of course support her amazing research to save America's ecosystem.
 
