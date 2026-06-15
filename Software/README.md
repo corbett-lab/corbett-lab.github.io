@@ -3,6 +3,17 @@ sort: 3
 ---
 # Software  
 
+## [Panmap](https://github.com/amkram/panmap){:target="_blank"}
+Panmap is a tool for scalable, phylogeny-guided read mapping on pangenome trees. It places, aligns, and genotypes
+sequencing reads against mutation-annotated pangenomes in [PanMAN](https://github.com/TurakhiaLab/panman) format,
+scaling to references containing up to millions of genomes. Panmap builds a phylogenetically compressed k-mer index that
+stores only the seed differences along each branch of the reference phylogeny, yielding indexes hundreds of times
+smaller and orders of magnitude faster to build than existing tools while comparing reads against both sampled genomes
+and inferred ancestors. It supports single-sample placement, alignment, and consensus assembly, as well as a metagenomic
+mode for haplotype deconvolution and abundance estimation. We have applied Panmap to pathogen genome assembly,
+wastewater surveillance, and phylogenetic placement of ancient environmental DNA. The preprint describing Panmap is on
+bioRxiv, and the source code and documentation are available on GitHub.
+
 ## [SELAM](https://github.com/russcd/SELAM){:target="_blank"}  
 Simulation of Epistasis and Local adaptation during Admixture with Mate choice  
 SELAM is a forward time population genetic simulation framework that can simulate admixture between any number of ancestral populations (or equivalently ancestral haplotypes). SELAM supports a variety of selective scenarios, complex demography and fully separate sexes. The paper describing this software is available here, and the manual and source code are available from GitHub.
