@@ -6,7 +6,7 @@ sort: 4
 
 ## [Alan](/People/Current/alan/), [Anne](/People/Current/anne/), and [Pratik](/People/Current/pratik/) present posters at PEQG (6/10/26)
 
-Corbett-Detig lab members shared their work at the Population, Evolutionary, and Quantitative Genetics Conference (PEQG) in lovely Asilomar. Russ and Alan also led a workshop in the Pan-genomes Doorstep Meeting on phylogenetic pangenomics to open the conference. Well done, everyone!
+Corbett-Detig lab members shared their work at the Population, Evolutionary, and Quantitative Genetics Conference (PEQG) in lovely Asilomar. Russ and Alan also led a workshop in the Pan-genomes Doorstep Meeting on phylogenetic pangenomics to open the conference. Well done everyone!
 
 <img src='peqg2026.png' alt='peqg2026' width='750'/>
 
