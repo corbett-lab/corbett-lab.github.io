@@ -4,6 +4,12 @@ sort: 4
 
 # Lab News
 
+## [Alan](/People/Current/alan/), [Anne](/People/Current/anne/), and [Pratik](/People/Current/pratik/) present posters at PEQG (6/10/26)
+
+Corbett-Detig lab members shared their work at the Population, Evolutionary, and Quantitative Genetics Conference (PEQG) in lovely Asilomar. Russ and Alan also led a workshop in the Pan-genomes Doorstep Meeting on phylogenetic pangenomics to open the conference. Well done, everyone!
+
+<img src='peqg2026.png' alt='peqg2026' width='750'/>
+
 ## [Camryn Morey](/People/Current/camryn/) advances (6/3/26)
 Congrats to Camryn on her advancement to candidacy! Her work investigates the genomic and functional innovation of endosymbiosis; from clam endosymbiont genome evolution, to host-symbiont coevolution of gene regulation, and finally gut loss in bivalves due to their chemosynthetic symbionts. Amazing job, PhD Clam-did-it Camryn!
 
