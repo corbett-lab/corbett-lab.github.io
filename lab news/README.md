@@ -4,11 +4,19 @@ sort: 4
 
 # Lab News
 
+## [Camryn Morey](/People/Current/camryn/) presents a poster at Euro Evo Devo (6/10/26)
+
+Camryn presented her work on genome expansion and functional novelty in chemosynthetic endosymbionts of marine bivalves at the 10th European Society of Evolutionary Developmental Biology Meeting, held at the University of Glasgow. Way to go, Camryn!
+
 ## [Alan](/People/Current/alan/), [Anne](/People/Current/anne/), and [Pratik](/People/Current/pratik/) present posters at PEQG (6/10/26)
 
 Corbett-Detig lab members shared their work at the Population, Evolutionary, and Quantitative Genetics Conference (PEQG) in lovely Asilomar. Russ and Alan also led a workshop in the Pan-genomes Doorstep Meeting on phylogenetic pangenomics to open the conference. Well done everyone!
 
 <img src='peqg2026.png' alt='peqg2026' width='750'/>
+
+## [Lily Karim](/People/Current/lily/) gives a talk at the CEND Symposium (5/21/26)
+
+Lily presented her work on UShER-TB, a global *Mycobacterium tuberculosis* phylogeny at the Center for Emerging & Neglected Diseases (CEND) Symposium at UC Berkeley. Her tool will provide public health officials with accessible phylogenomic analysis to rapidly and comprehensively assess new infections and outbreaks. Amazing work Lily!
 
 ## [Camryn Morey](/People/Current/camryn/) advances (6/3/26)
 Congrats to Camryn on her advancement to candidacy! Her work investigates the genomic and functional innovation of endosymbiosis; from clam endosymbiont genome evolution, to host-symbiont coevolution of gene regulation, and finally gut loss in bivalves due to their chemosynthetic symbionts. Amazing job, PhD Clam-did-it Camryn!
