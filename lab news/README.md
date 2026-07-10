@@ -4,6 +4,12 @@ sort: 4
 
 # Lab News
 
+## [Alan Zhang](/People/Current/alan/) and [Anne Nakamoto](/People/Current/anne/) give talks at the Evolution Conference (6/22/26)
+
+Alan and Anne presented their work at the Evolution Conference held in Cleveland, Ohio. Alan talked about scalable phylo-pangenomics with Panmap and its applications, and Anne shared her work on comparative mutation load in the California Conservation Genomics Project. Amazing job, Alan and Anne!
+
+<img src='evol2026.png' alt='peqg2026' width='750'/>
+
 ## [Camryn Morey](/People/Current/camryn/) presents a poster at Euro Evo Devo (6/10/26)
 
 Camryn presented her work on genome expansion and functional novelty in chemosynthetic endosymbionts of marine bivalves at the 10th European Society of Evolutionary Developmental Biology Meeting, held at the University of Glasgow. Way to go, Camryn!
