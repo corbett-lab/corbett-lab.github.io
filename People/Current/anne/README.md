@@ -4,7 +4,7 @@
 
 PhD Student, aanakamo@ucsc.edu  
 
-[CV](https://annenakamoto.github.io/cv_anne_nakamoto/)
+[[Personal Website]](https://annenakamoto.github.io/), [[CV]](https://annenakamoto.github.io/cv_anne_nakamoto/)
 
 Research Interests: genomics, for studying evolution, conservation, host-microbe interactions, biodiversity, and such :)
 
