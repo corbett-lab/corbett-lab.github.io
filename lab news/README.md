@@ -4,6 +4,19 @@ sort: 4
 
 # Lab News
 
+## [Chris Condon](/People/Current/chris/) Defends his Thesis (8/17/26)
+
+Chris fabulously defended his thesis today! During his PhD, he expored genomic
+conflicts and their evolutionary and functional consequences in three systems:
+segregation distortion in *Arabidopsis hybrids*, introners in *Micromonas pusilla*,
+and splicing dysfunction in algal mating type chromosomes. He will continue this 
+academic career here in the Corbett-Detig Lab as a postdoctoral researcher. 
+Congrats Chris!
+
+
+<img src='chris_defense.png' alt='chris_defense' width='750'/>
+
+
 ## [Alan Zhang](/People/Current/alan/) and [Anne Nakamoto](/People/Current/anne/) give talks at the Evolution Conference (6/22/26)
 
 Alan and Anne presented their work at the Evolution Conference held in Cleveland, Ohio. Alan talked about scalable phylo-pangenomics with Panmap and its applications, and Anne shared her work on comparative mutation load in the California Conservation Genomics Project. Amazing job, Alan and Anne!
