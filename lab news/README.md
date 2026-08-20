@@ -4,14 +4,24 @@ sort: 4
 
 # Lab News
 
-## [Chris Condon](/People/Current/chris/) Defends his Thesis (8/17/26)
+## [Gabriel Penunuri](/People/Current/gabe/) Defends his thesis (8/20/26)
+
+Gabe did an amazing job defending his thesis today! His dissertation developed
+genomic, proteomic, and computational approaches to investigate host–microbe interactions. He modeled mutational landscapes using EMS mutagenesis, screened
+host and symbiont proteomes for protein mimicry, and developed a tool for
+large-scale systematic reviews. Congrats Dr. Penunuri!
+
+
+<img src='gabe_defense.png' alt='gabe_defense' width='750'/>
+
+## [Chris Condon](/People/Current/chris/) Defends his thesis (8/17/26)
 
 Chris fabulously defended his thesis today! During his PhD, he expored genomic
 conflicts and their evolutionary and functional consequences in three systems:
 segregation distortion in *Arabidopsis hybrids*, introners in *Micromonas pusilla*,
 and splicing dysfunction in algal mating type chromosomes. He will continue this 
 academic career here in the Corbett-Detig Lab as a postdoctoral researcher. 
-Congrats Chris!
+Congrats Dr. Condon!
 
 
 <img src='chris_defense.png' alt='chris_defense' width='750'/>
