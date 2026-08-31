@@ -4,6 +4,17 @@ sort: 4
 
 # Lab News
 
+## [Alex Kramer](/People/Current/alex/) Defends his thesis (8/27/26)
+
+Alex defended his thesis splendidly today! His talk title, "Big Trees", eloquently
+summarized his work on evaluating parsimony-based online phylogenetic inference,
+developing ShUShER and TreenomeBrowser for the analysis and visualization of the
+SARS-CoV-2 global phylogeny, and developing the Panmap index for rapid and
+accurate sample placement and genotyping on pangenome trees. Congrats Dr. Kramer!
+
+
+<img src='alex_defense.png' alt='alex_defense' width='750'/>
+
 ## [Gabriel Penunuri](/People/Current/gabe/) Defends his thesis (8/20/26)
 
 Gabe did an amazing job defending his thesis today! His dissertation developed
@@ -16,7 +27,7 @@ large-scale systematic reviews. Congrats Dr. Penunuri!
 
 ## [Chris Condon](/People/Current/chris/) Defends his thesis (8/17/26)
 
-Chris fabulously defended his thesis today! During his PhD, he expored genomic
+Chris (left) fabulously defended his thesis today! During his PhD, he expored genomic
 conflicts and their evolutionary and functional consequences in three systems:
 segregation distortion in *Arabidopsis hybrids*, introners in *Micromonas pusilla*,
 and splicing dysfunction in algal mating type chromosomes. He will continue this 
@@ -141,7 +152,7 @@ Cade passed his qualifying exam in a totally Cade-like fashion (totally crushed 
 <img src='cade_advancement.jpg' alt='cade_advancement' width='500'/>
 
 ## [Maximilian Genetti](/People/Alumni/max/) Defended his Thesis (5/24/2024)
-Max did an amazing job defending his thesis on leveraging various approaches for studying admixture in diverse natural populations. He linked Neotropical cats' hybridization with human-mediated deforestation, found signals of ancestry specific selection in Aficanized honebees, and developed tools to model multilocus selection in European sparrows. Congrats, Dr. Genetticist!
+Max (left) did an amazing job defending his thesis on leveraging various approaches for studying admixture in diverse natural populations. He linked Neotropical cats' hybridization with human-mediated deforestation, found signals of ancestry specific selection in Aficanized honebees, and developed tools to model multilocus selection in European sparrows. Congrats, Dr. Genetticist!
 
 <img src='max_denfense.jpg' alt='max_defense' width='500'/>
 
