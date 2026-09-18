@@ -24,7 +24,7 @@ email: rucorbet@ucsc.edu
 | [`Russell Corbett-Detig`](/People/Current/russ/) | Principal Investigator |[Russ' Publications](https://scholar.google.com/citations?user=9sF4nOkAAAAJ&hl=en)| [Maeby](https://user-images.githubusercontent.com/10063921/132934537-0feab719-b8ec-4ec9-b300-68086de61ffa.png) |
 | [`Lily Karim`](/People/Current/lily/)           | Grad student              | [Lily's Publications](https://scholar.google.com/citations?user=jVTUU74AAAAJ&hl=en&oi=ao) | |
 | [`Jodie Jacobs`](/People/Current/jodie/)           | Friend of the lab              | [Jodie's Publications](https://scholar.google.co.uk/citations?user=nFOHs0MAAAAJ&hl=en&oi=ao) | |
-| [`Chris Condon`](/People/Current/chris/)           | Grad student              | [Chris' Publications](https://scholar.google.com/citations?user=NFpd0PsAAAAJ&hl=en&oi=ao) | |
+| [`Chris Condon`](/People/Current/chris/)           | Postdoc              | [Chris' Publications](https://scholar.google.com/citations?user=NFpd0PsAAAAJ&hl=en&oi=ao) | |
 | [`Shelbi Russell`](https://russellsymbiosislab.engineering.ucsc.edu/)     | Friend of the lab   |  | |
 | [`Alan Zhang`](People/Current/alan/) | Grad student | | [Luna](People/Current/alan/luna.jpg) |
 | [`Anne Nakamoto`](People/Current/anne/) | Grad student | [Anne's Publications](https://scholar.google.com/citations?user=d3Ndg64AAAAJ&hl=en&oi=ao) | |
