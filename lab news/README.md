@@ -4,7 +4,7 @@ sort: 4
 
 # Lab News
 
-## [Alex Kramer](/People/Current/alex/) Defends his thesis (8/27/26)
+## [Alex Kramer](/People/Alumni/alex/) Defends his thesis (8/27/26)
 
 Alex defended his thesis splendidly today! His talk title, "Big Trees", eloquently
 summarized his work on evaluating parsimony-based online phylogenetic inference,
@@ -15,7 +15,7 @@ accurate sample placement and genotyping on pangenome trees. Congrats Dr. Kramer
 
 <img src='alex_defense.png' alt='alex_defense' width='750'/>
 
-## [Gabriel Penunuri](/People/Current/gabe/) Defends his thesis (8/20/26)
+## [Gabriel Penunuri](/People/Alumni/gabe/) Defends his thesis (8/20/26)
 
 Gabe did an amazing job defending his thesis today! His dissertation developed
 genomic, proteomic, and computational approaches to investigate host–microbe interactions. He modeled mutational landscapes using EMS mutagenesis, screened
@@ -78,7 +78,7 @@ The Corbett-Detig lab made the long journey up to UC Davis (where many current m
 
 <img src='bapg_davis26.png' alt='bapg_davis26' width='750'/>
 
-## [Alan](/People/Current/alan/), [Anne](/People/Current/anne/), [Pratik](/People/Current/pratik/), [Camryn](/People/Current/camryn/), [Cade](/People/Current/cade/), and Alex C. give talks at the BMEB Department Retreat (3/20/26)
+## [Alan](/People/Current/alan/), [Anne](/People/Current/anne/), [Pratik](/People/Current/pratik/), [Camryn](/People/Current/camryn/), [Cade](/People/Alumni/cade/), and Alex C. give talks at the BMEB Department Retreat (3/20/26)
 
 *Oh what a retreat! Oh what a fine day!*
 *Where science and stories all put on display!*  
@@ -146,7 +146,7 @@ Jodie (dear friend of the lab) passed her qualifying exam wonderfully! Her work 
 <img src='jodie_advancement.jpg' alt='jodie_advancement' width='500'/>
 
 
-## [Cade Mirchandani](/People/Current/cade/) Advances (6/27/24)
+## [Cade Mirchandani](/People/Alumni/cade/) Advances (6/27/24)
 Cade passed his qualifying exam in a totally Cade-like fashion (totally crushed it)! His work will explore the evolutionary genomics of diverse organisms, from tiny endosymbionts to species of conservation interest across California. Congrats, Ph.D Cade-did-it!
 
 <img src='cade_advancement.jpg' alt='cade_advancement' width='500'/>
@@ -165,7 +165,7 @@ Chris wrecked his qualifying exam (in a good, non-confusing way). Congratulation
 His research will use a ton of innovative genomic techniques to figure out how genetic conflicts shape popupations and molecules.
 
 
-## [Gabe Penunuri](/People/Current/Gabe/) Advances (7/13/2023)
+## [Gabe Penunuri](/People/Alumni/Gabe/) Advances (7/13/2023)
 Gabe nailed his qualifying exam. His work producing tools to facilitate the detection of protein mimics will take the symbiosis world by storm.
 
 
